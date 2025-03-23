@@ -9,7 +9,7 @@ listing:
   - id: countdown
     template: countdown.ejs
     contents: 
-      - datetime: Sept 29, 2025 9:00:00
+      - datetime: 2025-09-29T09:00:00.000+10:00
   - id: sponsors
     template: about/sponsors/sponsors.ejs
     contents: about/sponsors/sponsors.yml

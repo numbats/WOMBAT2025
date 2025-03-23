@@ -32,7 +32,7 @@
            //countdown = document.getElementById("countdown");
            //content = document.getElementById("content");
 
-          headline.innerText = "THE CONFERENCE IS ONGOING!";
+          headline.innerText = "THE CONFERENCE HAS BEGUN!";
 		document.getElementById("btn_store").disabled = true
           //countdown.style.display = "none";
           //content.style.display = "block";
