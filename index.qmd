@@ -1,0 +1,58 @@
+---
+title: ""
+format:
+  html:
+    include-after-body:
+      - js/countdown.js
+      
+listing:
+  - id: countdown
+    template: countdown.ejs
+    contents: 
+      - datetime: Sept 29, 2025 9:00:00
+  - id: sponsors
+    template: about/sponsors/sponsors.ejs
+    contents: about/sponsors/sponsors.yml
+---
+
+::::::::: grid
+::: {#banner .g-col-12}
+# WOMBAT 2025
+
+### 29th-30th September 2025 {style="max-width: fit-content; max-width: -moz-fit-content;"}
+
+#### Melbourne, Australia
+:::
+
+
+::: {#countdown .g-col-12}
+:::
+
+::: {.g-col-6 .text_block}
+### About WOMBAT
+
+WOMBAT is the annual Workshop Organised by the Monash Business Analytics Team.
+
+The purpose of this workshop is to bring together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year's event is **designing data driven discoveries**, which will feature design practices for statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools. 
+
+### Workshop highlights
+
+* Keynote from [...]
+* Tutorials from leading data analysis experts
+* Three sessions of invited talks
+* Q&A and networking
+:::
+
+::: {.g-col-6 .img_margin}
+![](/img/wombat-icon.png){.img_block}
+:::
+
+::: {.g-col-12 .full_text_block}
+### Venue
+
+To be confirmed
+:::
+
+::: {#sponsors .g-col-12}
+:::
+:::::::::

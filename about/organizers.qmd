@@ -1,0 +1,25 @@
+---
+pagetitle: "Committee members"
+---
+
+:::::: grid
+::: {#organizers_banner .g-col-12 .title}
+# Committee Members
+:::
+
+::: {.g-col-6 .text_block}
+### Organising Committee
+
+-   Cynthia Huang
+-   Mitchell O'Hara-Wild
+
+<!-- ### Program Committee -->
+
+<!-- -   John Doe 1 *(ABC University)* -->
+<!-- -   John Doe 2 *(XYZ University)* -->
+:::
+
+::: g-col-6
+![](/img/wombat-icon){.img_block width="100%"}
+:::
+::::::

@@ -1,0 +1,20 @@
+---
+pagetitle: "Contact us"
+---
+
+::: grid
+::: {#about_banner .g-col-12 .title}
+# Contact Us
+:::
+
+::: {.g-col-6 .text_block}
+### Contact Us    
+
+Kindly email Di Cook at dicook@monash.edu
+
+:::
+
+::: g-col-6
+![](/img/michael-jerrard-mnHs4boXT_0-unsplash.jpg){.img_block width="100%"}
+:::
+:::
