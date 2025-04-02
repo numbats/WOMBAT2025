@@ -1,8 +1,11 @@
 project:
   type: website
+  resources:
+    - "CNAME"
 
 website:
   title: "WOMBAT 2025"
+  site-url: "https://wombat2025.numbat.space"
   sidebar: false
 
   announcement: 
