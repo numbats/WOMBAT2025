@@ -1,1 +1,1 @@
-Sitemap: https://numbats.github.io/WOMBAT2025/sitemap.xml
+Sitemap: https://wombat2025.numbat.space/sitemap.xml
