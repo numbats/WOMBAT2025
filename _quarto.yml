@@ -5,6 +5,14 @@ project:
 website:
   title: "WOMBAT 2025"
   sidebar: false
+
+  announcement: 
+    icon: megaphone-fill
+    dismissable: true
+    content: "Save the date! This workshop will run from September 29th - 30th."
+    type: warning
+    position: below-navbar
+    
   navbar:
     background: light
     pinned: false
@@ -13,8 +21,8 @@ website:
         text: Home
       - text: About
         menu:
-          - text: WOMBAT conference
-            href: about/about.qmd
+          # - text: WOMBAT conference
+          #   href: about/about.qmd
           - text: Organising committee
             href: about/organizers.qmd
           # - text: Sponsors
@@ -23,8 +31,8 @@ website:
         menu: 
           - text: Schedule
             href: program/schedule/
-          - text: Speakers
-            href: program/speakers/
+          # - text: Speakers
+            # href: program/speakers/
       - text: Register
         href: register.qmd
       - text: Participation
@@ -33,8 +41,8 @@ website:
           #   href: participation/call.qmd
           - text: Code of conduct
             href: participation/coc.qmd
-          - text: Key dates
-            href: participation/keydates/
+          # - text: Key dates
+          #   href: participation/keydates/
       - text: Contact
         href: contact.qmd
   page-footer: 
