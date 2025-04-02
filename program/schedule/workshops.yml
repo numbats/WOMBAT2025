@@ -1,0 +1,27 @@
+- time: 09:00 - 10:30
+  talk: Morning tutorial (session 1)
+  speaker:
+
+- time: 10:30 - 11:00
+  talk: Morning tea break
+  speaker:
+
+- time: 11:00 - 12:30
+  talk: Morning tutorial (session 2)
+  speaker:
+
+- time: 12:30 - 13:30
+  talk: Lunch (on your own)
+  speaker:
+
+- time: 13:30 - 15:00
+  talk: Afternoon tutorial (session 1)
+  speaker:
+
+- time: 15:00 - 15:30
+  talk: Afternoon tea break
+  speaker:
+
+- time: 15:30 - 17:00
+  talk: Afternoon tutorial (session 2)
+  speaker:
