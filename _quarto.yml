@@ -19,32 +19,10 @@ website:
     background: light
     pinned: false
     right:
-      - href: index.qmd
-        text: Home
-      - text: About
-        menu:
-          # - text: WOMBAT conference
-          #   href: about/about.qmd
-          - text: Organising committee
-            href: about/organizers.qmd
-          # - text: Sponsors
-          #   href: about/sponsors/
-      - text: Program
-        menu: 
-          - text: Schedule
-            href: program/schedule/
-          # - text: Speakers
-            # href: program/speakers/
+      - text: Schedule
+        href: program/schedule
       - text: Register
-        href: register.qmd
-      - text: Participation
-        menu: 
-          # - text: Call for submissions
-          #   href: participation/call.qmd
-          - text: Code of conduct
-            href: participation/coc.qmd
-          # - text: Key dates
-          #   href: participation/keydates/
+        href: https://events.humanitix.com/open-the-world-with-open-source-wombat-2024-day-2-workshop/
       - text: Contact
         href: contact.qmd
   page-footer: 

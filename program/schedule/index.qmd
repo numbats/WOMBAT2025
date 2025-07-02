@@ -15,7 +15,7 @@ listing:
 # Schedule
 :::
 
-::: {.g-col-6 style="margin-left: 2%;"}
+::: {.g-col-12 style="margin-left: 2%;"}
 Please note that all session times are listed below in AEST.
 
 ### 29th September 2025 (workshops)
@@ -54,9 +54,6 @@ Please note that all session times are listed below in AEST.
 :::
 
 
-::: g-col-6
-![](/img/michael-jerrard-mnHs4boXT_0-unsplash.jpg){.img_block width="99%"}
-:::
 
 <div>
 
