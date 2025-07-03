@@ -2,6 +2,9 @@ project:
   type: website
   resources:
     - "CNAME"
+  preview:
+    port: 7878
+    browser: false # setting it for my convenience cause I prefer to refresh the same tab
 
 website:
   title: "WOMBAT 2025"
@@ -20,9 +23,13 @@ website:
     pinned: false
     right:
       - text: Schedule
-        href: program/schedule
+        menu: 
+        - text: Workshops 
+          href: program/schedule/workshops.qmd
+        - text: Conference 
+          href: program/schedule/conference.qmd
       - text: Register
-        href: https://events.humanitix.com/open-the-world-with-open-source-wombat-2024-day-2-workshop/
+        href: participation/register.qmd 
       - text: Contact
         href: contact.qmd
   page-footer: 
