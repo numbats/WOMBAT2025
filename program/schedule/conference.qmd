@@ -1,0 +1,27 @@
+--- 
+pagetitle: "Conference Schedule"
+listing:
+  - id: conference_detailed
+    contents: conference.yml
+    template: conference_detailed.ejs
+--- 
+
+## Conference Schedule
+
+::: {#conference_detailed}
+:::
+
+## Invited talks 
+
+### Communications and reporting
+
+{{< include conference/session1.qmd >}}
+
+### Department of Econometrics and Business Statistics Showcase - Software & Tooling 
+
+{{< include conference/session2.qmd >}}
+
+### Panel Discussion
+
+{{< include conference/session3.qmd >}}
+

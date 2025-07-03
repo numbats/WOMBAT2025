@@ -1,0 +1,44 @@
+--- 
+pagetitle: "Workshop schedule"
+listing:
+  - id: schedule_detailed
+    template: workshop_detailed.ejs
+    contents: workshops.yml
+---
+
+## Workshop Schedule
+
+Workshop schedule to be released soon.
+
+## Schedule 
+
+::: {#schedule_detailed}
+:::
+
+## Morning Workshop
+
+### Workshop Title 1 
+
+{{< include workshops/am_workshop1.qmd >}}
+
+### Workshop Title 2
+
+{{< include workshops/am_workshop2.qmd >}}
+
+### Workshop Title 3
+
+{{< include workshops/am_workshop3.qmd >}}
+
+## Afternoon tutorial
+
+### Workshop Title 1 
+
+{{< include workshops/pm_workshop1.qmd >}}
+
+### Workshop Title 2
+
+{{< include workshops/pm_workshop2.qmd >}}
+
+### Workshop Title 3
+
+{{< include workshops/pm_workshop3.qmd >}}
