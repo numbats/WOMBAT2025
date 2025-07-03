@@ -1,79 +1,102 @@
 ---
 title: ""
-format:
-  html:
-    include-after-body:
-      - js/countdown.js
-      
+format: html 
 listing:
+  - id: keynote
+    template: program/speakers/keynote.ejs
+    contents: program/speakers/keynote.yml
+  - id: schedule_workshops
+    template: program/schedule/schedule.ejs
+    contents: program/schedule/workshops.yml
+  - id: schedule_conference
+    template: program/schedule/schedule.ejs
+    contents: program/schedule/conference.yml
   - id: sponsors
     template: about/sponsors/sponsors.ejs
     contents: about/sponsors/sponsors.yml
 ---
 
-# WOMBAT 2025
+:::::::: {.grid style="width: 100vw; transform: translateX(-20%)"}
+::: {.g-col-12 .title style="grid-template-columns: 1fr"}
+::: {style="display: flex; flex-direction: column; align-items:center; text-align: center"}
+::: {style="font-weight: bold; font-size: 3.25rem"} 
+WOMBAT 2025
+:::
+**The Annual Workshop Organised by the Monash Business Analytics Team.**     
+**29th-30th September 2025**      
+[Monash University (downtown), 750 Collins St, Melbourne <svg style="width: 1rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>](https://maps.app.goo.gl/F3QwdroJwyZ1sWGE8){style="color: white; font-weight: bold"}
+:::
+:::
+:::::::: 
 
-The Annual Workshop Organised by the Monash Business Analytics Team.
-
-### 29th-30th September 2025 
-
-#### Monash University (downtown), 750 Collins St, Melbourne [<svg style="width: 1rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>](https://maps.app.goo.gl/F3QwdroJwyZ1sWGE8)
 
 <hr />
 
 The purpose of this workshop is to bring together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year’s event is designing data driven discoveries, which will feature talks on statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools.
 
+<h3> Registration </h3>
+
 Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2's workshop. We will also have a rich collection of hex stickers available on both days for all to choose from to decorate your laptop!
 
-Register for one or two tutorials here and the workshop [here](https://events.humanitix.com/open-the-world-with-open-source-wombat-2024-day-2-workshop/).
+Register for one or two tutorials here and the workshop below 
 
-<hr/>
+:::{.register-btn}
+[Register to WOMBAT 2025](/participation/register.html)
+:::
 
 ## Keynote
 
-Reproducible data analysis with Positron
+::: {#keynote}
+:::
 
-The process of data analysis is inherently iterative and exploratory, requiring continuous review of intermediate results to guide next steps. At the same time, data analysts and data scientists know they need to adopt reproducible methods to maintain the integrity and efficacy of their work. These characteristics of data analysis work can be in tension, but the processes we adopt and the tools we choose to use can bring those tensions into balance. In this talk, learn about the considerations tool creators must consider when building software for these kinds of tasks, as well as how data scientists and other data practitioners can engage in their iterative work while maintaining reproducible workflows. This talk will explore these issues in the context of tools like Quarto and Positron; Positron is a new, next generation integrated development environment (IDE) built to facilitate both exploratory data analysis as well as reproducible practices.
+## Schedule
 
-Julia Silge
+:::::::: grid
 
-Julia Silge is a data scientist by background, now an engineering manager at Posit PBC where she leads a team of developers building fluent, cohesive open source software for data science in R and Python. She is a tool builder, author, international keynote speaker, and real-world data science practitioner. She holds a PhD in astrophysics and has written books with her collaborators about text mining and machine learning. You can find her online at her [blog](https://juliasilge.com/) and [YouTube](https://www.youtube.com/juliasilge).
+::: {.g-col-12 style="margin-left: 2%;"}
+Please note that all session times are listed below in AEST.
 
+### 29th September 2025 (workshops)
 
-## Workshop tutorial structure
+::: {#schedule_workshops}
+:::
 
-| Time | Topic |
-| -----| ----- | 
-| 9:00-10:30 AM | Session 1 |
-| 10:30-11:00 AM | Morning tea |
-| 11:00-12:30 AM | Session 2 |
-| 12:30-1:30 PM | Lunch (on your own) |
-| 1:30-3:00 PM  | Session 1 | 
-| 3:00-3:30  PM | Afternoon tea | 
-| 3:30-5:00 PM  | Session 2 | 
+<!-- | Time          | Event                            | -->
+<!-- |--------------|-----------------------------------| -->
+<!-- | 9:00-10:30   | Morning tutorial (session 1)      | -->
+<!-- | 10:30-11:00  | Morning tea break                 | -->
+<!-- | 11:00-12:30  | Morning tutorial (session 2)      | -->
+<!-- | 12:30-1:30   | Lunch (on your own)               | -->
+<!-- | 1:30-3:00    | Afternoon tutorial (session 1)    | -->
+<!-- | 3:00-3:30    | Afternoon tea break               | -->
+<!-- | 3:30-5:00    | Afternoon tutorial (session 2)    | -->
 
+### 30th September 2025 (conference)
 
-## Conference Day schedule
-
-
-| Time | Topic |
-| ---- | ---- |
-| 8:30-8:45 AM | Coffee and collect name tag
-| 8:45-9:00 AM | Welcome
-| 9:00-10:00 AM | Keynote - Julia Silge
-| 10:00-10:30 AM Morning tea
-| 10:30-12:00 PM Invited talks - Session 1 TBA 
-| 12:00-1:00 PM Lunch
-| 1:00-2:30 PM Invited talks - Session 2 TBA
-| 2:30-3:00 PM Afternoon tea
-| 3:00-4:30 PM Invited talks - Session 3 TBA
-| 4:30-5:00 PM Closing discussion
+::: {#schedule_conference}
+:::
 
 
-**For more information please visit the [Schedules](program/schedule/) tab**.
+<!-- | Time          | Event                                      | -->
+<!-- |--------------|--------------------------------------------| -->
+<!-- | 8:30-8:45   | Coffee and collect name tag               | -->
+<!-- | 8:45-9:00   | Welcome                                   | -->
+<!-- | 9:00-10:00  | Keynote (1 x 60min)                              | -->
+<!-- | 10:00-10:30 | Morning tea                              | -->
+<!-- | 10:30-12:00 | Invited talks - Solution & Impact (3 x 30min) | -->
+<!-- | 12:00-1:00  | Lunch                                    | -->
+<!-- | 1:00-2:30   | Invited talks - Software & Tooling (2 x 30min, 2 x 15min / 3 x 10min) | -->
+<!-- | 2:30-3:00   | Afternoon tea                            | -->
+<!-- | 3:00-4:30   | Invited talks - Research & Communication (2 x 30min, 2 x 15min) | -->
+<!-- | 4:30-5:00   | Closing discussion              -->
+:::
 
-<hr/>
 
+
+<div>
+
+</div>
+::::::::
 
 ::: {#sponsors .g-col-12}
 :::
