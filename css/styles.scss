@@ -316,3 +316,37 @@ footer.footer .nav-footer,
 #quarto-content {
   padding: 0 20%;
 }
+
+/* Custom stying for register button */
+
+.register-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.register-btn:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+}
+
+.register-btn > p {
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem !important;
+}
+
+.register-btn a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
