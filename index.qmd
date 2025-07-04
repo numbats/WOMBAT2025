@@ -16,6 +16,7 @@ listing:
     contents: about/sponsors/sponsors.yml
 ---
 
+<!-- Truly not proud of this banner honestly. But eh c'est la vie -->
 :::::::: {.grid style="width: 100vw; transform: translateX(-20%)"}
 ::: {.g-col-12 .title style="grid-template-columns: 1fr"}
 ::: {style="display: flex; flex-direction: column; align-items:center; text-align: center"}
@@ -34,15 +35,15 @@ WOMBAT 2025
 
 The purpose of this workshop is to bring together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year’s event is designing data driven discoveries, which will feature talks on statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools.
 
-<h3> Registration </h3>
+### Registration
 
 Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2's workshop. We will also have a rich collection of hex stickers available on both days for all to choose from to decorate your laptop!
 
-Register for one or two tutorials here and the workshop below 
-
-:::{.register-btn}
-[Register to WOMBAT 2025](/participation/register.html)
-:::
+<!-- Register for one or two tutorials here and the workshop below  -->
+Registrations opening soon.
+<!-- :::{.register-btn} -->
+<!-- [Register to WOMBAT 2025](/participation/register.html) -->
+<!-- ::: -->
 
 ## Keynote
 
