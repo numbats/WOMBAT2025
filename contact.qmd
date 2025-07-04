@@ -2,19 +2,18 @@
 pagetitle: "Contact us"
 ---
 
-::: grid
-::: {#about_banner .g-col-12 .title}
-# Contact Us
-:::
 
-::: {.g-col-6 .text_block}
-### Contact Us    
-
-Kindly email Di Cook at dicook@monash.edu
-
-:::
-
-::: g-col-6
-![](/img/michael-jerrard-mnHs4boXT_0-unsplash.jpg){.img_block width="100%"}
+:::::::: {.grid style="width: 100vw; transform: translateX(-20%)"}
+::: {.g-col-12 .title style="grid-template-columns: 1fr"}
+::: {style="display: flex; flex-direction: column; align-items:center; text-align: center"}
+::: {style="font-weight: bold; font-size: 3.25rem"} 
+Contact Us
 :::
 :::
+:::
+:::::::: 
+
+## Contact Us    
+
+Reach out to us at [buseco-ebs.wombat@monash.edu](mailto:buseco-ebs.wombat@monash.edu)
+

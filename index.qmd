@@ -1,58 +1,84 @@
 ---
 title: ""
-format:
-  html:
-    include-after-body:
-      - js/countdown.js
-      
+format: html 
 listing:
-  - id: countdown
-    template: countdown.ejs
-    contents: 
-      - datetime: 2025-09-29T09:00:00.000+10:00
+  - id: keynote
+    template: program/speakers/keynote.ejs
+    contents: program/speakers/keynote.yml
+  - id: schedule_workshops
+    template: program/schedule/schedule.ejs
+    contents: program/schedule/workshops.yml
+  - id: schedule_conference
+    template: program/schedule/schedule.ejs
+    contents: program/schedule/conference.yml
   - id: sponsors
     template: about/sponsors/sponsors.ejs
     contents: about/sponsors/sponsors.yml
 ---
 
-::::::::: grid
-::: {#banner .g-col-12}
-# WOMBAT 2025
+<!-- Truly not proud of this banner honestly. But eh c'est la vie -->
+:::::::: {.grid style="width: 100vw; transform: translateX(-20%)"}
+::: {.g-col-12 .title style="grid-template-columns: 1fr"}
+::: {style="display: flex; flex-direction: column; align-items:center; text-align: center"}
+::: {style="font-weight: bold; font-size: 3.25rem"} 
+WOMBAT 2025
+:::
+**The Annual Workshop Organised by the Monash Business Analytics Team.**     
+**29th-30th September 2025**      
+[Monash University (downtown), 750 Collins St, Melbourne <svg style="width: 1rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>](https://maps.app.goo.gl/F3QwdroJwyZ1sWGE8){style="color: white; font-weight: bold"}
+:::
+:::
+:::::::: 
 
-### 29th-30th September 2025 {style="max-width: fit-content; max-width: -moz-fit-content;"}
 
-#### Melbourne, Australia
+<hr />
+
+The purpose of this workshop is to bring together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year’s event is **designing data driven discoveries**, which will feature tutorials and talks on statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools.
+
+
+## Keynote
+
+::: {#keynote}
+:::
+
+### Registration
+
+Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2's workshop. We will also have a rich collection of hex stickers available on both days for all to choose from to decorate your laptop!
+
+<!-- Register for one or two tutorials here and the workshop below  -->
+Registrations opening soon.
+<!-- :::{.register-btn} -->
+<!-- [Register to WOMBAT 2025](/participation/register.html) -->
+<!-- ::: -->
+
+## Schedule
+
+Please note that all session times are in AEST.
+
+:::::::: grid
+
+::: {.g-col-12 style="margin-left: 2%;"}
+### Mon 29 Sep - Tutorials
+::: {#schedule_workshops}
+:::
+
+### Tue 30 Sep - Invited Talks
+
+::: {#schedule_conference}
 :::
 
 
-::: {#countdown .g-col-12}
 :::
 
-::: {.g-col-6 .text_block}
-### About WOMBAT
 
-WOMBAT is the annual Workshop Organised by the Monash Business Analytics Team.
 
-The purpose of this workshop is to bring together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year's event is **designing data driven discoveries**, which will feature design practices for statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools. 
+<div>
 
-### Workshop highlights
+</div>
+::::::::
 
-* Keynote from [...]
-* Tutorials from leading data analysis experts
-* Three sessions of invited talks
-* Q&A and networking
-:::
 
-::: {.g-col-6 .img_margin}
-![](/img/wombat-icon.png){.img_block}
-:::
-
-::: {.g-col-12 .full_text_block}
-### Venue
-
-To be confirmed
-:::
 
 ::: {#sponsors .g-col-12}
 :::
-:::::::::
+
