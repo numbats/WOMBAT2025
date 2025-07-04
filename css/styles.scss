@@ -350,3 +350,9 @@ footer.footer .nav-footer,
   color: inherit;
   display: block;
 }
+
+/* Custom height for navbar logo */
+.navbar-logo {
+  height: 2.5rem;
+  max-height: 240px;
+}
