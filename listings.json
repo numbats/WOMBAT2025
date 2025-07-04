@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
     "listing": "/participation/keydates/index.html",
     "items": []
   },
@@ -12,7 +8,19 @@
     "items": []
   },
   {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
     "listing": "/about/sponsors/index.html",
+    "items": []
+  },
+  {
+    "listing": "/program/schedule/conference.html",
+    "items": []
+  },
+  {
+    "listing": "/program/schedule/workshops.html",
     "items": []
   },
   {

@@ -1,47 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://wombat2025.numbat.space/index.html</loc>
-    <lastmod>2025-04-02T11:50:47.935Z</lastmod>
-  </url>
-  <url>
     <loc>https://wombat2025.numbat.space/participation/keydates/index.html</loc>
-    <lastmod>2025-04-02T11:50:47.935Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wombat2025.numbat.space/register.html</loc>
-    <lastmod>2025-04-02T11:50:47.938Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wombat2025.numbat.space/program/schedule/index.html</loc>
-    <lastmod>2025-04-02T11:50:47.936Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wombat2025.numbat.space/about/about.html</loc>
-    <lastmod>2025-04-02T11:50:47.926Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wombat2025.numbat.space/about/organizers.html</loc>
-    <lastmod>2025-04-02T11:50:47.926Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wombat2025.numbat.space/about/sponsors/index.html</loc>
-    <lastmod>2025-04-02T11:50:47.926Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wombat2025.numbat.space/program/speakers/index.html</loc>
-    <lastmod>2025-04-02T11:50:47.937Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wombat2025.numbat.space/contact.html</loc>
-    <lastmod>2025-04-02T11:50:47.927Z</lastmod>
+    <lastmod>2025-07-02T04:50:06.041Z</lastmod>
   </url>
   <url>
     <loc>https://wombat2025.numbat.space/participation/coc.html</loc>
-    <lastmod>2025-04-02T11:50:47.935Z</lastmod>
+    <lastmod>2025-07-02T04:50:06.040Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/program/schedule/index.html</loc>
+    <lastmod>2025-07-04T07:00:59.364Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/program/schedule/conference/session1.html</loc>
+    <lastmod>2025-07-04T07:00:59.362Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/program/schedule/conference/session3.html</loc>
+    <lastmod>2025-07-04T07:00:59.363Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/program/schedule/workshops/am_workshop1.html</loc>
+    <lastmod>2025-07-04T07:00:59.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/program/schedule/workshops/am_workshop3.html</loc>
+    <lastmod>2025-07-04T07:00:59.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/program/schedule/workshops/pm_workshop3.html</loc>
+    <lastmod>2025-07-04T07:00:59.367Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/index.html</loc>
+    <lastmod>2025-07-04T07:02:53.326Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/about/sponsors/index.html</loc>
+    <lastmod>2025-07-02T04:50:06.033Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/contact.html</loc>
+    <lastmod>2025-07-04T07:00:59.358Z</lastmod>
   </url>
   <url>
     <loc>https://wombat2025.numbat.space/LICENSE.html</loc>
-    <lastmod>2025-04-02T11:50:47.925Z</lastmod>
+    <lastmod>2025-07-02T04:50:06.032Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/about/organizers.html</loc>
+    <lastmod>2025-07-02T04:50:06.033Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/about/about.html</loc>
+    <lastmod>2025-07-02T04:50:06.033Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/program/schedule/workshops/pm_workshop1.html</loc>
+    <lastmod>2025-07-04T07:00:59.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/program/schedule/workshops/pm_workshop2.html</loc>
+    <lastmod>2025-07-04T07:00:59.367Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/program/schedule/workshops/am_workshop2.html</loc>
+    <lastmod>2025-07-04T07:00:59.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/program/schedule/conference.html</loc>
+    <lastmod>2025-07-04T07:00:59.361Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/program/schedule/conference/session2.html</loc>
+    <lastmod>2025-07-04T07:00:59.362Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/program/schedule/workshops.html</loc>
+    <lastmod>2025-07-04T07:00:59.365Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/program/speakers/index.html</loc>
+    <lastmod>2025-07-02T04:50:06.042Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wombat2025.numbat.space/participation/register.html</loc>
+    <lastmod>2025-07-04T07:00:59.361Z</lastmod>
   </url>
 </urlset>

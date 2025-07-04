@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./img/wombat/wombat-pixelart.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -40,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5930ee65fac874e3cb5600fa8b7bf869.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-29556ab11487edbadd940b555d6df729.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,20 +72,76 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-countdown .list');
+    const listingTargetEl = window.document.querySelector('#listing-keynote .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-datetime',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-name','listing-bio','listing-title','listing-abstract','listing-thumbnail',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-datetime"],
+      searchColumns: ["listing-name","listing-bio","listing-title","listing-abstract","listing-thumbnail"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-countdown'] = new List('listing-countdown', options);
+    window['quarto-listings']['listing-keynote'] = new List('listing-keynote', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-schedule_workshops .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-time','listing-talk','listing-detail',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-time","listing-talk","listing-detail"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-schedule_workshops'] = new List('listing-schedule_workshops', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-schedule_conference .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-time','listing-talk','listing-chair','listing-details',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-time","listing-talk","listing-chair","listing-details"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-schedule_conference'] = new List('listing-schedule_conference', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -165,6 +222,9 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./img/wombat/hex-offwhite.svg" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">WOMBAT 2025</span>
     </a>
@@ -175,47 +235,6 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">About</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
-        <li>
-    <a class="dropdown-item" href="./about/organizers.html">
- <span class="dropdown-text">Organising committee</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-program" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Program</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-program">    
-        <li>
-    <a class="dropdown-item" href="./program/schedule/">
- <span class="dropdown-text">Schedule</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./register.html"> 
-<span class="menu-text">Register</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-participation" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Participation</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-participation">    
-        <li>
-    <a class="dropdown-item" href="./participation/coc.html">
- <span class="dropdown-text">Code of conduct</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
@@ -239,120 +258,334 @@ window.Quarto = {
 
 
 
-<div class="grid">
-<div id="banner" class="g-col-12">
-<section id="wombat-2025" class="level1">
-<h1>WOMBAT 2025</h1>
-<section id="th-30th-september-2025" class="level3" style="max-width: fit-content; max-width: -moz-fit-content;">
-<h3 style="max-width: fit-content; max-width: -moz-fit-content;" data-anchor-id="th-30th-september-2025">29th-30th September 2025</h3>
-<section id="melbourne-australia" class="level4">
-<h4 data-anchor-id="melbourne-australia">Melbourne, Australia</h4>
-</section>
-</section>
-</section>
+<!-- Truly not proud of this banner honestly. But eh c'est la vie -->
+<div class="grid" style="width: 100vw; transform: translateX(-20%)">
+<div class="g-col-12 title" style="grid-template-columns: 1fr">
+<div style="display: flex; flex-direction: column; align-items:center; text-align: center">
+<div style="font-weight: bold; font-size: 3.25rem">
+<p>WOMBAT 2025</p>
 </div>
-<div id="listing-countdown" class="g-col-12 quarto-listing quarto-listing-container-custom">
-  <div id="countdown">
-    <h6 id="headline"></h6>
-      <ul>
-        <li style=""><span id="days" class="countdown_date"></span>DAYS</li>
-        <li style=""><span id="hours" class="countdown_date"></span>HOURS</li>
-        <li style=""><span id="minutes" class="countdown_date"></span>MINUTES</li>
-        <li style="border-right: 0px;"><span id="seconds" class="countdown_date"></span>SECONDS</li>
-      </ul>
-      
-        <div id="countdownDate" hidden="">2025-09-29T09:00:00.000+10:00</div>
-      
+<p><strong>The Annual Workshop Organised by the Monash Business Analytics Team.</strong><br>
+<strong>29th-30th September 2025</strong><br>
+<a href="https://maps.app.goo.gl/F3QwdroJwyZ1sWGE8" style="color: white; font-weight: bold">Monash University (downtown), 750 Collins St, Melbourne <svg style="width: 1rem;" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"></path></svg></a></p>
+</div>
+</div>
+</div>
+<p>The purpose of this workshop is to bring together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year’s event is <strong>designing data driven discoveries</strong>, which will feature tutorials and talks on statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools.</p>
+<section id="keynote" class="level2">
+<h2 data-anchor-id="keynote">Keynote</h2>
+<div id="listing-keynote" class="quarto-listing quarto-listing-container-custom">
+
+<div style="display: flex; flex-direction: row; gap: 1rem; flex-wrap: wrap">
+  <div style="display: flex; flex-direction: column; text-align: center; padding-right: 1rem; max-width: 400px; width: 100%; flex: 1 1 300px; gap: 1rem; align-items: center;">
+    <img src="./img/julia.jpg" style="width: 100%; border-radius: 100%; max-width: 250px;">
+    <div style="font-weight: bold; font-size: 1.125rem;"> Julia Silge </div>
+    <div> Julia Silge is a data scientist by background, now an engineering manager at Posit PBC where she leads a team of developers building fluent, cohesive open source software for data science in R and Python. She is a tool builder, author, international keynote speaker, and real-world data science practitioner. She holds a PhD in astrophysics and has written books with her collaborators about text mining and machine learning. You can find her online at her <a href="https://juliasilge.com/">blog</a> and <a href="https://www.youtube.com/juliasilge">YouTube </a>.
+ </div>
   </div>
+  <div style="display: flex; flex-direction: column; gap: 1rem; flex: 2 1 300px">
+    <div style="font-weight: bold; font-size: 1.25rem;"> Reproducible data analysis with Positron </div>
+    <div> The process of data analysis is inherently iterative and exploratory, requiring continuous review of intermediate results to guide next steps. At the same time, data analysts and data scientists know they need to adopt reproducible methods to maintain the integrity and efficacy of their work. These characteristics of data analysis work can be in tension, but the processes we adopt and the tools we choose to use can bring those tensions into balance. In this talk, learn about the considerations tool creators must consider when building software for these kinds of tasks, as well as how data scientists and other data practitioners can engage in their iterative work while maintaining reproducible workflows. This talk will explore these issues in the context of tools like Quarto and Positron; Positron is a new, next generation integrated development environment (IDE) built to facilitate both exploratory data analysis as well as reproducible practices.
+ </div>
+  </div>
+</div>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
-<div class="g-col-6 text_block">
-<section id="about-wombat" class="level3">
-<h3 data-anchor-id="about-wombat">About WOMBAT</h3>
-<p>WOMBAT is the annual Workshop Organised by the Monash Business Analytics Team.</p>
-<p>The purpose of this workshop is to bring together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year’s event is <strong>designing data driven discoveries</strong>, which will feature design practices for statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools.</p>
+<section id="registration" class="level3">
+<h3 data-anchor-id="registration">Registration</h3>
+<p>Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2’s workshop. We will also have a rich collection of hex stickers available on both days for all to choose from to decorate your laptop!</p>
+<!-- Register for one or two tutorials here and the workshop below  -->
+<p>Registrations opening soon. <!-- :::{.register-btn} --> <!-- [Register to WOMBAT 2025](/participation/register.html) --> <!-- ::: --></p>
 </section>
-<section id="workshop-highlights" class="level3">
-<h3 data-anchor-id="workshop-highlights">Workshop highlights</h3>
-<ul>
-<li>Keynote from […]</li>
-<li>Tutorials from leading data analysis experts</li>
-<li>Three sessions of invited talks</li>
-<li>Q&amp;A and networking</li>
-</ul>
+</section>
+<section id="schedule" class="level2">
+<h2 data-anchor-id="schedule">Schedule</h2>
+<p>Please note that all session times are in AEST.</p>
+<div class="grid">
+<div class="g-col-12" style="margin-left: 2%;">
+<section id="mon-29-sep---tutorials" class="level3">
+<h3 data-anchor-id="mon-29-sep---tutorials">Mon 29 Sep - Tutorials</h3>
+<div id="listing-schedule_workshops" class="quarto-listing quarto-listing-container-custom">
+<div class="schedule_container">
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>08:30 A.M. - 09:00 A.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Coffee and Registration</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>09:00 A.M. - 10:30 A.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Morning tutorial (session 1)</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>10:30 A.M. - 11:00 A.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Morning tea break</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>11:00 A.M. - 12:30 P.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Morning tutorial (session 2)</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>12:30 P.M. - 1:30 P.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Lunch (on your own)</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>1:30 P.M. - 3:00 P.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Afternoon tutorial (session 1)</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>3:00 P.M. - 3:30 P.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Afternoon tea break</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>3:30 P.M. - 5:00 P.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Afternoon tutorial (session 2)</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="tue-30-sep---invited-talks" class="level3">
+<h3 data-anchor-id="tue-30-sep---invited-talks">Tue 30 Sep - Invited Talks</h3>
+<div id="listing-schedule_conference" class="quarto-listing quarto-listing-container-custom">
+<div class="schedule_container">
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>08:30 A.M. - 08:45 A.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Coffee and registration</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>08:45 A.M. - 09:00 A.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Welcome</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>09:00 A.M. - 10:00 A.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Keynote</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>10:00 A.M. - 10:30 A.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Morning tea</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>10:30 A.M. - 12:00 P.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Invited talks - Communications and reporting</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>12:00 P.M. - 1:00 P.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Lunch</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>1:00 P.M. - 2:30 P.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Invited talks - Software &amp; Tooling</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>2:30 P.M. - 3:00 P.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Afternoon tea</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>3:00 P.M. - 4:30 P.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Panel discussion - Data Science Teams and Workflows</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+                            <div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong>4:30 P.M. - 5:00 P.M.</strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i>Closing discussion</i>
+                    <br>
+                    
+                  </p>
+                </div>
+                
+              </div>
+        
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
 </div>
-<div class="g-col-6 img_margin">
-<p><img src="./img/wombat-icon.png" class="img_block img-fluid"></p>
+<div>
+
 </div>
-<section id="venue" class="level3 g-col-12 full_text_block">
-<h3 data-anchor-id="venue">Venue</h3>
-<p>To be confirmed</p>
-</section>
+</div>
 <div id="listing-sponsors" class="g-col-12 quarto-listing quarto-listing-container-custom">
 <div class="sponsorsFooter">
-      <h1 id="sponsorTitle" data-default-title="<strong>Sponsors</strong>"><strong>Sponsors</strong></h1>
-      <ul>
-        
-                            <li><a href="https://www.monash.edu" target="_blank" class="sblogos__link"><img class="sblogos__img" src="./img/monash-logo-mono.svg" alt="Monash University logo"></a></li>
-        
-      </ul>
-    </div>
+  <h1 id="sponsorTitle" data-default-title="<strong>Sponsors</strong>"><strong>Sponsors</strong></h1>
+  <ul>
+    
+          <li><a href="https://www.monash.edu" target="_blank" class="sblogos__link"><img class="sblogos__img" src="./img/monash-logo-mono.svg" alt="Monash University logo"></a></li>
+    
+  </ul>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
 </div>
 </div>
 
 
-</div>
+
+</section>
 
 
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
-<script>
-
-//countdown timer
-(function () {
-  const second = 1000,
-        minute = second * 60,
-        hour = minute * 60,
-        day = hour * 24;
-
-  let deadline = document.getElementById("countdownDate").innerText//"Sept 21, 2023 23:59:00",
-  console.log(deadline);
-        countDown = new Date(deadline).getTime(),
-      x = setInterval(function() {    
-
-        let now = new Date().getTime(),
-            distance = countDown - now;
-
-        document.getElementById("days").innerText = Math.floor(distance / (day)),
-          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
-        //do something later when date is reached
-        if (distance < 0) {
-           headline = document.getElementById("headline");
-		document.getElementById("days").innerText = 0;
-		document.getElementById("hours").innerText = 0;
-		document.getElementById("minutes").innerText = 0;
-		document.getElementById("seconds").innerText = 0;
-           //countdown = document.getElementById("countdown");
-           //content = document.getElementById("content");
-
-          headline.innerText = "THE CONFERENCE HAS BEGUN!";
-		document.getElementById("btn_store").disabled = true
-          //countdown.style.display = "none";
-          //content.style.display = "block";
-
-          clearInterval(x);
-        }
-        //seconds
-      }, 0)
-  }());
-    </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -770,7 +1003,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
- <!-- /content -->
+</div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
