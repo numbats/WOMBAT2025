@@ -247,39 +247,39 @@ footer.footer .nav-footer,
 }
 
 .schedule_container {
-  width: 100%;
-  background: rgba($primary, 0.05);
-  margin-left: 2%;
+  padding: 1rem 0;
 }
 
-/* Create two equal columns that floats next to each other */
-.schedule_column_time {
-  float: left;
-  width: 30%;
-  padding: 20px;
-  align-content: center;
-  margin: 1px;
-  background: rgba($primary, 0.3);
-  color: #494f57;
-  height: 80px; /* Should be removed. Only for demonstration */
+.schedule_row:nth-child(odd) {
+  background-color: lighten(gainsboro, 10%);
+}
+
+.schedule_row:nth-child(even) {
+  background-color: lighten(gainsboro, 8%);
+}
+
+.schedule_row:first-child {
+  border-radius: 10px 10px 0 0;
+}
+
+.schedule_row:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
+.schedule_row {
+  display: grid;
+  grid-template-columns: minmax(10vw, 25vw) 1fr;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .schedule_column_talk {
-  float: left;
-  width: 69%;
-  padding: 10px;
-  align-content: center;
-  margin: 1px;
-  background: rgba($primary, 0.15);
-  color: #494f57;
-  height: 80px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.schedule_row:after {
-  content: "";
-  display: table;
-  clear: both;
+  inline-size: 40vw;
+  overflow-wrap: anywhere;
+  border-left: 1px solid dimgray;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
 }
 
 #listing-countdown {

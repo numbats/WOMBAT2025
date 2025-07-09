@@ -17,7 +17,7 @@ listing:
 ---
 
 <!-- Truly not proud of this banner honestly. But eh c'est la vie -->
-:::::::: {.grid style="width: 100vw; transform: translateX(-20%)"}
+:::::::: {.grid style="width: 100vw; transform: translateX(-20%); padding-bottom: 2rem;"}
 ::: {.g-col-12 .title style="grid-template-columns: 1fr"}
 ::: {style="display: flex; flex-direction: column; align-items:center; text-align: center"}
 ::: {style="font-weight: bold; font-size: 3.25rem"} 
