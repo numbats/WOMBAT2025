@@ -2,9 +2,9 @@
 title: ""
 format: html 
 listing:
-  # - id: keynote
-  #   template: program/speakers/keynote.ejs
-  #   contents: program/speakers/keynote.yml
+  - id: keynote
+    template: program/speakers/keynote.ejs
+    contents: program/speakers/keynote.yml
   - id: schedule_workshops
     template: program/schedule/schedule.ejs
     contents: program/schedule/workshops.yml
@@ -34,9 +34,10 @@ WOMBAT 2025
 The purpose of this workshop is to bring together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year’s event is **designing data driven discoveries**, which will feature tutorials and talks on statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools.
 
 
-<!-- ## Keynote -->
-<!---->
-<!-- Keynote speaker to be announced soon! -->
+## Keynote
+
+::: {#keynote}
+:::
 
 ### Registration
 
