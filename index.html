@@ -72,6 +72,34 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-keynote .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-bio','listing-title','listing-abstract','listing-thumbnail',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-bio","listing-title","listing-abstract","listing-thumbnail"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-keynote'] = new List('listing-keynote', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-schedule_workshops .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -244,14 +272,34 @@ window.Quarto = {
 </div>
 </div>
 <p>The purpose of this workshop is to bring together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year’s event is <strong>designing data driven discoveries</strong>, which will feature tutorials and talks on statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools.</p>
-<!-- ## Keynote -->
-<!---->
-<!-- Keynote speaker to be announced soon! -->
+<section id="keynote" class="level2">
+<h2 data-anchor-id="keynote">Keynote</h2>
+<div id="listing-keynote" class="quarto-listing quarto-listing-container-custom">
+
+<div style="display: flex; flex-direction: row; gap: 1rem; flex-wrap: wrap">
+  <div style="display: flex; flex-direction: column; text-align: center; padding-right: 1rem; max-width: 400px; width: 100%; flex: 1 1 300px; gap: 1rem; align-items: center;">
+    <img src="./img/nicola.jpg" style="width: 100%; border-radius: 100%; max-width: 250px;">
+    <div style="font-weight: bold; font-size: 1.125rem;"> Julia Silge </div>
+    <div> Nicola Rennie is a data visualisation specialist, working at the Office for National Statistics in the United Kingdom. She has a background in statistics and data science, who is interested in understanding how to effectively communicate quantitative information in an accessible way. She advocates for using open source tools, and has experience in D3, Svelte, R, and Python. Nicola co-authored the Royal Statistical Society’s Best Practices for Data Visualisation guidance and is a member of the Editorial Board of Significance magazine, particularly focused on data visualisation. Nicola is a committee member and secretary of the Royal Statistical Society (RSS) Teaching Statistics Section Group, and is also one of the RSS’s 2024-2025 William Guy Lecturers who has recorded and delivered talks aimed at 11-16 year olds on the topic of using data and statistics to shape decision making in medicine and healthcare. She has also previously been a committee member of the R-Ladies Global Team and the R-Ladies Lancaster chapter organiser.
+ </div>
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 1rem; flex: 2 1 300px">
+    <div style="font-weight: bold; font-size: 1.25rem;"> Designing for decision-making: How to build effective data visualisations </div>
+    <div> Data visualisation can be a very efficient method of identifying patterns in data and communicating findings to broad audiences. Good data visualisation requires appreciation and careful consideration of the technical aspects of data presentation. But it also involves a creative element. Authorial choices are made about the “story” we want to tell, and design decisions are driven by the need to convey that story most effectively to our audience. Software systems use default settings for most graphical elements. However, each visualisation has its own story to tell, and so we must actively consider and choose settings for the visualisation we are building. In this talk, Nicola will showcase why you should visualise data, present some guidelines for making more effective charts, before discussing examples of good and not so good charts.
+ </div>
+  </div>
+</div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 <section id="registration" class="level3">
 <h3 data-anchor-id="registration">Registration</h3>
 <p>Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2’s workshop. We will also have a rich collection of hex stickers available on both days for all to choose from to decorate your laptop!</p>
 <!-- Register for one or two tutorials here and the workshop below  -->
 <p>Registrations opening soon. <!-- :::{.register-btn} --> <!-- [Register to WOMBAT 2025](/participation/register.html) --> <!-- ::: --></p>
+</section>
 </section>
 <section id="schedule" class="level2">
 <h2 data-anchor-id="schedule">Schedule</h2>
