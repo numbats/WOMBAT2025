@@ -1,2 +1,5 @@
-Morning second workshop details
+# Visualising Uncertainty
 
+## Harriet Mason
+
+From exploring variability in a dataset to communicating the distribution of estimates, uncertainty visualisation plays a role at every stage of data analysis. This tutorial provides an overview of uncertainty, examines how it is represented in R, and introduces a range of techniques for visualising it. The first session will introduce the concept of uncertainty and cover general visualisation approaches. The second session will focus on spatial data and the creative methods that emerge when uncertainty must be expressed using only a limited set of visual aesthetics. Wherever there are statistics and data, there is uncertainty, making the ability to visualise it effectively an essential skill for any statistician.

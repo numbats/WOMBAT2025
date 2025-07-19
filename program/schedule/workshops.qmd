@@ -23,28 +23,20 @@ Workshop Schedule
 
 ## Morning Workshop
 
-### Workshop Title 1 
-
 {{< include workshops/am_workshop1.qmd >}}
-
-### Workshop Title 2
 
 {{< include workshops/am_workshop2.qmd >}}
 
-### Workshop Title 3
-
 {{< include workshops/am_workshop3.qmd >}}
+
+{{< include workshops/am_workshop4.qmd >}}
 
 ## Afternoon tutorial
 
-### Workshop Title 1 
-
 {{< include workshops/pm_workshop1.qmd >}}
-
-### Workshop Title 2
 
 {{< include workshops/pm_workshop2.qmd >}}
 
-### Workshop Title 3
-
 {{< include workshops/pm_workshop3.qmd >}}
+
+{{< include workshops/pm_workshop4.qmd >}}
