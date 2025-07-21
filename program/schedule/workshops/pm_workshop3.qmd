@@ -1,2 +1,22 @@
-Evening third workshop details
+# Intro to C++ Programming for R Applications in Statistical Modelling
+
+Code written in C++ runs significantly faster than code written in R, which provides the basis for many leading R packages. Such a design enables users to leverage the best of both worlds: the computational speed delivered by algorithms written in C++ and the convenience of data analysis using R. Fortunately, recent developments have simplified programming in C++ for R applications by automating many processes. 
+
+In this session, Tomasz will guide attendees through the basics of this approach, working in RStudio, ensuring object compatibility, using basic algorithmic structures and functional programming, and extending R packages with C++ code. A sequence of hands-on exercises with applications to every statistical modeller toolset, including linear algebra, maximum likelihood estimation, and Gibbs sampling, supports all this.
+
+## About the speaker
+
+Tomasz Woźniak is a Bayesian econometrician developing new econometric methods for applied macroeconomic research. He has been a specialised R user for seventeen years, and has recently joined The R Journal as an Associate Editor. He is the author of several R packages, available at https://bsvars.org/, that combine blazingly fast algorithms written in C++ with the convenience of data analysis in R. He works as a senior lecturer at the University of Melbourne, where he has an extensive research, teaching, and engagement portfolio. He is also an external collaborator at the International Labour Organization, where he develops a new forecasting system and an R package.
+
+## Preparation: 
+
+Follow the instructions from Section 1.3. by Eddelbuettel & François (2023) (https://cran.r-project.org/web/packages/Rcpp/vignettes/Rcpp-FAQ.pdf). In short:
+
+Step 1: Install a C++ compiler: for Windows: install RTools (https://cran.r-project.org/bin/windows/Rtools/); for macOS:install Xcode Command Line Tools (https://www.freecodecamp.org/news/install-xcode-command-line-tools/) and gfortran (https://www.scivision.dev/homebrew-install-fortran-compiler/), and for Linux: install the standard development packages.  
+
+Step 2: Install the Rcpp and RcppArmadillo packages by running in R: library(Rcpp); library(RcppArmadillo)
+
+Step 3: Check if the installation is successful. Source the file nicetry.cpp in RStudio by executing: Rcpp::sourceCpp("nicetry.cpp"). If you see a matrix with values 1, 2, and 3 in R, you're good to go for the workshop.
+
+We apologise, but we cannot assist any further with the preparations.
 
