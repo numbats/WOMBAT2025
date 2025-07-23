@@ -1,61 +1,49 @@
 ---
 pagetitle: "Schedule"
-
-listing:
-  - id: schedule_workshops
-    template: schedule.ejs
-    contents: workshops.yml
-  - id: schedule_conference
-    template: schedule.ejs
-    contents: conference.yml
+format:
+  html:
+    include-in-header:
+      - text: |
+          <script type="text/javascript" src="https://conf.nectric.com.au/wombat-2025/schedule/widget/v2.en.js"></script>
 ---
 
-:::::::: grid
+::::::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
 ::: {#sponsors_banner .g-col-12 .title}
 # Schedule
 :::
 
-::: {.g-col-12 style="margin-left: 2%;"}
-Please note that all session times are listed below in AEST.
+::: {.g-col-12 .full_text_block}
+```{=html}
+<pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" style="--schedule-max-width: 90vw;--pretalx-clr-primary: #D78802" format="grid"></pretalx-schedule>
+<noscript>
+   <div class="pretalx-widget">
+        <div class="pretalx-widget-info-message">
+            JavaScript is disabled in your browser. To access our schedule without JavaScript,
+            please <a target="_blank" href="https://conf.nectric.com.au/wombat-2025/">click here</a>.
+        </div>
+    </div>
+</noscript>
+<script>
+  function updatePretalxScheduleFormat() {
+    const schedule = document.querySelector('pretalx-schedule');
+    if (!schedule) return;
+    if (document.body.offsetWidth > 1492) {
+      schedule.setAttribute('format', 'grid');
+    } else {
+      schedule.setAttribute('format', 'list');
+    }
+  }
 
-### 29th September 2025 (workshops)
+  // Run on load
+  updatePretalxScheduleFormat();
 
-::: {#schedule_workshops}
+  // Retrigger on window resize
+  window.addEventListener('resize', updatePretalxScheduleFormat);
+</script>
+```
 :::
-
-<!-- | Time          | Event                            | -->
-<!-- |--------------|-----------------------------------| -->
-<!-- | 9:00-10:30   | Morning tutorial (session 1)      | -->
-<!-- | 10:30-11:00  | Morning tea break                 | -->
-<!-- | 11:00-12:30  | Morning tutorial (session 2)      | -->
-<!-- | 12:30-1:30   | Lunch (on your own)               | -->
-<!-- | 1:30-3:00    | Afternoon tutorial (session 1)    | -->
-<!-- | 3:00-3:30    | Afternoon tea break               | -->
-<!-- | 3:30-5:00    | Afternoon tutorial (session 2)    | -->
-
-### 30th September 2025 (conference)
-
-::: {#schedule_conference}
-:::
-
-
-<!-- | Time          | Event                                      | -->
-<!-- |--------------|--------------------------------------------| -->
-<!-- | 8:30-8:45   | Coffee and collect name tag               | -->
-<!-- | 8:45-9:00   | Welcome                                   | -->
-<!-- | 9:00-10:00  | Keynote (1 x 60min)                              | -->
-<!-- | 10:00-10:30 | Morning tea                              | -->
-<!-- | 10:30-12:00 | Invited talks - Solution & Impact (3 x 30min) | -->
-<!-- | 12:00-1:00  | Lunch                                    | -->
-<!-- | 1:00-2:30   | Invited talks - Software & Tooling (2 x 30min, 2 x 15min / 3 x 10min) | -->
-<!-- | 2:30-3:00   | Afternoon tea                            | -->
-<!-- | 3:00-4:30   | Invited talks - Research & Communication (2 x 30min, 2 x 15min) | -->
-<!-- | 4:30-5:00   | Closing discussion              -->
-:::
-
-
 
 <div>
 
 </div>
-::::::::
+:::::::::

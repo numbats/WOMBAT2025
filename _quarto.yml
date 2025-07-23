@@ -24,14 +24,10 @@ website:
     background: light
     pinned: false
     right:
-      # - text: Schedule
-      #   menu: 
-      #   - text: Workshops 
-      #     href: program/schedule/workshops.qmd
-      #   - text: Conference 
-      #     href: program/schedule/conference.qmd
+      - text: Schedule
+        href: program/schedule
       # - text: Register
-      #   href: participation/register.qmd 
+      #   href: participation/register.qmd
       - text: Contact
         href: contact.qmd
   page-footer: 
