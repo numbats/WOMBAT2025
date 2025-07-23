@@ -1,18 +1,6 @@
 [
   {
-    "listing": "/participation/keydates/index.html",
-    "items": []
-  },
-  {
-    "listing": "/program/schedule/index.html",
-    "items": []
-  },
-  {
     "listing": "/index.html",
-    "items": []
-  },
-  {
-    "listing": "/about/sponsors/index.html",
     "items": []
   },
   {
@@ -20,11 +8,19 @@
     "items": []
   },
   {
+    "listing": "/program/speakers/index.html",
+    "items": []
+  },
+  {
+    "listing": "/about/sponsors/index.html",
+    "items": []
+  },
+  {
     "listing": "/program/schedule/workshops.html",
     "items": []
   },
   {
-    "listing": "/program/speakers/index.html",
+    "listing": "/participation/keydates/index.html",
     "items": []
   }
 ]
