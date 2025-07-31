@@ -21,42 +21,69 @@ listing:
 ---
 
 <!-- Truly not proud of this banner honestly. But eh c'est la vie -->
-:::::::: {.grid style="width: 100vw; transform: translateX(-20%); padding-bottom: 2rem;"}
-::: {.g-col-12 .title style="grid-template-columns: 1fr"}
-::: {style="display: flex; flex-direction: column; align-items:center; text-align: center"}
-::: {style="font-weight: bold; font-size: 3.25rem"} 
+
+:::::: {.grid style="width: 100vw; transform: translateX(-20%); padding-bottom: 2rem;"}
+::::: {.g-col-12 .title style="grid-template-columns: 1fr"}
+:::: {style="display: flex; flex-direction: column; align-items:center; text-align: center"}
+::: {style="font-weight: bold; font-size: 3.25rem"}
 WOMBAT 2025
 :::
-**The Annual Workshop Organised by the Monash Business Analytics Team.**     
-**29th-30th September 2025**      
+
+**The Annual Workshop Organised by the Monash Business Analytics Team.**\
+**29th-30th September 2025**\
 [Monash University (downtown), 750 Collins St, Melbourne <svg style="width: 1rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>](https://maps.app.goo.gl/F3QwdroJwyZ1sWGE8){style="color: white; font-weight: bold"}
+::::
+:::::
+::::::
+
+The annual WOMBAT workshop brings together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year's event is **designing data driven discoveries**, which will feature tutorials and talks on statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools.
+
+## Registration
+
+Registration for WOMBAT is open now, with early bird pricing until August 31st. Registration for the tutorials on day 1 and the workshop on day 2 is done separately. Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2's workshop. We will also have a rich collection of hex stickers available for all to choose from to decorate your laptop!
+
+#### Tutorials (September 29th)
+
+The WOMBAT tutorials offerings feature practical, hands-on training in key topics for data analysis by experts in the field. Each tutorial consists of three hours of content with a 30-minute catered tea break, offered in both morning (AM) and afternoon (PM) sessions, and each tutorial is limited to 20 in-person participants. In the morning, you can choose from sessions on R package development, regression analysis, time series forecasting, or visualising uncertainty; in the afternoon, there are options covering reproducible reporting with Quarto, scientific figure design, accelerating R modelling with C++, or efficiency analysis using Python.
+
+::: register-btn
+[Register for the day 1 tutorials](/participation/register.html)
 :::
+
+#### Workshop (September 30th)
+
+The main day of WOMBAT features a diverse workshop program designed to highlight the latest data analysis tools and techniques. The workshop features a keynote presentation by data visualisation specialist Nicola Rennie, followed by invited talks from leading data analysts from academia, government, and industry. Key topics featured throughout the conference include data storytelling, effective data visualisation, workflow and team management, open-source tools, and reproducibility in data analysis. More details about the workshop are detailed below.
+
+<!-- We will also have a rich collection of hex stickers available on both days for all to choose from to decorate your laptop! -->
+
+::: register-btn
+[Register for the day 2 workshop](/participation/register.html)
 :::
-:::::::: 
-
-
-The purpose of this workshop is to bring together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year’s event is **designing data driven discoveries**, which will feature tutorials and talks on statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools.
-
 
 ## Keynote
 
 ::: {#keynote}
 :::
 
-### Registration
 
-Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2's workshop. We will also have a rich collection of hex stickers available on both days for all to choose from to decorate your laptop!
+## Sessions
 
-<!-- Register for one or two tutorials here and the workshop below  -->
-<!-- Registrations opening soon. -->
+#### Invited Talks: Data Storytelling & Communication
 
-:::{.register-btn}
-[Register for the day 1 tutorials](/participation/register.html)
-:::
+This session highlights practical tools and skills for presenting data in compelling, audience-friendly ways. It features a presentation by James Goldie on making “scrollytelling” articles with Quarto and Closeread, this presentation format is highly engaging for data stories as visualisations can animate to match the story as readers scroll through the article.
 
-:::{.register-btn}
-[Register for the day 2 workshop](/participation/register.html)
-:::
+#### In Conversation: Rob Hyndman & Nick Tierney on Research Software
+
+Join Professor Rob Hyndman and Dr. Nick Tierney, hosted by Cynthia Huang, as they discuss what research software engineering, open-source development, and reproducibility mean in practice. The conversation will demystify how statistical software and R packages are created and maintained, and why open-source tools matter for advancing and sharing data analysis.
+
+#### Showcase: Recent Software from NUMBATs
+
+See the latest data analysis tools developed by staff and students at Monash University’s Non-Uniform Monash Business Analytics Team (NUMBATs). This session features new R packages designed to help you discover patterns in your data.
+
+#### Invited Talks: Designing Workflows & Team
+
+This session provides practical insights into effective team and workflow management in data projects. Saras Windecker will share lessons from implementing peer code review in a multi-institutional research consortium focused on epidemic forecasting and analytics. Tyler Reysenbach will discuss real-world strategies for building new data teams in government, including balancing early stakeholder demands with long-term capability building.
+
 
 ## Schedule
 
@@ -64,11 +91,8 @@ Please note that all session times are in AEST.
 
 <!-- #### [Click here for a detailed workshop schedule.](program/schedule/)  -->
 
-
-:::::::: grid
-
+::::: grid
 ::: {.g-col-12 style="margin-left: 2%;"}
-
 ### Mon 29 Sep - Tutorials
 
 ```{=html}
@@ -86,7 +110,7 @@ Please note that all session times are in AEST.
 ### Tue 30 Sep - Invited Talks
 
 ```{=html}
-<pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" style="--schedule-max-width: 100%;--pretalx-clr-primary: #006dae" date-filter="2025-09-30" format="grid"></pretalx-schedule>
+<pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" style="--schedule-max-width: 100%;--pretalx-clr-primary: #006dae" date-filter="2025-09-30" format="list"></pretalx-schedule>
 <noscript>
    <div class="pretalx-widget">
         <div class="pretalx-widget-info-message">
@@ -95,19 +119,13 @@ Please note that all session times are in AEST.
         </div>
     </div>
 </noscript>
-
 ```
-
 :::
-
-
 
 <div>
 
 </div>
-::::::::
-
-
+:::::
 
 ::: {#sponsors .g-col-12}
 :::
