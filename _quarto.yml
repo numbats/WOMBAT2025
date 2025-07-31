@@ -34,12 +34,12 @@ website:
             href: https://events.humanitix.com/wombat-2025-day-2-workshop 
       - text: Contact
         href: contact.qmd
-      # - text: About
-      #   menu:
-      #     - text: Code of Conduct
-      #       href: participation/coc.qmd
-      #     - text: Organizers
-      #       href: about/organizers.qmd
+      - text: About
+        menu:
+          - text: Code of Conduct
+            href: participation/coc.qmd
+          - text: Organising Committee
+            href: about/committee.qmd
   page-footer: 
     left: "Workshop Organised by the Monash Business Analytics Team"
     right: 
