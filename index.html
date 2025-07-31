@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-709e36854d679c061f6903fdc93874ac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-efcdbbc2d1d7db91adf1eea4ae3e906d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -101,62 +101,6 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-schedule_workshops .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-time','listing-talk','listing-detail',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-time","listing-talk","listing-detail"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-schedule_workshops'] = new List('listing-schedule_workshops', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-schedule_conference .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-time','listing-talk','listing-chair','listing-details',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-time","listing-talk","listing-chair","listing-details"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-schedule_conference'] = new List('listing-schedule_conference', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-sponsors .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -183,6 +127,7 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<script type="text/javascript" src="https://conf.nectric.com.au/wombat-2025/schedule/widget/v2.en.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -240,18 +185,48 @@ window.Quarto = {
     <a class="nav-link" href="./program/schedule"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-register" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Register</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-register">    
+        <li>
+    <a class="dropdown-item" href="https://events.humanitix.com/wombat-2025-day-1-tutorials">
+ <span class="dropdown-text">Tutorials</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://events.humanitix.com/wombat-2025-day-2-workshop">
+ <span class="dropdown-text">Workshop</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./participation/coc.html">
+ <span class="dropdown-text">Code of Conduct</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./about/committee.qmd">
+ <span class="dropdown-text">Organising Committee</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="55d8f7735903e07293949c50ea829b88" class="alert alert-warning hidden"><i class="bi bi-megaphone-fill quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p>Save the date! This workshop will run from September 29th - 30th.</p>
+  <div id="quarto-announcement" data-announcement-id="4b21ac63048b52bfb67c18557e57001d" class="alert alert-success hidden"><i class="bi bi-megaphone-fill quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p>Registrations are now open!</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
@@ -276,13 +251,32 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<p>The purpose of this workshop is to bring together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year’s event is <strong>designing data driven discoveries</strong>, which will feature tutorials and talks on statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools.</p>
+<p>The annual WOMBAT workshop brings together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year’s event is <strong>designing data driven discoveries</strong>, which will feature tutorials and talks on statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools.</p>
+<section id="registration" class="level2">
+<h2 data-anchor-id="registration">Registration</h2>
+<p>Registration for WOMBAT is open now, with early bird pricing until August 31st. Registration for the tutorials on day 1 and the workshop on day 2 is done separately. Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2’s workshop. We will also have a rich collection of hex stickers available for all to choose from to decorate your laptop!</p>
+<section id="tutorials-september-29th" class="level4">
+<h4 data-anchor-id="tutorials-september-29th">Tutorials (September 29th)</h4>
+<p>The WOMBAT tutorials offerings feature practical, hands-on training in key topics for data analysis by experts in the field. Each tutorial consists of three hours of content with a 30-minute catered tea break, offered in both morning (AM) and afternoon (PM) sessions, and each tutorial is limited to 20 in-person participants. In the morning, you can choose from sessions on R package development, regression analysis, time series forecasting, or visualising uncertainty; in the afternoon, there are options covering reproducible reporting with Quarto, scientific figure design, accelerating R modelling with C++, or efficiency analysis using Python.</p>
+<div class="register-btn">
+<p><a href="./participation/register.html">Register for the day 1 tutorials</a></p>
+</div>
+</section>
+<section id="workshop-september-30th" class="level4">
+<h4 data-anchor-id="workshop-september-30th">Workshop (September 30th)</h4>
+<p>The main day of WOMBAT features a diverse workshop program designed to highlight the latest data analysis tools and techniques. The workshop features a keynote presentation by data visualisation specialist Nicola Rennie, followed by invited talks from leading data analysts from academia, government, and industry. Key topics featured throughout the conference include data storytelling, effective data visualisation, workflow and team management, open-source tools, and reproducibility in data analysis. More details about the workshop are detailed below.</p>
+<!-- We will also have a rich collection of hex stickers available on both days for all to choose from to decorate your laptop! -->
+<div class="register-btn">
+<p><a href="./participation/register.html">Register for the day 2 workshop</a></p>
+</div>
+</section>
+</section>
 <section id="keynote" class="level2">
 <h2 data-anchor-id="keynote">Keynote</h2>
 <div id="listing-keynote" class="quarto-listing quarto-listing-container-custom">
 
 <div style="display: flex; flex-direction: row; gap: 1rem; flex-wrap: wrap">
-  <div style="display: flex; flex-direction: column; text-align: center; padding-right: 1rem; max-width: 400px; width: 100%; flex: 1 1 300px; gap: 1rem; align-items: center;">
+  <div style="display: flex; flex-direction: column; text-align: center; padding-right: 1rem; max-width: 60%; width: 100%; flex: 2 1 content; gap: 1rem; align-items: center;">
     <img src="./img/nicola.jpg" style="width: 100%; border-radius: 100%; max-width: 250px;">
     <div style="font-weight: bold; font-size: 1.125rem;"> Nicola Rennie </div>
     <div> Nicola Rennie is a data visualisation specialist, working at the Office for National Statistics in the United Kingdom. She has a background in statistics and data science, who is interested in understanding how to effectively communicate quantitative information in an accessible way. She advocates for using open source tools, and has experience in D3, Svelte, R, and Python. Nicola co-authored the Royal Statistical Society’s Best Practices for Data Visualisation guidance and is a member of the Editorial Board of Significance magazine, particularly focused on data visualisation. Nicola is a committee member and secretary of the Royal Statistical Society (RSS) Teaching Statistics Section Group, and is also one of the RSS’s 2024-2025 William Guy Lecturers who has recorded and delivered talks aimed at 11-16 year olds on the topic of using data and statistics to shape decision making in medicine and healthcare. She has also previously been a committee member of the R-Ladies Global Team and the R-Ladies Lancaster chapter organiser.
@@ -297,269 +291,55 @@ window.Quarto = {
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<section id="registration" class="level3">
-<h3 data-anchor-id="registration">Registration</h3>
-<p>Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2’s workshop. We will also have a rich collection of hex stickers available on both days for all to choose from to decorate your laptop!</p>
-<!-- Register for one or two tutorials here and the workshop below  -->
-<p>Registrations opening soon. <!-- :::{.register-btn} --> <!-- [Register to WOMBAT 2025](/participation/register.html) --> <!-- ::: --></p>
+</section>
+<section id="sessions" class="level2">
+<h2 data-anchor-id="sessions">Sessions</h2>
+<section id="invited-talks-data-storytelling-communication" class="level4">
+<h4 data-anchor-id="invited-talks-data-storytelling-communication">Invited Talks: Data Storytelling &amp; Communication</h4>
+<p>This session highlights practical tools and skills for presenting data in compelling, audience-friendly ways. It features a presentation by James Goldie on making “scrollytelling” articles with Quarto and Closeread, this presentation format is highly engaging for data stories as visualisations can animate to match the story as readers scroll through the article.</p>
+</section>
+<section id="in-conversation-rob-hyndman-nick-tierney-on-research-software" class="level4">
+<h4 data-anchor-id="in-conversation-rob-hyndman-nick-tierney-on-research-software">In Conversation: Rob Hyndman &amp; Nick Tierney on Research Software</h4>
+<p>Join Professor Rob Hyndman and Dr.&nbsp;Nick Tierney, hosted by Cynthia Huang, as they discuss what research software engineering, open-source development, and reproducibility mean in practice. The conversation will demystify how statistical software and R packages are created and maintained, and why open-source tools matter for advancing and sharing data analysis.</p>
+</section>
+<section id="showcase-recent-software-from-numbats" class="level4">
+<h4 data-anchor-id="showcase-recent-software-from-numbats">Showcase: Recent Software from NUMBATs</h4>
+<p>See the latest data analysis tools developed by staff and students at Monash University’s Non-Uniform Monash Business Analytics Team (NUMBATs). This session features new R packages designed to help you discover patterns in your data.</p>
+</section>
+<section id="invited-talks-designing-workflows-team" class="level4">
+<h4 data-anchor-id="invited-talks-designing-workflows-team">Invited Talks: Designing Workflows &amp; Team</h4>
+<p>This session provides practical insights into effective team and workflow management in data projects. Saras Windecker will share lessons from implementing peer code review in a multi-institutional research consortium focused on epidemic forecasting and analytics. Tyler Reysenbach will discuss real-world strategies for building new data teams in government, including balancing early stakeholder demands with long-term capability building.</p>
 </section>
 </section>
 <section id="schedule" class="level2">
 <h2 data-anchor-id="schedule">Schedule</h2>
 <p>Please note that all session times are in AEST.</p>
+<!-- #### [Click here for a detailed workshop schedule.](program/schedule/)  -->
 <div class="grid">
 <div class="g-col-12" style="margin-left: 2%;">
 <section id="mon-29-sep---tutorials" class="level3">
 <h3 data-anchor-id="mon-29-sep---tutorials">Mon 29 Sep - Tutorials</h3>
-<div id="listing-schedule_workshops" class="quarto-listing quarto-listing-container-custom">
-<div class="schedule_container">
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>08:30 A.M. - 09:00 A.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Coffee and Registration
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>09:00 A.M. - 10:30 A.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Morning tutorial (session 1)
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>10:30 A.M. - 11:00 A.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Morning tea break
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>11:00 A.M. - 12:30 P.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Morning tutorial (session 2)
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>12:30 P.M. - 1:30 P.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Lunch (on your own)
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>1:30 P.M. - 3:00 P.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Afternoon tutorial (session 1)
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>3:00 P.M. - 3:30 P.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Afternoon tea break
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>3:30 P.M. - 5:00 P.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Afternoon tutorial (session 2)
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" style="--schedule-max-width: 100%;--pretalx-clr-primary: #006dae;" date-filter="2025-09-29" format="grid"></pretalx-schedule>
+<noscript>
+   <div class="pretalx-widget">
+        <div class="pretalx-widget-info-message">
+            JavaScript is disabled in your browser. To access our schedule without JavaScript,
+            please <a target="_blank" href="https://conf.nectric.com.au/wombat-2025/">click here</a>.
+        </div>
+    </div>
+</noscript>
 </section>
 <section id="tue-30-sep---invited-talks" class="level3">
 <h3 data-anchor-id="tue-30-sep---invited-talks">Tue 30 Sep - Invited Talks</h3>
-<div id="listing-schedule_conference" class="quarto-listing quarto-listing-container-custom">
-<div class="schedule_container">
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>08:30 A.M. - 08:45 A.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Coffee and registration
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>08:45 A.M. - 09:00 A.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Welcome
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>09:00 A.M. - 10:00 A.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Keynote
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>10:00 A.M. - 10:30 A.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Morning tea
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>10:30 A.M. - 12:00 P.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Invited talks - Communications and reporting
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>12:00 P.M. - 1:00 P.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Lunch
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>1:00 P.M. - 2:30 P.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Invited talks - Software &amp; Tooling
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>2:30 P.M. - 3:00 P.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Afternoon tea
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>3:00 P.M. - 4:30 P.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Panel discussion - Data Science Teams and Workflows
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>4:30 P.M. - 5:00 P.M.</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Closing discussion
-                    <br>
-                    
-                  </p>
-                </div>
-                
-              </div>
-        
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" style="--schedule-max-width: 100%;--pretalx-clr-primary: #006dae" date-filter="2025-09-30" format="list"></pretalx-schedule>
+<noscript>
+   <div class="pretalx-widget">
+        <div class="pretalx-widget-info-message">
+            JavaScript is disabled in your browser. To access our schedule without JavaScript,
+            please <a target="_blank" href="https://conf.nectric.com.au/wombat-2025/">click here</a>.
+        </div>
+    </div>
+</noscript>
 </section>
 </div>
 <div>
@@ -577,6 +357,23 @@ window.Quarto = {
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+<script>
+  function updatePretalxScheduleFormat() {
+    const schedule = document.querySelectorAll('pretalx-schedule');
+    if (!schedule) return;
+    if (document.body.offsetWidth > 1492) {
+      schedule.forEach(x => x.setAttribute('format', 'grid'));
+    } else {
+      schedule.forEach(x => x.setAttribute('format', 'list'));
+    }
+  }
+
+  // Run on load
+  updatePretalxScheduleFormat();
+
+  // Retrigger on window resize
+  window.addEventListener('resize', updatePretalxScheduleFormat);
+</script>
 
 
 
