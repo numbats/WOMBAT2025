@@ -1,0 +1,36 @@
+---
+{{yml}}
+---
+
+:::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
+::: {#sponsors_banner .g-col-12 .title}
+# {{title}}
+
+### {{time}}
+:::
+
+::: {.g-col-12 .full_text_block}
+
+{{abstract}}
+
+{{#speakers}}
+::: speaker
+## {{name}}
+
+{{biography}}
+
+![]({{avatar_url}})
+:::
+
+{{/speakers}}
+
+::: register-btn
+[Register for this tutorial](/participation/register.html)
+:::
+
+:::
+
+<div>
+
+</div>
+::::::

@@ -1,0 +1,44 @@
+---
+pagetitle: 'WOMBAT 2025: EBS showcase: ggdibbler'
+date: 2025-09-30 13:15:00
+title: 'EBS showcase: ggdibbler'
+description: Background details are not provided as the abstract is listed as &amp;amp;quot;TBC&amp;amp;quot;
+  (To Be Confirmed). As a result, no session topics are available for summary at this
+  time.
+speaker:
+- code: 9BMJWP
+  name: Harriet Mason
+  avatar_url: https://conf.nectric.com.au/media/avatars/9BMJWP_1VQl68B.jpg
+
+---
+
+:::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
+::: {#sponsors_banner .g-col-12 .title}
+# EBS showcase: ggdibbler
+
+### September 30, 01:15 pm
+:::
+
+::: {.g-col-12 .full_text_block}
+
+TBC
+
+::: speaker
+## Harriet Mason
+
+[Harriet Mason](https://harrietmason.netlify.app/) is a final year PhD student. She is researching how uncertainty can be effectively communicated through statistical graphics, particularly in contexts where misleading interpretations must be actively avoided. She is the author of several R packages, including `cassowaryr` and `ggdibbler`.
+
+![](https://conf.nectric.com.au/media/avatars/9BMJWP_1VQl68B.jpg)
+:::
+
+
+::: register-btn
+[Register for this tutorial](/participation/register.html)
+:::
+
+:::
+
+<div>
+
+</div>
+::::::

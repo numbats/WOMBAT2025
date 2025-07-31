@@ -1,0 +1,48 @@
+---
+pagetitle: 'WOMBAT 2025: Closing the scrollytelling gap with Closeread'
+date: 2025-09-30 10:30:00
+title: Closing the scrollytelling gap with Closeread
+description: Scrollytelling is a powerful but often inaccessible method for presenting
+  data-driven stories due to technical barriers. This session covers the motivations
+  behind the design of Closeread, details from the first Posit scrollytelling contest,
+  and upcoming features such as scrolling video support and improved integration with
+  R and Python.
+speaker:
+- code: Y3TULP
+  name: James Goldie
+  avatar_url: https://conf.nectric.com.au/media/avatars/Y3TULP_D7o6Ucl.jpg
+
+---
+
+:::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
+::: {#sponsors_banner .g-col-12 .title}
+# Closing the scrollytelling gap with Closeread
+
+### September 30, 10:30 am
+:::
+
+::: {.g-col-12 .full_text_block}
+
+Scrollytelling is an innovative way to tell data-driven stories, but it often demands sophisticated data visualisation engineering skills and budgets beyond individual researchers and small newsrooms. [Closeread](https://closeread.dev/) makes scrollytelling accessible and easy for researchers and analysts using their existing Quarto authoring skills.
+
+​In this talk, James discusses some of the factors that motivated Closeread's design, the first scrollytelling contest with Posit, and new features on the horizon, including scrolling video support and better integration with R and Python tools.
+
+::: speaker
+## James Goldie
+
+James is a Data Engineer with CounterCurrent, a UNSW startup that is helping the shipping industry decarbonise with better routes through the ocean. James has spent the last five years helping to make graphics and data vis tools more open, working as a data journalist at 360info and a knowledge broker with the Monash Climate Change Communication Research Hub and the ARC Centre of Excellence for Climate Extremes. James has a PhD from UNSW Sydney looking at the health impacts of future heatwaves.
+
+![](https://conf.nectric.com.au/media/avatars/Y3TULP_D7o6Ucl.jpg)
+:::
+
+
+::: register-btn
+[Register for this tutorial](/participation/register.html)
+:::
+
+:::
+
+<div>
+
+</div>
+::::::

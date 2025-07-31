@@ -26,6 +26,10 @@ website:
     right:
       - text: Schedule
         href: program/schedule
+      - text: Workshops
+        href: program/workshops.qmd
+      - text: Tutorials
+        href: program/tutorials.qmd
       - text: Register
         menu:
           - text: Tutorials

@@ -1,0 +1,59 @@
+---
+pagetitle: 'WOMBAT 2025: Building a new data team – balancing quick wins and long
+  term investments'
+date: 2025-09-30 15:30:00
+title: Building a new data team – balancing quick wins and long term investments
+description: New data teams often struggle to balance stakeholders' demands for immediate
+  results with the need to invest in long-term capabilities. Key session topics include
+  managing the tension between quick wins and long-term impact, navigating stakeholder
+  expectations, building team credibility, and developing the necessary infrastructure
+  to support evolving policy priorities within government contexts.
+speaker:
+- code: SZNM8P
+  name: Tyler Reysenbach
+  avatar_url: https://conf.nectric.com.au/media/avatars/SZNM8P_ye4lfSk.png
+
+---
+
+:::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
+::: {#sponsors_banner .g-col-12 .title}
+# Building a new data team – balancing quick wins and long term investments
+
+### September 30, 03:30 pm
+:::
+
+::: {.g-col-12 .full_text_block}
+
+Every new data team faces the same dilemma: stakeholders expect immediate results while the team knows that achieving long-term impact needs investment in its capabilities. Should they build that reporting dashboard everyone's asking for, or spend three months building a new dataset that could inform future priorities? If they choose the quick win, the team risks being pigeonholed into a reporting team, unable to focus on longer-term projects, with more and more regular products requiring maintenance. Focus on building capacity, and the team might lose organisational support before they can prove their value, limiting their impact before they could even get going.
+
+Drawing on experience from working in the Central Analytics Hub at the Department of Prime Minister and Cabinet during the pandemic and working to help address capability gaps to better inform migration policy reform, this talk will explore the practical realities of navigating these tensions. I'll share stories from both experiences—from delivering urgent daily briefings while building the necessary capability to pivot to changing priorities, to establishing credibility while building the infrastructure needed to inform pressing policy priorities.
+
+This talk will offer honest reflections on the messy reality of building data teams in government, providing practical insights for anyone wrestling with similar challenges.
+
+::: speaker
+## Tyler Reysenbach
+
+Tyler Reysenbach is a policy adviser and researcher focused on the intersection of data analysis and policy implementation.
+
+She began her career at the Productivity Commission working on evaluation frameworks for programs affecting Aboriginal and Torres Strait Islander people. During the COVID-19 pandemic, she worked at the Department of Prime Minister and Cabinet as a data analyst, producing briefings on vaccination rollout and border policies for the Prime Minister.
+
+As a Research Associate at the Grattan Institute, Tyler led data analysis for the migration policy team, using datasets including PLIDA to examine visa pathways and migrant outcomes. This research informed multiple recommendations that were incorporated into the Australian Government's Migration Strategy.
+
+Tyler then moved to the Office of the Minister for Home Affairs as an Adviser, leading implementation of the Migration Strategy and managing policy development across innovation visas, the points-test, and working holiday maker visas.
+
+She holds First Class Honours in Economics from the University of Western Australia.
+
+![](https://conf.nectric.com.au/media/avatars/SZNM8P_ye4lfSk.png)
+:::
+
+
+::: register-btn
+[Register for this tutorial](/participation/register.html)
+:::
+
+:::
+
+<div>
+
+</div>
+::::::

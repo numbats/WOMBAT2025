@@ -1,0 +1,57 @@
+---
+pagetitle: 'WOMBAT 2025: Reproducible Reporting and Research with Quarto'
+date: 2025-09-29 13:30:00
+title: Reproducible Reporting and Research with Quarto
+description: This workshop introduces Quarto, an open-source tool for creating reproducible
+  academic documents and presentations. Key session topics include writing reports
+  and journal articles with templates, building code-integrated slide decks, managing
+  bibliographies, embedding code and figures, formatting tables and equations, and
+  generating outputs in formats like HTML and PDF.
+speaker:
+- code: QWQ9BM
+  name: Jayani Lakshika
+  avatar_url: https://conf.nectric.com.au/media/avatars/QWQ9BM_i0rsJWt.png
+- code: HQBHJ7
+  name: Krisanat Anukarnsakulchularp
+  avatar_url: https://conf.nectric.com.au/media/avatars/HQBHJ7_4i7YMn4.png
+
+---
+
+:::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
+::: {#sponsors_banner .g-col-12 .title}
+# Reproducible Reporting and Research with Quarto
+
+### September 29, 01:30 pm
+:::
+
+::: {.g-col-12 .full_text_block}
+
+This hands-on workshop introduces researchers, students, and academics to **Quarto**, a powerful, open-source framework for creating reproducible academic documents and presentations. You'll learn how to write a report, a journal article using a ready-to-use template, and build polished, code-integrated slide decks for presentations. The workshop will also cover bibliography management, embedding code and figures, formatting tables and equations, and controlling output for various formats, such as HTML and PDF. By the end of the session, participants will be able to confidently use Quarto to produce reproducible manuscripts and dynamic, professional presentations.
+
+::: speaker
+## Jayani Lakshika
+
+Jayani Lakshika is a final-year PhD student in Statistics at Monash University. Her research focuses on developing interactive visual tools and statistical methodologies for selecting and evaluating non-linear dimension reduction layouts of high-dimensional data. She is the author of several R packages. Jayani is a member of R-Ladies Melbourne and is passionate about teaching, with extensive experience tutoring statistics and data science courses, and mentoring students in both Australia and Sri Lanka. In addition to her academic work, she brings industry experience as a data analyst.
+
+![](https://conf.nectric.com.au/media/avatars/QWQ9BM_i0rsJWt.png)
+:::
+
+::: speaker
+## Krisanat Anukarnsakulchularp
+
+Krisanat Anukarnsakulchularp is a first-year PhD student in Statistics at Monash University, where his research centers around network analysis, developing graph data structures to help better understand and explore the spatio-temporal multivariate network data. He is the author of the R package animbook, for visualizing changes in performance measures and demographic affiliations using animation. Krisanat is working at Monash University as a teaching associate for the Master of Business Analytics program.
+
+![](https://conf.nectric.com.au/media/avatars/HQBHJ7_4i7YMn4.png)
+:::
+
+
+::: register-btn
+[Register for this tutorial](/participation/register.html)
+:::
+
+:::
+
+<div>
+
+</div>
+::::::

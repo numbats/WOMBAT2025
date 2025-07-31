@@ -1,0 +1,5 @@
+---
+listing:
+  contents: workshops
+  type: default
+---

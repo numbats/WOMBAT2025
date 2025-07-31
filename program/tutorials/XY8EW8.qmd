@@ -1,0 +1,49 @@
+---
+pagetitle: 'WOMBAT 2025: Building Better Figures: A Scientific Graphic Design Workshop'
+date: 2025-09-29 13:30:00
+title: 'Building Better Figures: A Scientific Graphic Design Workshop'
+description: Effective figure design is crucial for clear scientific communication
+  but is often neglected in academic training. This session covers core graphic design
+  principles, cognitive load, visual hierarchies, common communication pitfalls, and
+  a practical process for building and improving scientific figures.
+speaker:
+- code: LGHXST
+  name: Jess Hopf
+  avatar_url: https://conf.nectric.com.au/media/avatars/LGHXST_98xrALh.jpeg
+
+---
+
+:::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
+::: {#sponsors_banner .g-col-12 .title}
+# Building Better Figures: A Scientific Graphic Design Workshop
+
+### September 29, 01:30 pm
+:::
+
+::: {.g-col-12 .full_text_block}
+
+Clear, well-designed figures are essential for effectively communicating scientific ideas, but good design is often overlooked in academic training. This practical workshop, led by Dr Jess Hopf from Knowlegible Designs, introduces core graphic design principles and demonstrates how they can be applied to scientific figures to improve clarity, impact, and accessibility.
+
+Through a mix of theory and hands-on application, we’ll cover cognitive load, visual hierarchies, common communication pitfalls (like the curse of knowledge), and a step-by-step process for building and refining figures. Attendees are encouraged to bring a visual they’re currently working on, as there will be opportunities to apply workshop concepts and receive feedback.
+
+You don't need any prior design experience or specialist software. This workshop is suitable for researchers at any career stage who want to elevate the quality and communicative power of their visual materials.
+
+::: speaker
+## Jess Hopf
+
+Dr Jess Hopf is an active conservation science researcher and founder of Knowlegible Designs, where she helps researchers translate complex science into clear, compelling visuals.
+
+![](https://conf.nectric.com.au/media/avatars/LGHXST_98xrALh.jpeg)
+:::
+
+
+::: register-btn
+[Register for this tutorial](/participation/register.html)
+:::
+
+:::
+
+<div>
+
+</div>
+::::::

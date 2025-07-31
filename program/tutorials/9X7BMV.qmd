@@ -1,0 +1,57 @@
+---
+pagetitle: 'WOMBAT 2025: Introduction to Regression Analysis in R'
+date: 2025-09-29 09:00:00
+title: Introduction to Regression Analysis in R
+description: Regression analysis is a widely used quantitative method applicable across
+  many sectors. This session covers the theory and application of linear and generalized
+  linear regression models, model validation and diagnostics, Poisson regression for
+  count data, and best practices for communicating results, all with hands-on exercises
+  in R.
+speaker:
+- code: N3WKQK
+  name: Dean Marchiori
+  avatar_url: https://conf.nectric.com.au/media/avatars/N3WKQK_mGGYgAm.png
+
+---
+
+:::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
+::: {#sponsors_banner .g-col-12 .title}
+# Introduction to Regression Analysis in R
+
+### September 29, 09:00 am
+:::
+
+::: {.g-col-12 .full_text_block}
+
+Regression analysis is one of the most widely used and powerful quantitative analysis methods used across almost every sector. This workshop provides a comprehensive introduction to commonly used regression models, including the theory behind these models, their application in R, validation techniques, and the interpretation of results. The course begins with an introduction to linear regression models, before advancing to the more flexible family of generalised linear models.
+
+
+Topics covered as part of this course include:
+
+* Linear regression: concepts, assumptions, application, and interpretations
+* Diagnostics and validation of linear regression models
+* Generalised linear models: beyond continuous outcomes
+* Poisson regression: how to model counts and rates, and how this differs from linear regression
+* Best practices in communicating results of regression analysis
+
+Participants will leave with a solid grounding (or refresher) in how to correctly perform hands-on regression modelling tasks in R for a variety of problems.
+
+::: speaker
+## Dean Marchiori
+
+Dean Marchiori is a statistician and founder of Wave Data Labs, an independent data science consulting practice. His areas of specialisation are in time series modelling &amp; anomaly detection, geospatial analytics, unsupervised machine learning and the R programming language. He is currently co-chair of the Statistical Society of Australia’s section for statistical computing and visualisation and chair of the SSA working group for data science accreditation. Dean obtained his Bachelor of Science in Mathematics with University Medal from Charles Sturt University. He also holds a Master of Applied Statistics from Macquarie University where he was awarded the Julian Leslie Prize and served as a sessional teaching academic in the School of Mathematical and Physical Sciences. Dean holds the Accredited Statistician (AStat) qualification from the Statistical Society of Australia and was named one of the top 10 analytics professionals in Australia by the Institute of Analytics Professionals of Australia (IAPA).
+
+![](https://conf.nectric.com.au/media/avatars/N3WKQK_mGGYgAm.png)
+:::
+
+
+::: register-btn
+[Register for this tutorial](/participation/register.html)
+:::
+
+:::
+
+<div>
+
+</div>
+::::::

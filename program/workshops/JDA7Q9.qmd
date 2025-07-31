@@ -1,0 +1,44 @@
+---
+pagetitle: 'WOMBAT 2025: Welcome'
+date: 2025-09-30 08:45:00
+title: Welcome
+description: This session opens the event and sets the stage for the program ahead.
+  Key topics include introductory comments, an overview of the event's objectives,
+  and acknowledgments of participants and sponsors.
+speaker:
+- code: D7JA8C
+  name: Cynthia Huang
+  avatar_url: https://conf.nectric.com.au/media/avatars/D7JA8C_Z8ygNTF.jpeg
+
+---
+
+:::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
+::: {#sponsors_banner .g-col-12 .title}
+# Welcome
+
+### September 30, 08:45 am
+:::
+
+::: {.g-col-12 .full_text_block}
+
+Welcoming remarks
+
+::: speaker
+## Cynthia Huang
+
+Cynthia Huang is a PhD Candidate in the Department of Econometrics and Business Statistics at Monash University. She completed her undergraduate and honours degrees in Economics at the University of Melbourne. Her research focuses on principles and tools for complex data preparation in the social sciences.
+
+![](https://conf.nectric.com.au/media/avatars/D7JA8C_Z8ygNTF.jpeg)
+:::
+
+
+::: register-btn
+[Register for this tutorial](/participation/register.html)
+:::
+
+:::
+
+<div>
+
+</div>
+::::::
