@@ -10,6 +10,8 @@ $title-bg-img: "./img/background.jpg";
 $title-text-h-position: left;
 $title-text-v-position: center;
 
+$monash-blue: #006dae;
+
 /*-- scss:rules --*/
 
 body {
@@ -321,7 +323,7 @@ footer.footer .nav-footer,
 
 .register-btn {
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 0.15rem 1rem;
   border: 1px solid #ccc;
   border-radius: 6px;
   background-color: transparent;
@@ -336,8 +338,9 @@ footer.footer .nav-footer,
 }
 
 .register-btn:hover {
-  background-color: #f0f0f0;
-  border-color: #999;
+  background-color: $monash-blue;
+  border-color: lighten($monash-blue, 50%);
+  color: white;
 }
 
 .register-btn > p {

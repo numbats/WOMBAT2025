@@ -1,16 +1,20 @@
 ---
 title: ""
-format: html 
+format:
+  html:
+    include-in-header:
+      - text: |
+          <script type="text/javascript" src="https://conf.nectric.com.au/wombat-2025/schedule/widget/v2.en.js"></script>
 listing:
   - id: keynote
     template: program/speakers/keynote.ejs
     contents: program/speakers/keynote.yml
-  - id: schedule_workshops
-    template: program/schedule/schedule.ejs
-    contents: program/schedule/workshops.yml
-  - id: schedule_conference
-    template: program/schedule/schedule.ejs
-    contents: program/schedule/conference.yml
+  # - id: schedule_workshops
+  #   template: program/schedule/schedule.ejs
+  #   contents: program/schedule/workshops.yml
+  # - id: schedule_conference
+  #   template: program/schedule/schedule.ejs
+  #   contents: program/schedule/conference.yml
   - id: sponsors
     template: about/sponsors/sponsors.ejs
     contents: about/sponsors/sponsors.yml
@@ -44,27 +48,55 @@ The purpose of this workshop is to bring together analysts from academia, indust
 Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2's workshop. We will also have a rich collection of hex stickers available on both days for all to choose from to decorate your laptop!
 
 <!-- Register for one or two tutorials here and the workshop below  -->
-Registrations opening soon.
-<!-- :::{.register-btn} -->
-<!-- [Register to WOMBAT 2025](/participation/register.html) -->
-<!-- ::: -->
+<!-- Registrations opening soon. -->
+
+:::{.register-btn}
+[Register for the day 1 tutorials](/participation/register.html)
+:::
+
+:::{.register-btn}
+[Register for the day 2 workshop](/participation/register.html)
+:::
 
 ## Schedule
 
 Please note that all session times are in AEST.
 
+<!-- #### [Click here for a detailed workshop schedule.](program/schedule/)  -->
+
+
 :::::::: grid
 
 ::: {.g-col-12 style="margin-left: 2%;"}
+
 ### Mon 29 Sep - Tutorials
-::: {#schedule_workshops}
-:::
+
+```{=html}
+<pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" style="--schedule-max-width: 100%;--pretalx-clr-primary: #006dae;" date-filter="2025-09-29" format="grid"></pretalx-schedule>
+<noscript>
+   <div class="pretalx-widget">
+        <div class="pretalx-widget-info-message">
+            JavaScript is disabled in your browser. To access our schedule without JavaScript,
+            please <a target="_blank" href="https://conf.nectric.com.au/wombat-2025/">click here</a>.
+        </div>
+    </div>
+</noscript>
+```
 
 ### Tue 30 Sep - Invited Talks
 
-::: {#schedule_conference}
-:::
+```{=html}
+<pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" style="--schedule-max-width: 100%;--pretalx-clr-primary: #006dae" date-filter="2025-09-30" format="grid"></pretalx-schedule>
+<noscript>
+   <div class="pretalx-widget">
+        <div class="pretalx-widget-info-message">
+            JavaScript is disabled in your browser. To access our schedule without JavaScript,
+            please <a target="_blank" href="https://conf.nectric.com.au/wombat-2025/">click here</a>.
+        </div>
+    </div>
+</noscript>
 
+```
 
 :::
 
@@ -80,3 +112,22 @@ Please note that all session times are in AEST.
 ::: {#sponsors .g-col-12}
 :::
 
+```{=html}
+<script>
+  function updatePretalxScheduleFormat() {
+    const schedule = document.querySelectorAll('pretalx-schedule');
+    if (!schedule) return;
+    if (document.body.offsetWidth > 1492) {
+      schedule.forEach(x => x.setAttribute('format', 'grid'));
+    } else {
+      schedule.forEach(x => x.setAttribute('format', 'list'));
+    }
+  }
+
+  // Run on load
+  updatePretalxScheduleFormat();
+
+  // Retrigger on window resize
+  window.addEventListener('resize', updatePretalxScheduleFormat);
+</script>
+```

@@ -15,8 +15,8 @@ website:
   announcement: 
     icon: megaphone-fill
     dismissable: true
-    content: "Save the date! This workshop will run from September 29th - 30th."
-    type: warning
+    content: "Registrations are now open!"
+    type: success
     position: below-navbar
     
   navbar:
@@ -26,10 +26,20 @@ website:
     right:
       - text: Schedule
         href: program/schedule
-      # - text: Register
-      #   href: participation/register.qmd
+      - text: Register
+        menu:
+          - text: Tutorials
+            href: https://events.humanitix.com/wombat-2025-day-1-tutorials
+          - text: Workshop
+            href: https://events.humanitix.com/wombat-2025-day-2-workshop 
       - text: Contact
         href: contact.qmd
+      # - text: About
+      #   menu:
+      #     - text: Code of Conduct
+      #       href: participation/coc.qmd
+      #     - text: Organizers
+      #       href: about/organizers.qmd
   page-footer: 
     left: "Workshop Organised by the Monash Business Analytics Team"
     right: 
