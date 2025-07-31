@@ -10,13 +10,28 @@ pagetitle: "Committee members"
 ::: {.g-col-6 .text_block}
 ### Organising Committee
 
--   Cynthia Huang
--   Mitchell O'Hara-Wild
 
-<!-- ### Program Committee -->
+**General chairs**
 
-<!-- -   John Doe 1 *(ABC University)* -->
-<!-- -   John Doe 2 *(XYZ University)* -->
+- Cynthia Huang
+- Mitchell O'Hara-Wild
+
+**Webmaster**
+
+- Janith Wanniarachchi
+
+**Visitor logistics**
+
+- Hannah Comiskey
+
+**Social media**
+
+- Elio Campitelli
+
+**Marketing and graphics**
+
+- Maliny Po
+
 :::
 
 ::: g-col-6
