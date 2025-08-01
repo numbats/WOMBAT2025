@@ -2,6 +2,9 @@ project:
   type: website
   resources:
     - "CNAME"
+  render:
+    - "*.qmd"
+    - "!*_template.qmd"
   preview:
     port: 7878
     browser: false # setting it for my convenience cause I prefer to refresh the same tab
