@@ -17,7 +17,7 @@ pagetitle: "Schedule"
     locale="en"
     timezone="Australia/Melbourne"
     format="list"
-    style="--pretalx-clr-primary: #006DAE"
+    style="--pretalx-clr-primary: #006DAE; --schedule-max-width: 100%;"
 ></pretalx-schedule>
 <noscript class="d-block">
     <div class="alert alert-info m-4">
