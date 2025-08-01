@@ -55,3 +55,11 @@ Dean Marchiori is a statistician and founder of Wave Data Labs, an independent d
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

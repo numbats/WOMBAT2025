@@ -54,3 +54,11 @@ From exploring variability in a dataset to communicating the distribution of est
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

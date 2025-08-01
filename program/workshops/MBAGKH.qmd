@@ -44,3 +44,11 @@ Nicola Rennie is a data visualisation specialist, working at the Office for Nati
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

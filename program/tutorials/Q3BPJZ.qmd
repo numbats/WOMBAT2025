@@ -55,3 +55,11 @@ Krisanat Anukarnsakulchularp is a first-year PhD student in Statistics at Monash
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

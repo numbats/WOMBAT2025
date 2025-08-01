@@ -47,3 +47,11 @@ Dr Jess Hopf is an active conservation science researcher and founder of Knowleg
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

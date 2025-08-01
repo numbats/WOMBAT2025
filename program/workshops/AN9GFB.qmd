@@ -46,3 +46,11 @@ James is a Data Engineer with CounterCurrent, a UNSW startup that is helping the
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

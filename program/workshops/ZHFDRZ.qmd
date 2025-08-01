@@ -57,3 +57,11 @@ She holds First Class Honours in Economics from the University of Western Austra
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

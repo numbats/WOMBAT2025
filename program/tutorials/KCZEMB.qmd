@@ -48,3 +48,11 @@ Tomasz Woźniak is a Bayesian econometrician developing new econometric methods 
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

@@ -42,3 +42,11 @@ Cynthia Huang is a PhD Candidate in the Department of Econometrics and Business 
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

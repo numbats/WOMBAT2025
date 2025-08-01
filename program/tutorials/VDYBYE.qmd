@@ -51,3 +51,11 @@ Learning Outcomes:
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

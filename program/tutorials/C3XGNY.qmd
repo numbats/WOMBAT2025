@@ -48,3 +48,11 @@ Dr Jess Leung is a lecturer in Business Analytics at the Department of Econometr
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

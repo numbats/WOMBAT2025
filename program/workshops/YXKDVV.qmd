@@ -2,7 +2,7 @@
 pagetitle: 'WOMBAT 2025: EBS showcase: ggdibbler'
 date: 2025-09-30 13:15:00
 title: 'EBS showcase: ggdibbler'
-description: Background details are not provided as the abstract is listed as &amp;amp;quot;TBC&amp;amp;quot;
+description: Background details are not provided as the abstract is listed as &amp;amp;amp;amp;amp;quot;TBC&amp;amp;amp;amp;amp;quot;
   (To Be Confirmed). As a result, no session topics are available for summary at this
   time.
 speaker:
@@ -42,3 +42,11 @@ TBC
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

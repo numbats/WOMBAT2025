@@ -71,3 +71,11 @@ Beyond coding, Nick actively writes about R related projects at his blog, [&quot
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

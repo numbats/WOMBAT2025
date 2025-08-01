@@ -1,7 +1,7 @@
 ---
-pagetitle: 'WOMBAT 2025: TBC'
+pagetitle: 'WOMBAT 2025: Rethinking data science education in the age of genAI'
 date: 2025-09-30 11:00:00
-title: TBC
+title: Rethinking data science education in the age of genAI
 description: No abstract was provided, so I am unable to summarise the session topics.
   Please provide the abstract text for analysis.
 speaker:
@@ -13,19 +13,23 @@ speaker:
 
 :::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
 ::: {#sponsors_banner .g-col-12 .title}
-# TBC
+# Rethinking data science education in the age of genAI
 
 ### September 30, 11:00 am
 :::
 
 ::: {.g-col-12 .full_text_block}
 
-TBC
+Generative AI tools, like ChatGPT, haven’t necessarily created new challenges in data science education. Rather, the availability and rapidly growing capabilities of these tools have exposed weaknesses in learning design and assessment that educators have been ignoring for a while. 
+
+In this talk, I will draw on my experience in teaching psychology students about computational reproducibility and the value of R-based data workflows. I will argue for the need to rethink what learning to learn looks like and talk about how we might reframe assessment as the process of gathering evidence that learning has occurred. 
+
+There is no avoiding the fact that students now need to learn how to learn alongside Generative AI. Data science educators can help them by designing learning experiences that build self-regulated learning skills and normalise what real learning feels like.
 
 ::: speaker
 ## Jenny Richmond
 
-TBC
+Jenny Richmond is a developmental psychologist by training and has been teaching people how to code in R since 2018. She is one of the co-founders of R-Ladies Sydney and developed #RYouWithMe, a set of learning modules “for beginners, by beginners”, which that have helped more than 40000 new learners get started with data wrangling, visualization, and reproducible reporting in R. She is particularly interested in the role of self-regulation, emotion, and metacognition in student learning, success and wellbeing.
 
 ![](https://conf.nectric.com.au/media/avatars/PRGEJ3_FJJHXPA.png)
 :::
@@ -41,3 +45,11 @@ TBC
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

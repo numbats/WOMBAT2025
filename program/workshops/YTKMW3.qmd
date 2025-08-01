@@ -7,9 +7,9 @@ description: While research code offers flexibility compared to point-and-click 
   software, it is more susceptible to various types of errors and rarely undergoes
   formal peer review. This session will cover challenges in peer reviewing research
   code, the structure and aims of a pilot peer code review program within the Australia-Aotearoa
-  Consortium for Epidemic Forecasting &amp;amp;amp; Analytics (ACEFA), evaluation of the
-  program's effectiveness, and promoting code review as a supportive community practice
-  in computational research.
+  Consortium for Epidemic Forecasting &amp;amp;amp;amp;amp;amp; Analytics (ACEFA), evaluation
+  of the program's effectiveness, and promoting code review as a supportive community
+  practice in computational research.
 speaker:
 - code: GJSC9S
   name: Saras Windecker
@@ -54,3 +54,11 @@ Dr Saras Windecker is a Senior Research Officer at The Kids Research Institute A
 
 </div>
 ::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```
