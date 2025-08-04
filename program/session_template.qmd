@@ -9,24 +9,33 @@
 ### {{time}}
 :::
 
-::: {.g-col-12 .full_text_block}
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
 {{abstract}}
 
+:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
+[Register for this tutorial](/participation/register.html)
+:::
+
 {{#speakers}}
 ::: speaker
-## {{name}}
 
+:::{.speaker-header}
+![]({{avatar_url}}) 
+:::
+
+:::{.speaker-name}
+{{name}}
+:::
+
+:::{.speaker-bio}
 {{biography}}
+:::
 
-![]({{avatar_url}})
 :::
 
 {{/speakers}}
 
-::: register-btn
-[Register for this tutorial](/participation/register.html)
-:::
 
 :::
 
