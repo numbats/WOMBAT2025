@@ -2,4 +2,5 @@
 listing:
   contents: workshops
   type: default
+  sort: "date"
 ---
