@@ -27,12 +27,12 @@ website:
     background: light
     pinned: false
     right:
-      - text: Schedule
-        href: program/schedule
-      - text: Workshops
-        href: program/workshops.qmd
-      - text: Tutorials
+      # - text: Schedule
+      #   href: program/schedule
+      - text: Day 1 - Tutorials
         href: program/tutorials.qmd
+      - text: Day 2 - Workshop
+        href: program/workshops.qmd
       - text: Register
         menu:
           - text: Tutorials
