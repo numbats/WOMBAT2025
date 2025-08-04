@@ -27,8 +27,8 @@ website:
     background: light
     pinned: false
     right:
-      # - text: Schedule
-      #   href: program/schedule
+      - text: Schedule
+        href: program/schedule
       - text: Day 1 - Tutorials
         href: program/tutorials.qmd
       - text: Day 2 - Workshop

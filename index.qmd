@@ -83,47 +83,47 @@ See the latest data analysis tools developed by staff and students at Monash Uni
 
 This session provides practical insights into effective team and workflow management in data projects. Saras Windecker will share lessons from implementing peer code review in a multi-institutional research consortium focused on epidemic forecasting and analytics. Tyler Reysenbach will discuss real-world strategies for building new data teams in government, including balancing early stakeholder demands with long-term capability building.
 
-## Schedule
-
-Please note that all session times are in AEST.
-
+<!-- ## Schedule -->
+<!---->
+<!-- Please note that all session times are in AEST. -->
+<!---->
 <!-- #### [Click here for a detailed workshop schedule.](program/schedule/)  -->
-
-::::: grid
-::: {.g-col-12 style="margin-left: 2%;"}
-### Mon 29 Sep - Tutorials
-
-```{=html}
-<pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" style="--schedule-max-width: 100%;--pretalx-clr-primary: #006dae;" date-filter="2025-09-29" format="grid"></pretalx-schedule>
-<noscript>
-   <div class="pretalx-widget">
-        <div class="pretalx-widget-info-message">
-            JavaScript is disabled in your browser. To access our schedule without JavaScript,
-            please <a target="_blank" href="https://conf.nectric.com.au/wombat-2025/">click here</a>.
-        </div>
-    </div>
-</noscript>
-```
-
-### Tue 30 Sep - Invited Talks
-
-```{=html}
-<pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" style="--schedule-max-width: 100%;--pretalx-clr-primary: #006dae" date-filter="2025-09-30" format="list"></pretalx-schedule>
-<noscript>
-   <div class="pretalx-widget">
-        <div class="pretalx-widget-info-message">
-            JavaScript is disabled in your browser. To access our schedule without JavaScript,
-            please <a target="_blank" href="https://conf.nectric.com.au/wombat-2025/">click here</a>.
-        </div>
-    </div>
-</noscript>
-```
-:::
-
-<div>
-
-</div>
-:::::
+<!---->
+<!-- ::::: grid -->
+<!-- ::: {.g-col-12 style="margin-left: 2%;"} -->
+<!-- ### Mon 29 Sep - Tutorials -->
+<!---->
+<!-- ```{=html} -->
+<!-- <pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" style="--schedule-max-width: 100%;--pretalx-clr-primary: #006dae;" date-filter="2025-09-29" format="grid"></pretalx-schedule> -->
+<!-- <noscript> -->
+<!--    <div class="pretalx-widget"> -->
+<!--         <div class="pretalx-widget-info-message"> -->
+<!--             JavaScript is disabled in your browser. To access our schedule without JavaScript, -->
+<!--             please <a target="_blank" href="https://conf.nectric.com.au/wombat-2025/">click here</a>. -->
+<!--         </div> -->
+<!--     </div> -->
+<!-- </noscript> -->
+<!-- ``` -->
+<!---->
+<!-- ### Tue 30 Sep - Invited Talks -->
+<!---->
+<!-- ```{=html} -->
+<!-- <pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" style="--schedule-max-width: 100%;--pretalx-clr-primary: #006dae" date-filter="2025-09-30" format="list"></pretalx-schedule> -->
+<!-- <noscript> -->
+<!--    <div class="pretalx-widget"> -->
+<!--         <div class="pretalx-widget-info-message"> -->
+<!--             JavaScript is disabled in your browser. To access our schedule without JavaScript, -->
+<!--             please <a target="_blank" href="https://conf.nectric.com.au/wombat-2025/">click here</a>. -->
+<!--         </div> -->
+<!--     </div> -->
+<!-- </noscript> -->
+<!-- ``` -->
+<!-- ::: -->
+<!---->
+<!-- <div> -->
+<!---->
+<!-- </div> -->
+<!-- ::::: -->
 
 ::: {#sponsors .g-col-12}
 :::
