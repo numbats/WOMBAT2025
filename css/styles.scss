@@ -1,7 +1,17 @@
 /*-- scss:defaults --*/
 
-$body-bg: #fff;
-$primary: #0a3263; // the darker the better
+$colors: (
+  "monash-blue": #006dae,
+  "white": #ffffff,
+  "monash-darkblue": #0a3263,
+);
+
+@function theme-color($color) {
+  @return map-get($colors, $color);
+}
+
+$body-bg: theme-color("white");
+$primary: theme-color("monash-darkblue"); // the darker the better
 $countdown-bg: rgba($primary, 0.15);
 $countdown-color: #5d5d76;
 $banner-img: "./img/nadia-levenets-i8u7TloTE5o-unsplash.jpg";
@@ -13,6 +23,8 @@ $title-text-v-position: center;
 $monash-blue: #006dae;
 
 /*-- scss:rules --*/
+
+@import "workshop_styles";
 
 body {
   background: $body-bg;
@@ -326,7 +338,7 @@ footer.footer .nav-footer,
   padding: 0.15rem 1rem;
   border: 1px solid #ccc;
   border-radius: 6px;
-  background-color: transparent;
+  background-color: white;
   color: #333;
   text-align: center;
   cursor: pointer;
