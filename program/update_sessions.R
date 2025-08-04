@@ -30,6 +30,10 @@ recurse_tibble <- function(x) {
   as_tibble(x)
 }
 
+replace_amp <- function(x) {
+  x |> stringr::str_replace_all("&amp;", "&")
+}
+
 library(dplyr)
 library(tidyr)
 speakers_tidy <- map_dfr(speakers$results,recurse_tibble) |> 
@@ -41,8 +45,8 @@ sessions_tidy <- map_dfr(sessions$slots,recurse_tibble) |>
     start = as.POSIXct(start, format = "%Y-%m-%dT%H:%M:%S+10:00"),
     duration,
     time = format(start, "%B %d, %I:%M %p"),
-    title = submission$title,
-    abstract = submission$abstract,
+    title = submission$title |> replace_amp(),
+    abstract = submission$abstract |> replace_amp(),
     submissions = submission$code
   ) |> 
   left_join(speakers_tidy, by = "submissions")
@@ -64,10 +68,11 @@ write_session_qmd <- function(x, ...) {
     x$description <- rmarkdown::yaml_front_matter(path)$description
   }
   if(is.null(x$description)) {
-    chat <- ellmer::chat_openai(
-      system_prompt = "Briefly summarise the key session topics in a plain text from the following abstract. The summary should start with a background details sentence, followed a sentence detailing the key topics of the session."
-    )
-    x$description <- chat$chat(x$abstract)
+    # chat <- ellmer::chat_openai(
+    #   system_prompt = "Briefly summarise the key session topics in a plain text from the following abstract. The summary should start with a background details sentence, followed a sentence detailing the key topics of the session."
+    # )
+    # x$description <- chat$chat(x$abstract)
+    x$description <- ""
   }
   x$description <- gsub("\r\n", " ", x$description)
   x$description <- gsub("’", "'", x$description)
