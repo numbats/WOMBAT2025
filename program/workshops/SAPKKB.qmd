@@ -2,8 +2,7 @@
 pagetitle: 'WOMBAT 2025: EBS showcase: prefio'
 date: 2025-09-30 13:00:00
 title: 'EBS showcase: prefio'
-description: No abstract was provided, so I am unable to summarise the key session
-  topics. Please provide the abstract for a summary.
+description: ''
 speaker:
 - code: ZKF7NV
   name: Floyd Everest
@@ -18,22 +17,31 @@ speaker:
 ### September 30, 01:00 pm
 :::
 
-::: {.g-col-12 .full_text_block}
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
 TBC
 
-::: speaker
-## Floyd Everest
-
-TBC
-
-![](https://conf.nectric.com.au/media/avatars/ZKF7NV_MmdVwVJ.jpg)
-:::
-
-
-::: register-btn
+:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
 [Register for this tutorial](/participation/register.html)
 :::
+
+::: speaker
+
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/ZKF7NV_MmdVwVJ.jpg) 
+:::
+
+:::{.speaker-name}
+Floyd Everest
+:::
+
+:::{.speaker-bio}
+TBC
+:::
+
+:::
+
+
 
 :::
 

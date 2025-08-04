@@ -23,30 +23,47 @@ speaker:
 ### September 30, 04:30 pm
 :::
 
-::: {.g-col-12 .full_text_block}
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
 Closing remarks
 
-::: speaker
-## Mitchell O'Hara-Wild
-
-[Mitchell O’Hara-Wild](https://mitchelloharawild.com/) (he/him) is a PhD candidate at Monash University, creating new techniques and tools for forecasting large collections of time series with Rob Hyndman and George Athanasopoulos. He is the lead developer of the tidy time-series forecasting tools fable and feasts, and has co-developed the widely used forecast package since 2015. He is an award-winning educator, and has taught applied forecasting at Monash University and various forecasting workshops around the world.
-
-![](https://conf.nectric.com.au/media/avatars/CZYR98_2YcD2lK.jpg)
-:::
-
-::: speaker
-## Cynthia Huang
-
-Cynthia Huang is a PhD Candidate in the Department of Econometrics and Business Statistics at Monash University. She completed her undergraduate and honours degrees in Economics at the University of Melbourne. Her research focuses on principles and tools for complex data preparation in the social sciences.
-
-![](https://conf.nectric.com.au/media/avatars/D7JA8C_Z8ygNTF.jpeg)
-:::
-
-
-::: register-btn
+:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
 [Register for this tutorial](/participation/register.html)
 :::
+
+::: speaker
+
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/CZYR98_2YcD2lK.jpg) 
+:::
+
+:::{.speaker-name}
+Mitchell O'Hara-Wild
+:::
+
+:::{.speaker-bio}
+[Mitchell O’Hara-Wild](https://mitchelloharawild.com/) (he/him) is a PhD candidate at Monash University, creating new techniques and tools for forecasting large collections of time series with Rob Hyndman and George Athanasopoulos. He is the lead developer of the tidy time-series forecasting tools fable and feasts, and has co-developed the widely used forecast package since 2015. He is an award-winning educator, and has taught applied forecasting at Monash University and various forecasting workshops around the world.
+:::
+
+:::
+
+::: speaker
+
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/D7JA8C_Z8ygNTF.jpeg) 
+:::
+
+:::{.speaker-name}
+Cynthia Huang
+:::
+
+:::{.speaker-bio}
+Cynthia Huang is a PhD Candidate in the Department of Econometrics and Business Statistics at Monash University. She completed her undergraduate and honours degrees in Economics at the University of Melbourne. Her research focuses on principles and tools for complex data preparation in the social sciences.
+:::
+
+:::
+
+
 
 :::
 

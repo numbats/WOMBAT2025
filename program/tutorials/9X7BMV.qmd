@@ -21,7 +21,7 @@ speaker:
 ### September 29, 09:00 am
 :::
 
-::: {.g-col-12 .full_text_block}
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
 Regression analysis is one of the most widely used and powerful quantitative analysis methods used across almost every sector. This workshop provides a comprehensive introduction to commonly used regression models, including the theory behind these models, their application in R, validation techniques, and the interpretation of results. The course begins with an introduction to linear regression models, before advancing to the more flexible family of generalised linear models.
 
@@ -36,18 +36,27 @@ Topics covered as part of this course include:
 
 Participants will leave with a solid grounding (or refresher) in how to correctly perform hands-on regression modelling tasks in R for a variety of problems.
 
-::: speaker
-## Dean Marchiori
-
-Dean Marchiori is a statistician and founder of Wave Data Labs, an independent data science consulting practice. His areas of specialisation are in time series modelling &amp; anomaly detection, geospatial analytics, unsupervised machine learning and the R programming language. He is currently co-chair of the Statistical Society of Australia’s section for statistical computing and visualisation and chair of the SSA working group for data science accreditation. Dean obtained his Bachelor of Science in Mathematics with University Medal from Charles Sturt University. He also holds a Master of Applied Statistics from Macquarie University where he was awarded the Julian Leslie Prize and served as a sessional teaching academic in the School of Mathematical and Physical Sciences. Dean holds the Accredited Statistician (AStat) qualification from the Statistical Society of Australia and was named one of the top 10 analytics professionals in Australia by the Institute of Analytics Professionals of Australia (IAPA).
-
-![](https://conf.nectric.com.au/media/avatars/N3WKQK_mGGYgAm.png)
-:::
-
-
-::: register-btn
+:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
 [Register for this tutorial](/participation/register.html)
 :::
+
+::: speaker
+
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/N3WKQK_mGGYgAm.png) 
+:::
+
+:::{.speaker-name}
+Dean Marchiori
+:::
+
+:::{.speaker-bio}
+Dean Marchiori is a statistician and founder of Wave Data Labs, an independent data science consulting practice. His areas of specialisation are in time series modelling &amp; anomaly detection, geospatial analytics, unsupervised machine learning and the R programming language. He is currently co-chair of the Statistical Society of Australia’s section for statistical computing and visualisation and chair of the SSA working group for data science accreditation. Dean obtained his Bachelor of Science in Mathematics with University Medal from Charles Sturt University. He also holds a Master of Applied Statistics from Macquarie University where he was awarded the Julian Leslie Prize and served as a sessional teaching academic in the School of Mathematical and Physical Sciences. Dean holds the Accredited Statistician (AStat) qualification from the Statistical Society of Australia and was named one of the top 10 analytics professionals in Australia by the Institute of Analytics Professionals of Australia (IAPA).
+:::
+
+:::
+
+
 
 :::
 

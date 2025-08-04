@@ -2,8 +2,7 @@
 pagetitle: 'WOMBAT 2025: Rethinking data science education in the age of genAI'
 date: 2025-09-30 11:00:00
 title: Rethinking data science education in the age of genAI
-description: No abstract was provided, so I am unable to summarise the session topics.
-  Please provide the abstract text for analysis.
+description: ''
 speaker:
 - code: PRGEJ3
   name: Jenny Richmond
@@ -18,7 +17,7 @@ speaker:
 ### September 30, 11:00 am
 :::
 
-::: {.g-col-12 .full_text_block}
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
 Generative AI tools, like ChatGPT, haven’t necessarily created new challenges in data science education. Rather, the availability and rapidly growing capabilities of these tools have exposed weaknesses in learning design and assessment that educators have been ignoring for a while. 
 
@@ -26,18 +25,27 @@ In this talk, I will draw on my experience in teaching psychology students about
 
 There is no avoiding the fact that students now need to learn how to learn alongside Generative AI. Data science educators can help them by designing learning experiences that build self-regulated learning skills and normalise what real learning feels like.
 
-::: speaker
-## Jenny Richmond
-
-Jenny Richmond is a developmental psychologist by training and has been teaching people how to code in R since 2018. She is one of the co-founders of R-Ladies Sydney and developed #RYouWithMe, a set of learning modules “for beginners, by beginners”, which that have helped more than 40000 new learners get started with data wrangling, visualization, and reproducible reporting in R. She is particularly interested in the role of self-regulation, emotion, and metacognition in student learning, success and wellbeing.
-
-![](https://conf.nectric.com.au/media/avatars/PRGEJ3_FJJHXPA.png)
-:::
-
-
-::: register-btn
+:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
 [Register for this tutorial](/participation/register.html)
 :::
+
+::: speaker
+
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/PRGEJ3_FJJHXPA.png) 
+:::
+
+:::{.speaker-name}
+Jenny Richmond
+:::
+
+:::{.speaker-bio}
+Jenny Richmond is a developmental psychologist by training and has been teaching people how to code in R since 2018. She is one of the co-founders of R-Ladies Sydney and developed #RYouWithMe, a set of learning modules “for beginners, by beginners”, which that have helped more than 40000 new learners get started with data wrangling, visualization, and reproducible reporting in R. She is particularly interested in the role of self-regulation, emotion, and metacognition in student learning, success and wellbeing.
+:::
+
+:::
+
+
 
 :::
 

@@ -23,24 +23,33 @@ speaker:
 ### September 29, 01:30 pm
 :::
 
-::: {.g-col-12 .full_text_block}
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
 Code written in C++ runs significantly faster than code written in R, which provides the basis for many leading R packages. Such a design enables users to leverage the best of both worlds: the computational speed delivered by algorithms written in C++ and the convenience of data analysis using R. Fortunately, recent developments have simplified programming in C++ for R applications by automating many processes. 
 
 In this session, Tomasz will guide attendees through the basics of this approach, working in RStudio, ensuring object compatibility, using basic algorithmic structures and functional programming, and extending R packages with C++ code. A sequence of hands-on exercises with applications to every statistical modeller toolset, including linear algebra, maximum likelihood estimation, and Gibbs sampling, supports all this.
 
-::: speaker
-## Tomasz Woźniak
-
-Tomasz Woźniak is a Bayesian econometrician developing new econometric methods for applied macroeconomic research. He has been a specialised R user for seventeen years, and has recently joined The R Journal as an Associate Editor. He is the author of several R packages, available at &lt;https://bsvars.org/&gt;, that combine blazingly fast algorithms written in C++ with the convenience of data analysis in R. He works as a senior lecturer at the University of Melbourne, where he has an extensive research, teaching, and engagement portfolio. He is also an external collaborator at the International Labour Organization, where he develops a new forecasting system and an R package.
-
-![](https://conf.nectric.com.au/media/avatars/ZCKHDL_wIRsn8m.jpeg)
-:::
-
-
-::: register-btn
+:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
 [Register for this tutorial](/participation/register.html)
 :::
+
+::: speaker
+
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/ZCKHDL_wIRsn8m.jpeg) 
+:::
+
+:::{.speaker-name}
+Tomasz Woźniak
+:::
+
+:::{.speaker-bio}
+Tomasz Woźniak is a Bayesian econometrician developing new econometric methods for applied macroeconomic research. He has been a specialised R user for seventeen years, and has recently joined The R Journal as an Associate Editor. He is the author of several R packages, available at &lt;https://bsvars.org/&gt;, that combine blazingly fast algorithms written in C++ with the convenience of data analysis in R. He works as a senior lecturer at the University of Melbourne, where he has an extensive research, teaching, and engagement portfolio. He is also an external collaborator at the International Labour Organization, where he develops a new forecasting system and an R package.
+:::
+
+:::
+
+
 
 :::
 

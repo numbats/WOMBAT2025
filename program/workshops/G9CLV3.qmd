@@ -29,42 +29,67 @@ speaker:
 ### September 30, 01:30 pm
 :::
 
-::: {.g-col-12 .full_text_block}
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
 Research software engineering, open source software, reproducibility research -- what do these terms really mean, and what's special about creating 'statistical software' and R packages? In this conversation with Professor Rob Hyndman, and Dr. Nick Tierney, we attempt to demystify and highlight many ways that software design and open source packages can contribute to the development, dissemination and accessibility of data-driven analysis.
 
-::: speaker
-## Nicholas Tierney
+:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
+[Register for this tutorial](/participation/register.html)
+:::
 
+::: speaker
+
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/FLUHHT_FJdojaL.jpeg) 
+:::
+
+:::{.speaker-name}
+Nicholas Tierney
+:::
+
+:::{.speaker-bio}
 Dr. Nicholas (Nick) Tierney is a [Research Software Engineer](https://researchsoftware.org/), and freelance consultant with a PhD in Statistics who specialises in data analytics, R package development, and teaching. He wrote his first R package in 2015, [neato](https://github.com/njtierney/neato), after being inspired by Dr. Hilary Parker's blog post [&quot;writing an R package from scratch&quot;](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/).
 
 His academic work has produced several widely-used packages (see [his github](http://github.com/njtierney)). During his research fellowship at Monash University with [Professor Dianne Cook](https://www.dicook.org/),  he developed tools for exploratory data analysis including [visdat](https://docs.ropensci.org/visdat/), [naniar](https://naniar.njtierney.com/), and [brolgar](https://brolgar.njtierney.com/) . He then went on to work with [Professor Nick Golding](https://www.thekids.org.au/contact-us/our-people/g/nick-golding/) at [The Kids Research Institute Australia](https://www.thekids.org.au/), working as a research software engineer to translate research methods into R packages. Specifically, [conmat](http://github.com/idem-lab/conmat) a tool used in pandemic modelling, and he maintained Nick Golding's [greta](https://greta-stats.org/)  R package for statistical modelling using Google's [tensorflow](https://www.tensorflow.org/).
 
 Beyond coding, Nick actively writes about R related projects at his blog, [&quot;credibly curious&quot;](https://www.njtierney.com/). When not coding, Nick enjoys outdoor adventures and hiked the entire Pacific Crest Trail in 2023, documenting his journey at [njt.micro.blog](https://njt.micro.blog/).
+:::
 
-![](https://conf.nectric.com.au/media/avatars/FLUHHT_FJdojaL.jpeg)
 :::
 
 ::: speaker
-## Cynthia Huang
 
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/D7JA8C_Z8ygNTF.jpeg) 
+:::
+
+:::{.speaker-name}
+Cynthia Huang
+:::
+
+:::{.speaker-bio}
 Cynthia Huang is a PhD Candidate in the Department of Econometrics and Business Statistics at Monash University. She completed her undergraduate and honours degrees in Economics at the University of Melbourne. Her research focuses on principles and tools for complex data preparation in the social sciences.
+:::
 
-![](https://conf.nectric.com.au/media/avatars/D7JA8C_Z8ygNTF.jpeg)
 :::
 
 ::: speaker
-## Rob Hyndman
 
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/9RABY7_Wl7Ou4z.png) 
+:::
+
+:::{.speaker-name}
+Rob Hyndman
+:::
+
+:::{.speaker-bio}
 **Rob J Hyndman** &lt;span style=&quot;font-size: 10pt;&quot;&gt;FAA FASSA&lt;/span&gt; is a Professor of Statistics in the [Department of Econometrics and Business Statistics](http://business.monash.edu/econometrics-and-business-statistics) at [Monash University](https://www.monash.edu), and an elected Fellow of both the [Australian Academy of Science](https://www.science.org.au/profile/rob-hyndman) and the [Academy of Social Sciences in Australia](https://socialsciences.org.au/academy-fellow/?sId=0032v00003JxrvjAAB). He is the author of over 200 research papers and 5 books in statistical science. In 2007, he received the [Moran medal](https://www.science.org.au/past-winners/2007-awardees#moran) from the Australian Academy of Science for his contributions to statistical research, especially in the area of statistical forecasting. In 2021, he received the [Pitman medal](https://www.statsoc.org.au/Pitman-Medal-Recipients) from the Statistical Society of Australia. For over 30 years, Rob has maintained an active consulting practice, assisting hundreds of companies and organizations around the world. He has won awards for his research, teaching, consulting and graduate supervision.
+:::
 
-![](https://conf.nectric.com.au/media/avatars/9RABY7_Wl7Ou4z.png)
 :::
 
 
-::: register-btn
-[Register for this tutorial](/participation/register.html)
-:::
 
 :::
 

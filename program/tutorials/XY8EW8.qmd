@@ -20,7 +20,7 @@ speaker:
 ### September 29, 01:30 pm
 :::
 
-::: {.g-col-12 .full_text_block}
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
 Clear, well-designed figures are essential for effectively communicating scientific ideas, but good design is often overlooked in academic training. This practical workshop, led by Dr Jess Hopf from Knowlegible Designs, introduces core graphic design principles and demonstrates how they can be applied to scientific figures to improve clarity, impact, and accessibility.
 
@@ -28,18 +28,27 @@ Through a mix of theory and hands-on application, we’ll cover cognitive load, 
 
 You don't need any prior design experience or specialist software. This workshop is suitable for researchers at any career stage who want to elevate the quality and communicative power of their visual materials.
 
-::: speaker
-## Jess Hopf
-
-Dr Jess Hopf is an active conservation science researcher and founder of Knowlegible Designs, where she helps researchers translate complex science into clear, compelling visuals.
-
-![](https://conf.nectric.com.au/media/avatars/LGHXST_98xrALh.jpeg)
-:::
-
-
-::: register-btn
+:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
 [Register for this tutorial](/participation/register.html)
 :::
+
+::: speaker
+
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/LGHXST_98xrALh.jpeg) 
+:::
+
+:::{.speaker-name}
+Jess Hopf
+:::
+
+:::{.speaker-bio}
+Dr Jess Hopf is an active conservation science researcher and founder of Knowlegible Designs, where she helps researchers translate complex science into clear, compelling visuals.
+:::
+
+:::
+
+
 
 :::
 

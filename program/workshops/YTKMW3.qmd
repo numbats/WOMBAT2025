@@ -7,9 +7,9 @@ description: While research code offers flexibility compared to point-and-click 
   software, it is more susceptible to various types of errors and rarely undergoes
   formal peer review. This session will cover challenges in peer reviewing research
   code, the structure and aims of a pilot peer code review program within the Australia-Aotearoa
-  Consortium for Epidemic Forecasting &amp;amp;amp;amp;amp;amp; Analytics (ACEFA), evaluation
-  of the program's effectiveness, and promoting code review as a supportive community
-  practice in computational research.
+  Consortium for Epidemic Forecasting Analytics (ACEFA), evaluation of the program's
+  effectiveness, and promoting code review as a supportive community practice in computational
+  research.
 speaker:
 - code: GJSC9S
   name: Saras Windecker
@@ -24,7 +24,7 @@ speaker:
 ### September 30, 03:00 pm
 :::
 
-::: {.g-col-12 .full_text_block}
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
 Code for research is more flexible than point-and-click statistical softwares, but can be more error-prone. These errors may be conceptual (e.g., implementing the wrong function for a given task), programmatic (e.g., indexing the wrong column of a data frame), or syntactic (e.g., the incorrect spelling of a statement or function). Although peer review is part of the scientific process, it rarely (though increasingly) involves review of research code. Part of the difficulty with implementing formal peer review of code is the time, expertise, and supportive environment required to successfully execute it. Particularly for more involved analyses, review of code requires significant time to understand the context, questions, data, methods, and aims. It can also be very difficult to identify people with the appropriate skills in both the given code language and the methods to effectively review the code. Lastly, despite peer review itself being a common and integral part of the research process, people are still less prepared to open up their code itself for review and so a constructive, supportive, peer space is necessary. We present a pilot program for peer code review conducted within a research consortium setting, which may represent a useful model to overcoming these challenges. The Australia-Aotearoa Consortium for Epidemic Forecasting &amp; Analytics (ACEFA) aims to support timely and effective responses to epidemic diseases in Australia and New Zealand through real-time data analytics, modelling, and forecasting. One of our main activities this winter is reporting short-term forecasts for daily case counts of several respiratory pathogens, for each Australian state and territory and for New Zealand, to government health committees and stakeholders. We have multiple forecasts from models developed and maintained by one or more research academics in our consortium. In parallel with a review period for the methods in these models, we are also planning to conduct peer code review of models with the following aims in mind:
 
@@ -35,18 +35,27 @@ Code for research is more flexible than point-and-click statistical softwares, b
 
 We will conduct pre- and post- evaluation surveys to evaluate how well we address each aim, and to provide evidence for iterative improvements for future rounds of code review. We will present this initiative as a component of our community of practice, and hope to initiate a discussion with participants about its merits and dissemination of the model.
 
-::: speaker
-## Saras Windecker
-
-Dr Saras Windecker is a Senior Research Officer at The Kids Research Institute Australia working in infectious disease modelling and software development. Dr Windecker is a member of the Australia-Aotearoa Consortium for Epidemic Forecasting &amp; Analytics (ACEFA), which aims to support timely and effective responses to epidemic diseases in Australia and New Zealand. She is actively involved in the open research community and interested in promoting reproducible research practices.
-
-![](https://conf.nectric.com.au/media/avatars/GJSC9S_ycWEdyi.jpg)
-:::
-
-
-::: register-btn
+:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
 [Register for this tutorial](/participation/register.html)
 :::
+
+::: speaker
+
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/GJSC9S_ycWEdyi.jpg) 
+:::
+
+:::{.speaker-name}
+Saras Windecker
+:::
+
+:::{.speaker-bio}
+Dr Saras Windecker is a Senior Research Officer at The Kids Research Institute Australia working in infectious disease modelling and software development. Dr Windecker is a member of the Australia-Aotearoa Consortium for Epidemic Forecasting &amp; Analytics (ACEFA), which aims to support timely and effective responses to epidemic diseases in Australia and New Zealand. She is actively involved in the open research community and interested in promoting reproducible research practices.
+:::
+
+:::
+
+
 
 :::
 

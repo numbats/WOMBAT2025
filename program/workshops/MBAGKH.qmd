@@ -21,22 +21,31 @@ speaker:
 ### September 30, 09:00 am
 :::
 
-::: {.g-col-12 .full_text_block}
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
 Data visualisation can be a very efficient method of identifying patterns in data and communicating findings to broad audiences. Good data visualisation requires appreciation and careful consideration of the technical aspects of data presentation. But it also involves a creative element. Authorial choices are made about the “story” we want to tell, and design decisions are driven by the need to convey that story most effectively to our audience. Software systems use default settings for most graphical elements. However, each visualisation has its own story to tell, and so we must actively consider and choose settings for the visualisation we are building. In this talk, Nicola will showcase why you should visualise data, present some guidelines for making more effective charts, before discussing examples of good and not so good charts.
 
-::: speaker
-## Nicola Rennie
-
-Nicola Rennie is a data visualisation specialist, working at the Office for National Statistics in the United Kingdom. She has a background in statistics and data science, who is interested in understanding how to effectively communicate quantitative information in an accessible way. She advocates for using open source tools, and has experience in D3, Svelte, R, and Python. Nicola co-authored the Royal Statistical Society’s Best Practices for Data Visualisation guidance and is a member of the Editorial Board of Significance magazine, particularly focused on data visualisation. Nicola is a committee member and secretary of the Royal Statistical Society (RSS) Teaching Statistics Section Group, and is also one of the RSS’s 2024-2025 William Guy Lecturers who has recorded and delivered talks aimed at 11-16 year olds on the topic of using data and statistics to shape decision making in medicine and healthcare. She has also previously been a committee member of the R-Ladies Global Team and the R-Ladies Lancaster chapter organiser.
-
-![](https://conf.nectric.com.au/media/avatars/QYGAW3_P1qrP6C.jpg)
-:::
-
-
-::: register-btn
+:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
 [Register for this tutorial](/participation/register.html)
 :::
+
+::: speaker
+
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/QYGAW3_P1qrP6C.jpg) 
+:::
+
+:::{.speaker-name}
+Nicola Rennie
+:::
+
+:::{.speaker-bio}
+Nicola Rennie is a data visualisation specialist, working at the Office for National Statistics in the United Kingdom. She has a background in statistics and data science, who is interested in understanding how to effectively communicate quantitative information in an accessible way. She advocates for using open source tools, and has experience in D3, Svelte, R, and Python. Nicola co-authored the Royal Statistical Society’s Best Practices for Data Visualisation guidance and is a member of the Editorial Board of Significance magazine, particularly focused on data visualisation. Nicola is a committee member and secretary of the Royal Statistical Society (RSS) Teaching Statistics Section Group, and is also one of the RSS’s 2024-2025 William Guy Lecturers who has recorded and delivered talks aimed at 11-16 year olds on the topic of using data and statistics to shape decision making in medicine and healthcare. She has also previously been a committee member of the R-Ladies Global Team and the R-Ladies Lancaster chapter organiser.
+:::
+
+:::
+
+
 
 :::
 

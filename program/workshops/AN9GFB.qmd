@@ -21,24 +21,33 @@ speaker:
 ### September 30, 10:30 am
 :::
 
-::: {.g-col-12 .full_text_block}
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
 Scrollytelling is an innovative way to tell data-driven stories, but it often demands sophisticated data visualisation engineering skills and budgets beyond individual researchers and small newsrooms. [Closeread](https://closeread.dev/) makes scrollytelling accessible and easy for researchers and analysts using their existing Quarto authoring skills.
 
 ​In this talk, James discusses some of the factors that motivated Closeread's design, the first scrollytelling contest with Posit, and new features on the horizon, including scrolling video support and better integration with R and Python tools.
 
-::: speaker
-## James Goldie
-
-James is a Data Engineer with CounterCurrent, a UNSW startup that is helping the shipping industry decarbonise with better routes through the ocean. James has spent the last five years helping to make graphics and data vis tools more open, working as a data journalist at 360info and a knowledge broker with the Monash Climate Change Communication Research Hub and the ARC Centre of Excellence for Climate Extremes. James has a PhD from UNSW Sydney looking at the health impacts of future heatwaves.
-
-![](https://conf.nectric.com.au/media/avatars/Y3TULP_D7o6Ucl.jpg)
-:::
-
-
-::: register-btn
+:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
 [Register for this tutorial](/participation/register.html)
 :::
+
+::: speaker
+
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/Y3TULP_D7o6Ucl.jpg) 
+:::
+
+:::{.speaker-name}
+James Goldie
+:::
+
+:::{.speaker-bio}
+James is a Data Engineer with CounterCurrent, a UNSW startup that is helping the shipping industry decarbonise with better routes through the ocean. James has spent the last five years helping to make graphics and data vis tools more open, working as a data journalist at 360info and a knowledge broker with the Monash Climate Change Communication Research Hub and the ARC Centre of Excellence for Climate Extremes. James has a PhD from UNSW Sydney looking at the health impacts of future heatwaves.
+:::
+
+:::
+
+
 
 :::
 
