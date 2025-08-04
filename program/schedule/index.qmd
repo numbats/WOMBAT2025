@@ -13,7 +13,6 @@ pagetitle: "Schedule"
 
 <pretalx-schedule
     event-url="https://conf.nectric.com.au/wombat-2025/"
-    version="0.3"
     locale="en"
     timezone="Australia/Melbourne"
     format="list"
