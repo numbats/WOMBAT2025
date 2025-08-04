@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-09-29">
+<meta name="description" content="Many organisations increasingly rely on time series analytics to understand and forecast changes in their data. This session covers using the tidyverse for time series data manipulation, visualising and identifying common patterns with ggplot2, applying statistical models with fable for forecasting, and evaluating forecasting performance to ensure reliable results.">
 
-<title>am_workshop1 – WOMBAT 2025</title>
+<title>WOMBAT 2025: Tidy time series analysis and forecasting – WOMBAT 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../img/wombat/wombat-pixelart.svg" rel="icon" type="image/svg+xml">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-efcdbbc2d1d7db91adf1eea4ae3e906d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/wombat/wombat-pixelart.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-efcdbbc2d1d7db91adf1eea4ae3e906d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,10 +81,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../img/wombat/hex-offwhite.svg" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/wombat/hex-offwhite.svg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">WOMBAT 2025</span>
     </a>
   </div>
@@ -93,8 +95,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../program/schedule"> 
+    <a class="nav-link" href="../../program/schedule"> 
 <span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../program/workshops.html"> 
+<span class="menu-text">Workshops</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../program/tutorials.html"> 
+<span class="menu-text">Tutorials</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-register" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -112,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -121,11 +131,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../../participation/coc.html">
+    <a class="dropdown-item" href="../../participation/coc.html">
  <span class="dropdown-text">Code of Conduct</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../about/committee.qmd">
+    <a class="dropdown-item" href="../../about/committee.html">
  <span class="dropdown-text">Organising Committee</span></a>
   </li>  
     </ul>
@@ -146,31 +156,74 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
 <!-- main -->
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Tidy time series analysis and forecasting</h1>
+</div>
+
+<div>
+  <div class="description">
+    Many organisations increasingly rely on time series analytics to understand and forecast changes in their data. This session covers using the tidyverse for time series data manipulation, visualising and identifying common patterns with ggplot2, applying statistical models with fable for forecasting, and evaluating forecasting performance to ensure reliable results.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
 
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 29, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="grid" style="width: 100vw;  transform: translateX(-20%);">
+<div id="sponsors_banner" class="g-col-12 title">
 <section id="tidy-time-series-analysis-and-forecasting" class="level1">
 <h1>Tidy time series analysis and forecasting</h1>
-<section id="mitchell-ohara-wild-hehim" class="level2">
-<h2 data-anchor-id="mitchell-ohara-wild-hehim">Mitchell O’Hara-Wild (he/him)</h2>
-<p>Organisations of all types collect vast amounts of time series data, and there is a growing need for time series analytics to understand how things change in our fast-moving world. This tutorial provides a practical introduction to time series analytics and forecasting using R, utilising the tidyverse and tidy time series tools to enable analysis across many time series. Attendees will learn about commonly seen time series patterns, and how to find them with specialised time series graphics created with ggplot2. Then we will use fable to capture these patterns with statistical time series models, and produce probabilistic forecasts. Finally, participants will gain insights into evaluating model performance, ensuring the accuracy and reliability of their forecasts. Through a combination of foundational concepts and practical demonstrations, this tutorial equips participants with the skills to extract meaningful insights from time series data for informed decision-making in various domains.</p>
+<section id="september-29-0900-am" class="level3">
+<h3 data-anchor-id="september-29-0900-am">September 29, 09:00 am</h3>
 </section>
-<section id="learning-outcomes" class="level2">
-<h2 data-anchor-id="learning-outcomes">Learning Outcomes:</h2>
+</section>
+</div>
+<div class="g-col-12 full_text_block">
+<p>Organisations of all types collect vast amounts of time series data, and there is a growing need for time series analytics to understand how things change in our fast-moving world. This tutorial provides a practical introduction to time series analytics and forecasting using R, utilising the tidyverse and tidy time series tools to enable analysis across many time series. Attendees will learn about commonly seen time series patterns, and how to find them with specialised time series graphics created with ggplot2. Then we will use fable to capture these patterns with statistical time series models, and produce probabilistic forecasts. Finally, participants will gain insights into evaluating model performance, ensuring the accuracy and reliability of their forecasts. Through a combination of foundational concepts and practical demonstrations, this tutorial equips participants with the skills to extract meaningful insights from time series data for informed decision-making in various domains.</p>
+<p>Learning Outcomes:</p>
 <ul>
 <li>How to use the tidyverse to wrangle and manipulate time series data.</li>
 <li>Visualise data and identify common time series patterns.</li>
 <li>Produce forecasts from a statistical model that captures dynamic time series patterns.</li>
 <li>Evaluate the model’s forecasting performance to select the best model.</li>
 </ul>
+<section id="mitchell-ohara-wild" class="level2 speaker">
+<h2 data-anchor-id="mitchell-ohara-wild">Mitchell O’Hara-Wild</h2>
+<p><a href="https://mitchelloharawild.com/">Mitchell O’Hara-Wild</a> (he/him) is a PhD candidate at Monash University, creating new techniques and tools for forecasting large collections of time series with Rob Hyndman and George Athanasopoulos. He is the lead developer of the tidy time-series forecasting tools fable and feasts, and has co-developed the widely used forecast package since 2015. He is an award-winning educator, and has taught applied forecasting at Monash University and various forecasting workshops around the world.</p>
+<p><img src="https://conf.nectric.com.au/media/avatars/CZYR98_2YcD2lK.jpg" class="img-fluid"></p>
 </section>
-<section id="about-the-instructor" class="level2">
-<h2 data-anchor-id="about-the-instructor">About the instructor</h2>
-<p>Mitchell O’Hara-Wild (he/him) is a PhD candidate at Monash University, creating new techniques and tools for forecasting large collections of time series with Rob Hyndman and George Athanasopoulos. He is the lead developer of the tidy time-series forecasting tools fable and feasts, and has co-developed the widely used forecast package since 2015. He is an award-winning educator, and has taught applied forecasting at Monash University and various forecasting workshops around the world.</p>
+<div class="register-btn">
+<p><a href="../../participation/register.html">Register for this tutorial</a></p>
+</div>
+</div>
+<div>
+
+</div>
+</div>
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
 
 
-</section>
-</section>
 
 
 <script id="quarto-html-after-body" type="application/javascript">

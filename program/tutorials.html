@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Key Dates – WOMBAT 2025</title>
+<title>tutorials – WOMBAT 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../img/wombat/wombat-pixelart.svg" rel="icon" type="image/svg+xml">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-efcdbbc2d1d7db91adf1eea4ae3e906d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/wombat/wombat-pixelart.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-efcdbbc2d1d7db91adf1eea4ae3e906d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,20 +73,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-keydates .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-activity',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-activity"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-keydates'] = new List('listing-keydates', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -139,10 +139,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../img/wombat/hex-offwhite.svg" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/wombat/hex-offwhite.svg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">WOMBAT 2025</span>
     </a>
   </div>
@@ -153,15 +153,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../program/schedule"> 
+    <a class="nav-link" href="../program/schedule"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../program/workshops.html"> 
+    <a class="nav-link" href="../program/workshops.html"> 
 <span class="menu-text">Workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../program/tutorials.html"> 
+    <a class="nav-link active" href="../program/tutorials.html" aria-current="page"> 
 <span class="menu-text">Tutorials</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -180,7 +180,7 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -189,11 +189,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../participation/coc.html">
+    <a class="dropdown-item" href="../participation/coc.html">
  <span class="dropdown-text">Code of Conduct</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/committee.html">
+    <a class="dropdown-item" href="../about/committee.html">
  <span class="dropdown-text">Organising Committee</span></a>
   </li>  
     </ul>
@@ -217,78 +217,6 @@ window.Quarto = {
 
 
 
-<div class="grid">
-<div id="sponsors_banner" class="g-col-12 title">
-<section id="important-dates" class="level1">
-<h1>Important Dates</h1>
-</section>
-</div>
-<div class="g-col-12" style="margin-left: 2%;">
-<p>The important dates are highlighted below.</p>
-</div>
-<div id="listing-keydates" class="g-col-6 quarto-listing quarto-listing-container-custom">
-<div class="schedule_container">
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>May 5, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Program published</p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>May 12, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Registration starts</p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>Sep 26, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Registration ends</p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>Sep 29, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Tutorials</p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>Sep 29, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Workshop</p>
-                </div>
-                
-              </div>
-        
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<div class="g-col-6 img_margin">
-<p><img src="../../img/conf-image.jpg" class="img_block img-fluid" style="width:100.0%"></p>
-</div>
-<div>
-
-</div>
-</div>
 
 
 
@@ -693,7 +621,187 @@ window.Quarto = {
     }
   });
   </script>
-</div> <!-- /content -->
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1759170600000" data-listing-file-modified-sort="1754167220198" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
+<div class="thumbnail"><a href="../program/tutorials/XY8EW8.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/tutorials/XY8EW8.html" class="no-external">Building Better Figures: A Scientific Graphic Design Workshop</a>
+</h3>
+<div class="delink listing-description"><a href="../program/tutorials/XY8EW8.html" class="no-external">
+<p>Effective figure design is crucial for clear scientific communication but is often neglected in academic training. This session covers core graphic design principles, cognitive load, visual hierarchies, common communication pitfalls, and a practical process for building and improving scientific figures.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/tutorials/XY8EW8.html" class="no-external">
+<div class="listing-date">
+Sep 29, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1759170600000" data-listing-file-modified-sort="1754167220196" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="thumbnail"><a href="../program/tutorials/C3XGNY.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/tutorials/C3XGNY.html" class="no-external">Efficiency Analysis in Python: A Hands-On Tutorial on Stochastic Frontier Analysis and Data Envelopment Analysis</a>
+</h3>
+<div class="delink listing-description"><a href="../program/tutorials/C3XGNY.html" class="no-external">
+<p>This session provides an introduction to efficiency and productivity analysis methods for researchers and practitioners. Key topics include the theoretical foundations, assumptions, use cases, and differences between Stochastic Frontier Analysis (SFA) and Data Envelopment Analysis (DEA), as well as hands-on examples in Python covering model specification, estimation, and interpretation.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/tutorials/C3XGNY.html" class="no-external">
+<div class="listing-date">
+Sep 29, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1759170600000" data-listing-file-modified-sort="1754167220197" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="251">
+<div class="thumbnail"><a href="../program/tutorials/KCZEMB.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/tutorials/KCZEMB.html" class="no-external">Getting Started with C++ for Faster Statistical Modelling in R</a>
+</h3>
+<div class="delink listing-description"><a href="../program/tutorials/KCZEMB.html" class="no-external">
+<p>Recent advances have made it easier to integrate fast C++ code with the convenience of R for data analysis. Key topics in this session include working in RStudio, ensuring object compatibility between R and C++, using basic algorithmic structures and functional programming, extending R packages with C++ code, and applying these methods through hands-on exercises in linear algebra, maximum likelihood estimation, and Gibbs sampling.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/tutorials/KCZEMB.html" class="no-external">
+<div class="listing-date">
+Sep 29, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1759154400000" data-listing-file-modified-sort="1754167220197" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="420">
+<div class="thumbnail"><a href="../program/tutorials/PLVPUV.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/tutorials/PLVPUV.html" class="no-external">Introduction to R packages</a>
+</h3>
+<div class="delink listing-description"><a href="../program/tutorials/PLVPUV.html" class="no-external">
+<p>This session is designed for R users interested in turning their standalone code into shareable R packages but have not yet ventured into package development. Key topics include structuring R packages, managing dependencies with <code>usethis</code> and <code>devtools</code>, documenting code with <code>roxygen2</code>, testing with <code>testthat</code>, sharing packages using Git and GitHub, and an introduction to advanced steps like continuous integration, R Universe deployment, and website creation with <code>pkgdown</code>.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/tutorials/PLVPUV.html" class="no-external">
+<div class="listing-date">
+Sep 29, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1759154400000" data-listing-file-modified-sort="1754167220196" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
+<div class="thumbnail"><a href="../program/tutorials/9X7BMV.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/tutorials/9X7BMV.html" class="no-external">Introduction to Regression Analysis in R</a>
+</h3>
+<div class="delink listing-description"><a href="../program/tutorials/9X7BMV.html" class="no-external">
+<p>Regression analysis is a widely used quantitative method applicable across many sectors. This session covers the theory and application of linear and generalized linear regression models, model validation and diagnostics, Poisson regression for count data, and best practices for communicating results, all with hands-on exercises in R.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/tutorials/9X7BMV.html" class="no-external">
+<div class="listing-date">
+Sep 29, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1759170600000" data-listing-file-modified-sort="1754167220198" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="274">
+<div class="thumbnail"><a href="../program/tutorials/Q3BPJZ.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/tutorials/Q3BPJZ.html" class="no-external">Reproducible Reporting and Research with Quarto</a>
+</h3>
+<div class="delink listing-description"><a href="../program/tutorials/Q3BPJZ.html" class="no-external">
+<p>This workshop introduces Quarto, an open-source tool for creating reproducible academic documents and presentations. Key session topics include writing reports and journal articles with templates, building code-integrated slide decks, managing bibliographies, embedding code and figures, formatting tables and equations, and generating outputs in formats like HTML and PDF.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/tutorials/Q3BPJZ.html" class="no-external">
+<div class="listing-date">
+Sep 29, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1759154400000" data-listing-file-modified-sort="1754167220198" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
+<div class="thumbnail"><a href="../program/tutorials/VDYBYE.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/tutorials/VDYBYE.html" class="no-external">Tidy time series analysis and forecasting</a>
+</h3>
+<div class="delink listing-description"><a href="../program/tutorials/VDYBYE.html" class="no-external">
+<p>Many organisations increasingly rely on time series analytics to understand and forecast changes in their data. This session covers using the tidyverse for time series data manipulation, visualising and identifying common patterns with ggplot2, applying statistical models with fable for forecasting, and evaluating forecasting performance to ensure reliable results.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/tutorials/VDYBYE.html" class="no-external">
+<div class="listing-date">
+Sep 29, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1759154400000" data-listing-file-modified-sort="1754167220197" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="274">
+<div class="thumbnail"><a href="../program/tutorials/LDTUU8.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/tutorials/LDTUU8.html" class="no-external">Visualising Uncertainty</a>
+</h3>
+<div class="delink listing-description"><a href="../program/tutorials/LDTUU8.html" class="no-external">
+<p>Uncertainty visualisation is essential throughout data analysis, from exploring variability to communicating estimate distributions. The session will introduce the concept of uncertainty, general techniques for visualising it, and creative methods for representing uncertainty in spatial data using R.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/tutorials/LDTUU8.html" class="no-external">
+<div class="listing-date">
+Sep 29, 2025
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">

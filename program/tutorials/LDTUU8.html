@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-09-29">
+<meta name="description" content="Uncertainty visualisation is essential throughout data analysis, from exploring variability to communicating estimate distributions. The session will introduce the concept of uncertainty, general techniques for visualising it, and creative methods for representing uncertainty in spatial data using R.">
 
-<title>am_workshop2 – WOMBAT 2025</title>
+<title>WOMBAT 2025: Visualising Uncertainty – WOMBAT 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../img/wombat/wombat-pixelart.svg" rel="icon" type="image/svg+xml">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-efcdbbc2d1d7db91adf1eea4ae3e906d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/wombat/wombat-pixelart.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-efcdbbc2d1d7db91adf1eea4ae3e906d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,10 +81,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../img/wombat/hex-offwhite.svg" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/wombat/hex-offwhite.svg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">WOMBAT 2025</span>
     </a>
   </div>
@@ -93,8 +95,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../program/schedule"> 
+    <a class="nav-link" href="../../program/schedule"> 
 <span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../program/workshops.html"> 
+<span class="menu-text">Workshops</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../program/tutorials.html"> 
+<span class="menu-text">Tutorials</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-register" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -112,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -121,11 +131,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../../participation/coc.html">
+    <a class="dropdown-item" href="../../participation/coc.html">
  <span class="dropdown-text">Code of Conduct</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../about/committee.qmd">
+    <a class="dropdown-item" href="../../about/committee.html">
  <span class="dropdown-text">Organising Committee</span></a>
   </li>  
     </ul>
@@ -146,18 +156,72 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
 <!-- main -->
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Visualising Uncertainty</h1>
+</div>
+
+<div>
+  <div class="description">
+    Uncertainty visualisation is essential throughout data analysis, from exploring variability to communicating estimate distributions. The session will introduce the concept of uncertainty, general techniques for visualising it, and creative methods for representing uncertainty in spatial data using R.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
 
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 29, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="grid" style="width: 100vw;  transform: translateX(-20%);">
+<div id="sponsors_banner" class="g-col-12 title">
 <section id="visualising-uncertainty" class="level1">
 <h1>Visualising Uncertainty</h1>
-<section id="harriet-mason" class="level2">
-<h2 data-anchor-id="harriet-mason">Harriet Mason</h2>
+<section id="september-29-0900-am" class="level3">
+<h3 data-anchor-id="september-29-0900-am">September 29, 09:00 am</h3>
+</section>
+</section>
+</div>
+<div class="g-col-12 full_text_block">
 <p>From exploring variability in a dataset to communicating the distribution of estimates, uncertainty visualisation plays a role at every stage of data analysis. This tutorial provides an overview of uncertainty, examines how it is represented in R, and introduces a range of techniques for visualising it. The first session will introduce the concept of uncertainty and cover general visualisation approaches. The second session will focus on spatial data and the creative methods that emerge when uncertainty must be expressed using only a limited set of visual aesthetics. Wherever there are statistics and data, there is uncertainty, making the ability to visualise it effectively an essential skill for any statistician.</p>
+<section id="dianne-cook" class="level2 speaker">
+<h2 data-anchor-id="dianne-cook">Dianne Cook</h2>
+<p><a href="https://www.dicook.org">Dianne Cook</a>, a Professor of Statistics at Monash University in Melbourne, Australia, is a global leader in data visualisation. She has delivered over 100 invited talks internationally and published extensively on various aspects of data visualisation. Dr.&nbsp;Cook is a Fellow of the American Statistical Association, an elected member of the International Statistical Institute, past editor of the Journal of Computational and Graphical Statistics, and the R Journal. She has served as a Board Member of the R Foundation and is currently the co-chair of the Statistical Computing and Visualisation Section of the <a href="https://www.statsoc.org.au">Statistical Society of Australia</a>.</p>
+<p><img src="https://conf.nectric.com.au/media/avatars/G9PNUZ_C9YuSD6.jpg" class="img-fluid"></p>
+</section>
+<section id="harriet-mason" class="level2 speaker">
+<h2 data-anchor-id="harriet-mason">Harriet Mason</h2>
+<p><a href="https://harrietmason.netlify.app/">Harriet Mason</a> is a final year PhD student. She is researching how uncertainty can be effectively communicated through statistical graphics, particularly in contexts where misleading interpretations must be actively avoided. She is the author of several R packages, including <code>cassowaryr</code> and <code>ggdibbler</code>.</p>
+<p><img src="https://conf.nectric.com.au/media/avatars/9BMJWP_1VQl68B.jpg" class="img-fluid"></p>
+</section>
+<div class="register-btn">
+<p><a href="../../participation/register.html">Register for this tutorial</a></p>
+</div>
+</div>
+<div>
+
+</div>
+</div>
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
 
 
-</section>
-</section>
 
 
 <script id="quarto-html-after-body" type="application/javascript">
