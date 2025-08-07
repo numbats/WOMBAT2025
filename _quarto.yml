@@ -14,7 +14,7 @@ website:
   site-url: "https://wombat2025.numbat.space"
   sidebar: false
   favicon: img/wombat/wombat-pixelart.svg
-  opengraph:
+  open-graph:
     title: WOMBAT 2025
     description: |
       The Annual Workshop Organised by the Monash Business Analytics Team will be held on the 29th and 30th September 2025 at Monash University (downtown), Melbourne, Australia.
