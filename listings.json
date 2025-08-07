@@ -1,5 +1,34 @@
 [
   {
+    "listing": "/program/workshops.html",
+    "items": [
+      "/program/workshops/JDA7Q9.html",
+      "/program/workshops/MBAGKH.html",
+      "/program/workshops/AN9GFB.html",
+      "/program/workshops/79GEP8.html",
+      "/program/workshops/8Z8VJJ.html",
+      "/program/workshops/SAPKKB.html",
+      "/program/workshops/YXKDVV.html",
+      "/program/workshops/G9CLV3.html",
+      "/program/workshops/YTKMW3.html",
+      "/program/workshops/ZHFDRZ.html",
+      "/program/workshops/W3K3VM.html",
+      "/program/workshops/B8MJBL.html"
+    ]
+  },
+  {
+    "listing": "/participation/keydates/index.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/about/sponsors/index.html",
+    "items": []
+  },
+  {
     "listing": "/program/tutorials.html",
     "items": [
       "/program/tutorials/9X7BMV.html",
@@ -10,34 +39,6 @@
       "/program/tutorials/KCZEMB.html",
       "/program/tutorials/Q3BPJZ.html",
       "/program/tutorials/XY8EW8.html"
-    ]
-  },
-  {
-    "listing": "/about/sponsors/index.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
-    "listing": "/participation/keydates/index.html",
-    "items": []
-  },
-  {
-    "listing": "/program/workshops.html",
-    "items": [
-      "/program/workshops/JDA7Q9.html",
-      "/program/workshops/MBAGKH.html",
-      "/program/workshops/AN9GFB.html",
-      "/program/workshops/79GEP8.html",
-      "/program/workshops/SAPKKB.html",
-      "/program/workshops/YXKDVV.html",
-      "/program/workshops/G9CLV3.html",
-      "/program/workshops/YTKMW3.html",
-      "/program/workshops/ZHFDRZ.html",
-      "/program/workshops/8Z8VJJ.html",
-      "/program/workshops/B8MJBL.html"
     ]
   }
 ]

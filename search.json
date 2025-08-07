@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "participation/register.html#registration",
-    "href": "participation/register.html#registration",
-    "title": "WOMBAT 2025",
-    "section": "Registration",
-    "text": "Registration\nRegistration for WOMBAT is open now, with early bird pricing until August 31st. Registration for the tutorials on day 1 and the workshop on day 2 is done separately. Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2’s workshop. We will also have a rich collection of hex stickers available for all to choose from to decorate your laptop!\n\nTutorials (September 29th)\nThe WOMBAT tutorials offerings feature practical, hands-on training in key topics for data analysis by experts in the field. Each tutorial consists of three hours of content with a 30-minute catered tea break, offered in both morning (AM) and afternoon (PM) sessions, and each tutorial is limited to 20 in-person participants. In the morning, you can choose from sessions on R package development, regression analysis, time series forecasting, or visualising uncertainty; in the afternoon, there are options covering reproducible reporting with Quarto, scientific figure design, accelerating R modelling with C++, or efficiency analysis using Python.\n\nRegister for the day 1 tutorials\n\n\n\nWorkshop (September 30th)\nThe main day of WOMBAT features a diverse workshop program designed to highlight the latest data analysis tools and techniques. The workshop features a keynote presentation by data visualisation specialist Nicola Rennie, followed by invited talks from leading data analysts from academia, government, and industry. Key topics featured throughout the conference include data storytelling, effective data visualisation, workflow and team management, open-source tools, and reproducibility in data analysis. More details about the workshop are detailed below.\n\n\nRegister for the day 2 workshop"
-  },
-  {
-    "objectID": "participation/coc.html#requirements-for-talks",
-    "href": "participation/coc.html#requirements-for-talks",
-    "title": "WOMBAT 2025",
-    "section": "Requirements for talks",
-    "text": "Requirements for talks\nTalk slides and presentations fall under the code of conduct. Talk slides should not contain offensive or sexualized material. If this material is impossible to avoid given the topic (for example text mining of material from hate sites), the existence of this material should be noted both in the abstract and at the start of the talk."
-  },
-  {
-    "objectID": "participation/coc.html#need-help",
-    "href": "participation/coc.html#need-help",
-    "title": "WOMBAT 2025",
-    "section": "Need help?",
-    "text": "Need help?\nIf you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of the WOMBAT 2025 code of conduct response team:\n\nDi Cook (dicook@monash.edu)\nRob Hyndman (rob.hyndman@monash.edu)\nMichael Lydeamore (michael.lydeamore@monash.edu)\nMitchell O’Hara-Wild (mitch.ohara-wild@monash.edu)\nCynthia Huang (cynthia.huang@monash.edu)\n\n\nAdapted from user2018.r-project.org, and http://ropensci.org/coc."
-  },
-  {
-    "objectID": "contact.html#contact-us",
-    "href": "contact.html#contact-us",
-    "title": "WOMBAT 2025",
-    "section": "Contact Us",
-    "text": "Contact Us\nReach out to us at buseco-ebs.wombat@monash.edu"
-  },
-  {
-    "objectID": "about/sponsors/index.html#sponsorship-details",
-    "href": "about/sponsors/index.html#sponsorship-details",
-    "title": "WOMBAT 2025",
-    "section": "Sponsorship Details",
-    "text": "Sponsorship Details\nSponsorship opportunities to be announced."
-  },
-  {
     "objectID": "index.html#registration",
     "href": "index.html#registration",
     "title": "WOMBAT 2025",
@@ -54,5 +19,40 @@
     "title": "WOMBAT 2025",
     "section": "Sessions",
     "text": "Sessions\n\nInvited Talks: Data Storytelling & Communication\nThis session highlights practical tools and skills for presenting data in compelling, audience-friendly ways. It features a presentation by James Goldie on making “scrollytelling” articles with Quarto and Closeread, this presentation format is highly engaging for data stories as visualisations can animate to match the story as readers scroll through the article.\n\n\nIn Conversation: Rob Hyndman & Nick Tierney on Research Software\nJoin Professor Rob Hyndman and Dr. Nick Tierney, hosted by Cynthia Huang, as they discuss what research software engineering, open-source development, and reproducibility mean in practice. The conversation will demystify how statistical software and R packages are created and maintained, and why open-source tools matter for advancing and sharing data analysis.\n\n\nShowcase: Recent Software from NUMBATs\nSee the latest data analysis tools developed by staff and students at Monash University’s Non-Uniform Monash Business Analytics Team (NUMBATs). This session features new R packages designed to help you discover patterns in your data.\n\n\nInvited Talks: Designing Workflows & Team\nThis session provides practical insights into effective team and workflow management in data projects. Saras Windecker will share lessons from implementing peer code review in a multi-institutional research consortium focused on epidemic forecasting and analytics. Tyler Reysenbach will discuss real-world strategies for building new data teams in government, including balancing early stakeholder demands with long-term capability building.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  Sponsors\n  \n    \n          \n    \n  \n\nNo matching items"
+  },
+  {
+    "objectID": "about/sponsors/index.html#sponsorship-details",
+    "href": "about/sponsors/index.html#sponsorship-details",
+    "title": "WOMBAT 2025",
+    "section": "Sponsorship Details",
+    "text": "Sponsorship Details\nSponsorship opportunities to be announced."
+  },
+  {
+    "objectID": "contact.html#contact-us",
+    "href": "contact.html#contact-us",
+    "title": "WOMBAT 2025",
+    "section": "Contact Us",
+    "text": "Contact Us\nReach out to us at buseco-ebs.wombat@monash.edu"
+  },
+  {
+    "objectID": "participation/coc.html#requirements-for-talks",
+    "href": "participation/coc.html#requirements-for-talks",
+    "title": "WOMBAT 2025",
+    "section": "Requirements for talks",
+    "text": "Requirements for talks\nTalk slides and presentations fall under the code of conduct. Talk slides should not contain offensive or sexualized material. If this material is impossible to avoid given the topic (for example text mining of material from hate sites), the existence of this material should be noted both in the abstract and at the start of the talk."
+  },
+  {
+    "objectID": "participation/coc.html#need-help",
+    "href": "participation/coc.html#need-help",
+    "title": "WOMBAT 2025",
+    "section": "Need help?",
+    "text": "Need help?\nIf you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of the WOMBAT 2025 code of conduct response team:\n\nDi Cook (dicook@monash.edu)\nRob Hyndman (rob.hyndman@monash.edu)\nMichael Lydeamore (michael.lydeamore@monash.edu)\nMitchell O’Hara-Wild (mitch.ohara-wild@monash.edu)\nCynthia Huang (cynthia.huang@monash.edu)\n\n\nAdapted from user2018.r-project.org, and http://ropensci.org/coc."
+  },
+  {
+    "objectID": "participation/register.html#registration",
+    "href": "participation/register.html#registration",
+    "title": "WOMBAT 2025",
+    "section": "Registration",
+    "text": "Registration\nRegistration for WOMBAT is open now, with early bird pricing until August 31st. Registration for the tutorials on day 1 and the workshop on day 2 is done separately. Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2’s workshop. We will also have a rich collection of hex stickers available for all to choose from to decorate your laptop!\n\nTutorials (September 29th)\nThe WOMBAT tutorials offerings feature practical, hands-on training in key topics for data analysis by experts in the field. Each tutorial consists of three hours of content with a 30-minute catered tea break, offered in both morning (AM) and afternoon (PM) sessions, and each tutorial is limited to 20 in-person participants. In the morning, you can choose from sessions on R package development, regression analysis, time series forecasting, or visualising uncertainty; in the afternoon, there are options covering reproducible reporting with Quarto, scientific figure design, accelerating R modelling with C++, or efficiency analysis using Python.\n\nRegister for the day 1 tutorials\n\n\n\nWorkshop (September 30th)\nThe main day of WOMBAT features a diverse workshop program designed to highlight the latest data analysis tools and techniques. The workshop features a keynote presentation by data visualisation specialist Nicola Rennie, followed by invited talks from leading data analysts from academia, government, and industry. Key topics featured throughout the conference include data storytelling, effective data visualisation, workflow and team management, open-source tools, and reproducibility in data analysis. More details about the workshop are detailed below.\n\n\nRegister for the day 2 workshop"
   }
 ]
