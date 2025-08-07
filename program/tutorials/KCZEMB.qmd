@@ -44,7 +44,7 @@ Tomasz Woźniak
 :::
 
 :::{.speaker-bio}
-Tomasz Woźniak is a Bayesian econometrician developing new econometric methods for applied macroeconomic research. He has been a specialised R user for seventeen years, and has recently joined The R Journal as an Associate Editor. He is the author of several R packages, available at &lt;https://bsvars.org/&gt;, that combine blazingly fast algorithms written in C++ with the convenience of data analysis in R. He works as a senior lecturer at the University of Melbourne, where he has an extensive research, teaching, and engagement portfolio. He is also an external collaborator at the International Labour Organization, where he develops a new forecasting system and an R package.
+Tomasz Woźniak is a Bayesian econometrician developing new econometric methods for applied macroeconomic research. He has been a specialised R user for seventeen years, and has recently joined The R Journal as an Associate Editor. He is the author of several R packages, available at https://bsvars.org/, that combine blazingly fast algorithms written in C++ with the convenience of data analysis in R. He works as a senior lecturer at the University of Melbourne, where he has an extensive research, teaching, and engagement portfolio. He is also an external collaborator at the International Labour Organization, where he develops a new forecasting system and an R package.
 :::
 
 :::
