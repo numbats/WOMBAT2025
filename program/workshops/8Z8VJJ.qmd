@@ -1,6 +1,6 @@
 ---
 pagetitle: 'WOMBAT 2025: TBC'
-date: 2025-09-30 16:00:00
+date: 2025-09-30 11:30:00
 title: TBC
 description: ''
 speaker:
@@ -14,7 +14,7 @@ speaker:
 ::: {#sponsors_banner .g-col-12 .title}
 # TBC
 
-### September 30, 04:00 pm
+### September 30, 11:30 am
 :::
 
 ::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}

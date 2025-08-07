@@ -1,0 +1,63 @@
+---
+pagetitle: 'WOMBAT 2025: TBC'
+date: 2025-09-30 16:00:00
+title: TBC
+description: ''
+speaker:
+- code: ANX3EW
+  name: Ben Harrap
+  avatar_url: https://conf.nectric.com.au/media/avatars/ANX3EW_o3bpwTY.jpg
+
+---
+
+:::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
+::: {#sponsors_banner .g-col-12 .title}
+# TBC
+
+### September 30, 04:00 pm
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
+
+TBC
+
+:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
+[Register for this tutorial](/participation/register.html)
+:::
+
+::: speaker
+
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/ANX3EW_o3bpwTY.jpg) 
+:::
+
+:::{.speaker-name}
+Ben Harrap
+:::
+
+:::{.speaker-bio}
+Dr Benjamin Harrap (they/them) is a biostatistician by training and has worked with data from all manner of contexts and sources, from clinical trials and observational studies to census and linked administrative data.
+
+They currently work at Yardhura Walani (Ngunnawal for a strong, powerful and healthy energy and place) on Mayi Kuwayu: The National Study of Aboriginal &amp; Torres Strait Islander Wellbeing, providing data management, survey design, and statistical expertise. Recently, Ben’s been using R and Quarto to rework the study’s data management pipeline into something beautiful and functional, and has used this as an opportunity to upskill colleagues interested in learning R.
+
+When Ben’s not thinking about data, which is rare, you can find them posting silly things on Bluesky, cooking up something in the kitchen, or playing whatever games are on their toddler’s agenda.
+:::
+
+:::
+
+
+
+:::
+
+<div>
+
+</div>
+::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```
