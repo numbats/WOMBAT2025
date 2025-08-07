@@ -59,7 +59,8 @@ sessions_tidy <- map_dfr(sessions$slots,recurse_tibble) |>
   left_join(speakers_tidy, by = "submissions")
 
 write_session_qmd <- function(x, ...) {
-  if(x$start < as.POSIXct("2025-09-30")) {
+  is_tutorial <- x$start < as.POSIXct("2025-09-30")
+  if(is_tutorial) {
     dir <- "program/tutorials"
     x$register <- "[Register for this tutorial](https://events.humanitix.com/wombat-2025-day-1-tutorials)"
   } else {
@@ -94,6 +95,8 @@ write_session_qmd <- function(x, ...) {
       speaker = transpose(x$speakers[[1]][c("code", "name", "avatar_url")])
     )
   )
+  x$is_tutorial <- is_tutorial
+  x$is_workshop <- !is_tutorial
   
   x$speakers <- transpose(x$speakers[[1]])
   xfun::write_utf8(
