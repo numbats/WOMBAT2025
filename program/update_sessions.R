@@ -30,13 +30,20 @@ recurse_tibble <- function(x) {
   as_tibble(x)
 }
 
-replace_amp <- function(x) {
-  x |> stringr::str_replace_all("&amp;", "&")
+escape_html <- function(x) {
+  x |> 
+    gsub("&amp;", "&", x=_) |>
+    gsub("&gt;", ">", x=_) |>
+    gsub("&lt;", "<", x=_) |>
+    gsub("&quot;", '"', x=_) |>
+    gsub("&#39;", "'", x=_) |>
+    gsub("<[^>]*>", "", x=_)  # Remove HTML tags
 }
 
 library(dplyr)
 library(tidyr)
 speakers_tidy <- map_dfr(speakers$results,recurse_tibble) |> 
+  mutate(biography = escape_html(biography)) |>
   unnest(submissions) |> 
   nest(.key = "speakers", .by = submissions)
 sessions_tidy <- map_dfr(sessions$slots,recurse_tibble) |> 
@@ -45,8 +52,8 @@ sessions_tidy <- map_dfr(sessions$slots,recurse_tibble) |>
     start = as.POSIXct(start, format = "%Y-%m-%dT%H:%M:%S+10:00"),
     duration,
     time = format(start, "%B %d, %I:%M %p"),
-    title = submission$title |> replace_amp(),
-    abstract = submission$abstract |> replace_amp(),
+    title = submission$title |> escape_html(),
+    abstract = submission$abstract |> escape_html(),
     submissions = submission$code
   ) |> 
   left_join(speakers_tidy, by = "submissions")
