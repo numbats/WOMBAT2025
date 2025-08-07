@@ -29,9 +29,13 @@ Code written in C++ runs significantly faster than code written in R, which prov
 
 In this session, Tomasz will guide attendees through the basics of this approach, working in RStudio, ensuring object compatibility, using basic algorithmic structures and functional programming, and extending R packages with C++ code. A sequence of hands-on exercises with applications to every statistical modeller toolset, including linear algebra, maximum likelihood estimation, and Gibbs sampling, supports all this.
 
+
 :::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
-[Register for this tutorial](/participation/register.html)
+[Register for this tutorial](https://events.humanitix.com/wombat-2025-day-1-tutorials)
 :::
+
+
+
 
 ::: speaker
 

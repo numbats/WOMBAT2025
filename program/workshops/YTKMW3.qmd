@@ -35,9 +35,13 @@ Code for research is more flexible than point-and-click statistical softwares, b
 
 We will conduct pre- and post- evaluation surveys to evaluate how well we address each aim, and to provide evidence for iterative improvements for future rounds of code review. We will present this initiative as a component of our community of practice, and hope to initiate a discussion with participants about its merits and dissemination of the model.
 
+
+
 :::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
-[Register for this tutorial](/participation/register.html)
+[Register for the workshop](https://events.humanitix.com/wombat-2025-day-2-workshop)
 :::
+
+
 
 ::: speaker
 

@@ -30,9 +30,13 @@ Drawing on experience from working in the Central Analytics Hub at the Departmen
 
 This talk will offer honest reflections on the messy reality of building data teams in government, providing practical insights for anyone wrestling with similar challenges.
 
+
+
 :::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
-[Register for this tutorial](/participation/register.html)
+[Register for the workshop](https://events.humanitix.com/wombat-2025-day-2-workshop)
 :::
+
+
 
 ::: speaker
 

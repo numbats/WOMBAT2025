@@ -21,9 +21,13 @@ speaker:
 
 TBC
 
+
+
 :::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
-[Register for this tutorial](/participation/register.html)
+[Register for the workshop](https://events.humanitix.com/wombat-2025-day-2-workshop)
 :::
+
+
 
 ::: speaker
 

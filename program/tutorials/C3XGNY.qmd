@@ -29,9 +29,13 @@ This tutorial introduces participants to two cornerstone methods in efficiency a
 
 We will begin with an overview of the theoretical foundations of SFA and DEA, highlighting their assumptions, use cases, and differences. The tutorial then walks through hands-on examples using Python libraries, covering model specification, estimation, and interpretation of results. No prior experience with SFA or DEA is required, but familiarity with basic regression and Python programming will be beneficial.
 
+
 :::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
-[Register for this tutorial](/participation/register.html)
+[Register for this tutorial](https://events.humanitix.com/wombat-2025-day-1-tutorials)
 :::
+
+
+
 
 ::: speaker
 
