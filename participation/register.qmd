@@ -23,3 +23,6 @@ The main day of WOMBAT features a diverse workshop program designed to highlight
 ::: register-btn
 [Register for the day 2 workshop](https://events.humanitix.com/wombat-2025-day-2-workshop)
 :::
+
+<br/>
+<br/>
