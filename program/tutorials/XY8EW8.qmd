@@ -1,6 +1,7 @@
 ---
 pagetitle: 'WOMBAT 2025: Building Better Figures: A Scientific Graphic Design Workshop'
 date: 2025-09-29 13:30:00
+time: 01:30 pm
 title: 'Building Better Figures: A Scientific Graphic Design Workshop'
 description: Effective figure design is crucial for clear scientific communication
   but is often neglected in academic training. This session covers core graphic design
@@ -10,6 +11,8 @@ speaker:
 - code: LGHXST
   name: Jess Hopf
   avatar_url: https://conf.nectric.com.au/media/avatars/LGHXST_98xrALh.jpeg
+speakerlist: Jess Hopf
+room: Room  8.43
 
 ---
 

@@ -1,12 +1,15 @@
 ---
 pagetitle: 'WOMBAT 2025: TBC'
 date: 2025-09-30 11:30:00
+time: 11:30 am
 title: TBC
 description: ''
 speaker:
 - code: 7JGDRT
   name: Earo Wang
   avatar_url: https://conf.nectric.com.au/media/avatars/7JGDRT_YO9kIAn.jpeg
+speakerlist: Earo Wang
+room: Room  8.03
 
 ---
 

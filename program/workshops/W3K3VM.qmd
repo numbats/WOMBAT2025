@@ -1,25 +1,36 @@
 ---
-pagetitle: 'WOMBAT 2025: TBC'
+pagetitle: 'WOMBAT 2025: Designing data infrastructure where people come first'
 date: 2025-09-30 16:00:00
-title: TBC
+time: 04:00 pm
+title: Designing data infrastructure where people come first
 description: ''
 speaker:
 - code: ANX3EW
   name: Ben Harrap
   avatar_url: https://conf.nectric.com.au/media/avatars/ANX3EW_o3bpwTY.jpg
+speakerlist: Ben Harrap
+room: Room  8.03
 
 ---
 
 :::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
 ::: {#sponsors_banner .g-col-12 .title}
-# TBC
+# Designing data infrastructure where people come first
 
 ### September 30, 04:00 pm
 :::
 
 ::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
-TBC
+The Mayi Kuwayu Study is a longitudinal survey and the largest national study of Aboriginal and Torres Strait Islander culture, health and wellbeing. I joined the study team last year and have been redeveloping the data pipeline to be more transparent, reproducible, and easier to maintain. My original plan was to incorporate best practices, such as using `targets` and `renv` for ensuring reproducibility and `pointblank` and `testthat` for validation and testing, as well as writing nice code.
+
+It was a good plan, but it didn't fully consider the people in the study team. Being able to run code from start to finish without error might be reproducible in a technical sense, but is someone actually reproducing it if they don't understand what the code is doing? Code is only reproducible so long as it's maintainable. Since I'm the only experienced R-user (for now), each additional package I use is a package someone else has to understand and runs the risk of making the code less reproducible.
+
+In this session I'll be talking about:
+-   the Mayi Kuwayu Study and team context
+-   development of the data pipeline
+-   the role people played in design decisions
+-   using the development as an opportunity to upskill my team
 
 
 

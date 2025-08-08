@@ -1,6 +1,7 @@
 ---
 pagetitle: 'WOMBAT 2025: Introduction to R packages'
 date: 2025-09-29 09:00:00
+time: 09:00 am
 title: Introduction to R packages
 description: This session is designed for R users interested in turning their standalone
   code into shareable R packages but have not yet ventured into package development.
@@ -12,6 +13,8 @@ speaker:
 - code: FLUHHT
   name: Nicholas Tierney
   avatar_url: https://conf.nectric.com.au/media/avatars/FLUHHT_FJdojaL.jpeg
+speakerlist: Nicholas Tierney
+room: Room  8.44
 
 ---
 

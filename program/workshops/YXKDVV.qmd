@@ -1,12 +1,15 @@
 ---
 pagetitle: 'WOMBAT 2025: Visualising Uncertainty with ggdibbler'
 date: 2025-09-30 13:20:00
+time: 01:20 pm
 title: Visualising Uncertainty with ggdibbler
 description: ''
 speaker:
 - code: 9BMJWP
   name: Harriet Mason
   avatar_url: https://conf.nectric.com.au/media/avatars/9BMJWP_1VQl68B.jpg
+speakerlist: Harriet Mason
+room: Room  8.03
 
 ---
 

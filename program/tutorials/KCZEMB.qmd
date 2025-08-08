@@ -2,6 +2,7 @@
 pagetitle: 'WOMBAT 2025: Getting Started with C++ for Faster Statistical Modelling
   in R'
 date: 2025-09-29 13:30:00
+time: 01:30 pm
 title: Getting Started with C++ for Faster Statistical Modelling in R
 description: Recent advances have made it easier to integrate fast C++ code with the
   convenience of R for data analysis. Key topics in this session include working in
@@ -13,6 +14,8 @@ speaker:
 - code: ZCKHDL
   name: Tomasz Woźniak
   avatar_url: https://conf.nectric.com.au/media/avatars/ZCKHDL_wIRsn8m.jpeg
+speakerlist: Tomasz Woźniak
+room: Room  8.44
 
 ---
 

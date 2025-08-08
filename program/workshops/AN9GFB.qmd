@@ -1,6 +1,7 @@
 ---
 pagetitle: 'WOMBAT 2025: Closing the scrollytelling gap with Closeread'
 date: 2025-09-30 10:30:00
+time: 10:30 am
 title: Closing the scrollytelling gap with Closeread
 description: Scrollytelling is a powerful but often inaccessible method for presenting
   data-driven stories due to technical barriers. This session covers the motivations
@@ -11,6 +12,8 @@ speaker:
 - code: Y3TULP
   name: James Goldie
   avatar_url: https://conf.nectric.com.au/media/avatars/Y3TULP_D7o6Ucl.jpg
+speakerlist: James Goldie
+room: Room  8.03
 
 ---
 

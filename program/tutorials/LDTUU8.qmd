@@ -1,6 +1,7 @@
 ---
 pagetitle: 'WOMBAT 2025: Visualising Uncertainty'
 date: 2025-09-29 09:00:00
+time: 09:00 am
 title: Visualising Uncertainty
 description: Uncertainty visualisation is essential throughout data analysis, from
   exploring variability to communicating estimate distributions. The session will
@@ -13,6 +14,8 @@ speaker:
 - code: 9BMJWP
   name: Harriet Mason
   avatar_url: https://conf.nectric.com.au/media/avatars/9BMJWP_1VQl68B.jpg
+speakerlist: Dianne Cook, Harriet Mason
+room: Room  8.43
 
 ---
 

@@ -2,6 +2,7 @@
 pagetitle: 'WOMBAT 2025: Designing for decision-making: How to build effective data
   visualisations'
 date: 2025-09-30 09:00:00
+time: 09:00 am
 title: 'Designing for decision-making: How to build effective data visualisations'
 description: Data visualisation is an important tool for identifying patterns in data
   and communicating findings effectively. This session will cover the reasons for
@@ -11,6 +12,8 @@ speaker:
 - code: QYGAW3
   name: Nicola Rennie
   avatar_url: https://conf.nectric.com.au/media/avatars/QYGAW3_P1qrP6C.jpg
+speakerlist: Nicola Rennie
+room: Room  8.03
 
 ---
 

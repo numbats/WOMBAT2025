@@ -1,25 +1,32 @@
 ---
-pagetitle: 'WOMBAT 2025: EBS showcase: prefio'
+pagetitle: 'WOMBAT 2025: Tidy analysis of preferential votes with prefio'
 date: 2025-09-30 13:00:00
-title: 'EBS showcase: prefio'
+time: 01:00 pm
+title: Tidy analysis of preferential votes with prefio
 description: ''
 speaker:
 - code: ZKF7NV
   name: Floyd Everest
   avatar_url: https://conf.nectric.com.au/media/avatars/ZKF7NV_MmdVwVJ.jpg
+speakerlist: Floyd Everest
+room: Room  8.03
 
 ---
 
 :::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
 ::: {#sponsors_banner .g-col-12 .title}
-# EBS showcase: prefio
+# Tidy analysis of preferential votes with prefio
 
 ### September 30, 01:00 pm
 :::
 
 ::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
-TBC
+Preferential datasets usually represent rankings for an individual voter across multiple columns or rows in a rectangular format. This can make working with these datasets cumbersome and unintuitive.
+
+This talk will introduce `prefio`, an R package that lets you work with preferences in a tidy way without spanning multiple rows or columns, while providing convenient operations for manipulating preferential data.
+
+There will be an interactive component to the talk, so get ready to cast some votes!
 
 
 
@@ -40,7 +47,7 @@ Floyd Everest
 :::
 
 :::{.speaker-bio}
-TBC
+Floyd Everest is a PhD candidate in the Department of Econometrics and Business Statistics at Monash. His research focuses on auditing instant-runoff voting elections. This led him to develop the R package 'prefio' for intuitive data manipulation when working with preferential voting datasets.
 :::
 
 :::

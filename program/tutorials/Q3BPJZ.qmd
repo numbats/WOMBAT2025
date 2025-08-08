@@ -1,6 +1,7 @@
 ---
 pagetitle: 'WOMBAT 2025: Reproducible Reporting and Research with Quarto'
 date: 2025-09-29 13:30:00
+time: 01:30 pm
 title: Reproducible Reporting and Research with Quarto
 description: This workshop introduces Quarto, an open-source tool for creating reproducible
   academic documents and presentations. Key session topics include writing reports
@@ -14,6 +15,8 @@ speaker:
 - code: HQBHJ7
   name: Krisanat Anukarnsakulchularp
   avatar_url: https://conf.nectric.com.au/media/avatars/HQBHJ7_4i7YMn4.png
+speakerlist: Jayani Lakshika, Krisanat Anukarnsakulchularp
+room: Room  8.42
 
 ---
 

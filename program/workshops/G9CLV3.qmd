@@ -2,6 +2,7 @@
 pagetitle: 'WOMBAT 2025: In conversation: Rob Hyndman &amp; Nick Tierney on Research Software,
   hosted by Cynthia Huang'
 date: 2025-09-30 13:40:00
+time: 01:40 pm
 title: 'In conversation: Rob Hyndman &amp; Nick Tierney on Research Software, hosted by
   Cynthia Huang'
 description: ''
@@ -15,6 +16,8 @@ speaker:
 - code: 9RABY7
   name: Rob Hyndman
   avatar_url: https://conf.nectric.com.au/media/avatars/9RABY7_Wl7Ou4z.png
+speakerlist: Nicholas Tierney, Cynthia Huang, Rob Hyndman
+room: Room  8.03
 
 ---
 

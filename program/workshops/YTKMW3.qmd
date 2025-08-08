@@ -2,6 +2,7 @@
 pagetitle: 'WOMBAT 2025: Piloting peer code review in a research consortium community
   of practice'
 date: 2025-09-30 15:00:00
+time: 03:00 pm
 title: Piloting peer code review in a research consortium community of practice
 description: While research code offers flexibility compared to point-and-click statistical
   software, it is more susceptible to various types of errors and rarely undergoes
@@ -14,6 +15,8 @@ speaker:
 - code: GJSC9S
   name: Saras Windecker
   avatar_url: https://conf.nectric.com.au/media/avatars/GJSC9S_ycWEdyi.jpg
+speakerlist: Saras Windecker
+room: Room  8.03
 
 ---
 

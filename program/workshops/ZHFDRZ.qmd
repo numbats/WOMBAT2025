@@ -2,6 +2,7 @@
 pagetitle: 'WOMBAT 2025: Building a new data team – balancing quick wins and long
   term investments'
 date: 2025-09-30 15:30:00
+time: 03:30 pm
 title: Building a new data team – balancing quick wins and long term investments
 description: New data teams often struggle to balance stakeholders' demands for immediate
   results with the need to invest in long-term capabilities. Key session topics include
@@ -12,6 +13,8 @@ speaker:
 - code: SZNM8P
   name: Tyler Reysenbach
   avatar_url: https://conf.nectric.com.au/media/avatars/SZNM8P_ye4lfSk.png
+speakerlist: Tyler Reysenbach
+room: Room  8.03
 
 ---
 

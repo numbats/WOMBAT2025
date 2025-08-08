@@ -1,6 +1,7 @@
 ---
 pagetitle: 'WOMBAT 2025: Tidy time series analysis and forecasting'
 date: 2025-09-29 09:00:00
+time: 09:00 am
 title: Tidy time series analysis and forecasting
 description: Many organisations increasingly rely on time series analytics to understand
   and forecast changes in their data. This session covers using the tidyverse for
@@ -11,6 +12,8 @@ speaker:
 - code: CZYR98
   name: Mitchell O'Hara-Wild
   avatar_url: https://conf.nectric.com.au/media/avatars/CZYR98_2YcD2lK.jpg
+speakerlist: Mitchell O'Hara-Wild
+room: Room  8.42
 
 ---
 
