@@ -77,11 +77,11 @@ write_session_qmd <- function(x, ...) {
     x$description <- rmarkdown::yaml_front_matter(path)$description
   }
   if(is.null(x$description)) {
-    # chat <- ellmer::chat_openai(
-    #   system_prompt = "Briefly summarise the key session topics in a plain text from the following abstract. The summary should start with a background details sentence, followed a sentence detailing the key topics of the session."
-    # )
-    # x$description <- chat$chat(x$abstract)
-    x$description <- ""
+    chat <- ellmer::chat_google_gemini(
+      system_prompt = "Briefly summarise the key session topics in a plain text from the following abstract. The summary should start with a background details sentence, followed a sentence detailing the key topics of the session in passive voice."
+    )
+    x$description <- chat$chat(x$abstract)
+    # x$description <- ""
   }
   x$description <- gsub("\r\n", " ", x$description)
   x$description <- gsub("’", "'", x$description)
