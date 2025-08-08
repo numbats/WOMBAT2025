@@ -3,7 +3,7 @@ req <- request("https://conf.nectric.com.au/api/events/wombat-2025/")
 
 sessions <- req |> 
   req_url_path_append("schedules/latest/") |> 
-  req_url_query(expand="slots.submission") |> 
+  req_url_query(expand="slots.submission,slots.room") |> 
   req_perform() |> 
   resp_body_json()
 
@@ -54,7 +54,8 @@ sessions_tidy <- map_dfr(sessions$slots,recurse_tibble) |>
     time = format(start, "%B %d, %I:%M %p"),
     title = submission$title |> escape_html(),
     abstract = submission$abstract |> escape_html(),
-    submissions = submission$code
+    submissions = submission$code,
+    room = room$name |> unlist()
   ) |> 
   left_join(speakers_tidy, by = "submissions")
 
@@ -89,10 +90,13 @@ write_session_qmd <- function(x, ...) {
     list(
       pagetitle = paste("WOMBAT 2025:", x$title),
       date = format(x$start),
+      time = format(x$start, "%I:%M %p"),
       title = x$title,
       description = x$description,
       # abstract = x$abstract,
-      speaker = transpose(x$speakers[[1]][c("code", "name", "avatar_url")])
+      speaker = transpose(x$speakers[[1]][c("code", "name", "avatar_url")]),
+      speakerlist = paste(x$speakers[[1]][["name"]], collapse = ", "),
+      room = paste("Room ", x$room, collapse = ' ')
     )
   )
   x$is_tutorial <- is_tutorial
