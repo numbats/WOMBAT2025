@@ -3,7 +3,12 @@ pagetitle: 'WOMBAT 2025: Designing data infrastructure where people come first'
 date: 2025-09-30 16:00:00
 time: 04:00 pm
 title: Designing data infrastructure where people come first
-description: ''
+description: The Mayi Kuwayu Study is a significant national longitudinal survey focusing
+  on Aboriginal and Torres Strait Islander culture, health, and wellbeing, for which
+  a data pipeline re-development project was undertaken. Specifically, the study and
+  team context, the development of its data pipeline, the role of people in design
+  decisions, and the use of the development as an opportunity to upskill the team
+  will be discussed.
 speaker:
 - code: ANX3EW
   name: Ben Harrap

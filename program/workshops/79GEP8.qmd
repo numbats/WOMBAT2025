@@ -3,7 +3,12 @@ pagetitle: 'WOMBAT 2025: Rethinking data science education in the age of genAI'
 date: 2025-09-30 11:00:00
 time: 11:00 am
 title: Rethinking data science education in the age of genAI
-description: ''
+description: Generative AI tools have brought to light pre-existing weaknesses in
+  data science education's learning design and assessment. Consequently, the session
+  will explore how &quot;learning to learn&quot; can be re-evaluated, how assessment can be
+  reframed as an evidence-gathering process, and how learning experiences can be designed
+  to foster self-regulated learning skills and normalise authentic learning alongside
+  Generative AI.
 speaker:
 - code: PRGEJ3
   name: Jenny Richmond

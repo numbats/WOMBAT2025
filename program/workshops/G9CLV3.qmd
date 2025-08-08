@@ -5,7 +5,13 @@ date: 2025-09-30 13:40:00
 time: 01:40 pm
 title: 'In conversation: Rob Hyndman &amp; Nick Tierney on Research Software, hosted by
   Cynthia Huang'
-description: ''
+description: This session, featuring Professor Rob Hyndman and Dr. Nick Tierney, aims
+  to clarify concepts and demonstrate the impact of software on data analysis. The
+  meanings of research software engineering, open source software, and reproducibility
+  research will be explored, alongside the specific considerations for creating statistical
+  software and R packages, and the contributions of software design and open source
+  packages to the development, dissemination, and accessibility of data-driven analysis
+  will be highlighted.
 speaker:
 - code: FLUHHT
   name: Nicholas Tierney

@@ -3,7 +3,10 @@ pagetitle: 'WOMBAT 2025: Tidy analysis of preferential votes with prefio'
 date: 2025-09-30 13:00:00
 time: 01:00 pm
 title: Tidy analysis of preferential votes with prefio
-description: ''
+description: Preferential datasets, often structured as rankings across multiple columns
+  or rows, can be cumbersome to work with. The `prefio` R package will be introduced,
+  demonstrating a tidy method for managing preferences and providing convenient operations
+  for manipulating preferential data, and an interactive component will also be included.
 speaker:
 - code: ZKF7NV
   name: Floyd Everest
