@@ -3,4 +3,5 @@ listing:
   contents: tutorials
   type: default
   sort: "date"
+  fields: [title, time, speakerlist, room, description]
 ---

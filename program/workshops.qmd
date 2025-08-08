@@ -3,4 +3,5 @@ listing:
   contents: workshops
   type: default
   sort: "date"
+  fields: [title, time, speakerlist, room, description ]
 ---
