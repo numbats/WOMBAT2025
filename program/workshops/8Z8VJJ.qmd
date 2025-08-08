@@ -1,9 +1,9 @@
 ---
-pagetitle: 'WOMBAT 2025: TBC'
+pagetitle: 'WOMBAT 2025: To be confirmed'
 date: 2025-09-30 11:30:00
 time: 11:30 am
 title: To be confirmed
-description: 'Our wombats are digging up a description still'
+description: Our wombats are digging up a description still...
 speaker:
 - code: 7JGDRT
   name: Earo Wang
@@ -15,7 +15,7 @@ room: Room  8.03
 
 :::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
 ::: {#sponsors_banner .g-col-12 .title}
-# TBC
+# To be confirmed
 
 ### September 30, 11:30 am
 :::
@@ -43,7 +43,7 @@ Earo Wang
 :::
 
 :::{.speaker-bio}
-TBC
+Earo Wang earned their PhD from Monash University, under the supervision of Dianne Cook and Rob J Hyndman.
 :::
 
 :::
