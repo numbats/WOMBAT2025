@@ -1,0 +1,71 @@
+---
+pagetitle: "WOMBAT 2025: When laziness needs to innovation: making things you didn't
+  know you needed"
+date: 2025-09-30 11:30:00
+time: 11:30 am
+title: "When laziness needs to innovation: making things you didn't know you needed"
+description: In this talk, the speaker shares how they find joy in developing personal tools to simplify tasks,
+  even when their creation is time-intensive. Several specific creations will be showcased,
+  including the `teleport` GitHub Action, the `Comment Viewer` Positron extension,
+  the `Unilur` Quarto filter for assignment solutions, and a gamified teaching tool
+  for ggplot2, alongside a discussion on the mindset of valuing "lazy" problem-solvers.
+speaker:
+- code: 7HGSUA
+  name: Michael Lydeamore
+  avatar_url: https://conf.nectric.com.au/media/avatars/7HGSUA_AIcNqAF.jpeg
+speakerlist: Michael Lydeamore
+room: Room  8.03
+
+---
+
+:::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
+::: {#sponsors_banner .g-col-12 .title}
+# When laziness needs to innovation: making things you didn't know you needed
+
+### September 30, 11:30 am
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
+
+Nothing gives me greater joy than building little tools to make my life easier — even if they take ten times longer to make than they’ll ever save. In this talk I’ll share a few of these creations and the mindset behind them: the `teleport` GitHub Action, _Comment Viewer_ Positron extension, _Unilur_ Quarto filter for generating assignment solutions, and a sneak peek at a gamified teaching tool for ggplot2. Along the way, I’ll argue that sometimes it’s not the smartest hire you need, but the laziest one — a sentiment probably attributed to Bill Gates (though I’ve never bothered to check).
+
+
+
+:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
+[Register for the workshop](https://events.humanitix.com/wombat-2025-day-2-workshop)
+:::
+
+
+
+::: speaker
+
+:::{.speaker-header}
+![](https://conf.nectric.com.au/media/avatars/7HGSUA_AIcNqAF.jpeg) 
+:::
+
+:::{.speaker-name}
+Michael Lydeamore
+:::
+
+:::{.speaker-bio}
+Dr Michael Lydeamore is a Senior Lecturer in Business Analytics at Monash University. A statistician and infectious disease modeller, Michael develops and applies methods ranging from regression and machine learning to large-scale mathematical modelling. Their research spans COVID-19 dynamics, antimicrobial resistance in hospitals, and quantitative approaches to health policy. They are an active advocate for open-source and reproducible research, sharing tools, code, and datasets with the wider analytics community, including VSCode extensions, Quarto templates, R packages, and GitHub actions.
+:::
+
+:::
+
+
+
+:::
+
+<div>
+
+</div>
+::::::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```
