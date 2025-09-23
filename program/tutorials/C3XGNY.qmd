@@ -3,13 +3,9 @@ pagetitle: 'WOMBAT 2025: Efficiency Analysis in Python: A Hands-On Tutorial on S
   Frontier Analysis and Data Envelopment Analysis'
 date: 2025-09-29 13:30:00
 time: 01:30 pm
-title: 'Efficiency Analysis in Python: A Hands-On Tutorial on Stochastic Frontier
+title: '[CANCELLED] Efficiency Analysis in Python: A Hands-On Tutorial on Stochastic Frontier
   Analysis and Data Envelopment Analysis'
-description: This session provides an introduction to efficiency and productivity
-  analysis methods for researchers and practitioners. Key topics include the theoretical
-  foundations, assumptions, use cases, and differences between Stochastic Frontier
-  Analysis (SFA) and Data Envelopment Analysis (DEA), as well as hands-on examples
-  in Python covering model specification, estimation, and interpretation.
+description: This workshop has been cancelled!
 speaker:
 - code: LCHFEM
   name: Jessica Leung
@@ -28,35 +24,12 @@ room: Room  8.53
 
 ::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
-This tutorial introduces participants to two cornerstone methods in efficiency and productivity analysis: Stochastic Frontier Analysis (SFA) and Data Envelopment Analysis (DEA). Aimed at researchers and practitioners in economics, operations research, and analytics, the session combines conceptual grounding with practical implementation in Python.
+:::{.callout-important}
+## This workshop has been cancelled!
 
-We will begin with an overview of the theoretical foundations of SFA and DEA, highlighting their assumptions, use cases, and differences. The tutorial then walks through hands-on examples using Python libraries, covering model specification, estimation, and interpretation of results. No prior experience with SFA or DEA is required, but familiarity with basic regression and Python programming will be beneficial.
-
-
-:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
-[Register for this tutorial](https://events.humanitix.com/wombat-2025-day-1-tutorials)
-:::
-
-
-
-
-::: speaker
-
-:::{.speaker-header}
-![](https://conf.nectric.com.au/media/avatars/LCHFEM_THssOFE.jpeg) 
-:::
-
-:::{.speaker-name}
-Jessica Leung
-:::
-
-:::{.speaker-bio}
-Dr Jess Leung is a lecturer in Business Analytics at the Department of Econometrics and Business Statistics, specialising in optimisation and decision analytics. She is a Certified Analytics Professional - Expert (CAP-X) and Senior Fellow of the Higher Education Academy (SFHEA), with extensive experience in curriculum design and assessment development.
-:::
+We sincerely apologise for the short notice but due to unavoidable reasons this workshop has been cancelled. You should receive the option to either swap to a different tutorial at the same time slot or receive a refund. Contact us on [buseco-ebs.wombat@monash.edu](mailto:buseco-ebs.wombat@monash.edu) if there are any persistent issues.
 
 :::
-
-
 
 :::
 
