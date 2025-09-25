@@ -1,9 +1,9 @@
 ---
-pagetitle: "WOMBAT 2025: When laziness needs to innovation: making things you didn't
+pagetitle: "WOMBAT 2025: When laziness leads to innovation: making things you didn't
   know you needed"
 date: 2025-09-30 11:30:00
 time: 11:30 am
-title: "When laziness needs to innovation: making things you didn't know you needed"
+title: "When laziness leads to innovation: making things you didn't know you needed"
 description: In this talk, the speaker shares how they find joy in developing personal tools to simplify tasks,
   even when their creation is time-intensive. Several specific creations will be showcased,
   including the `teleport` GitHub Action, the `Comment Viewer` Positron extension,
@@ -20,7 +20,7 @@ room: Room  8.03
 
 :::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
 ::: {#sponsors_banner .g-col-12 .title}
-# When laziness needs to innovation: making things you didn't know you needed
+# When laziness leads to innovation: making things you didn't know you needed
 
 ### September 30, 11:30 am
 :::
