@@ -53,7 +53,7 @@ website:
           - text: Code of Conduct
             href: participation/coc.qmd
           - text: Organising Committee
-            href: about/committee.qmd
+            href: about/committee
   page-footer: 
     left: "Workshop Organised by the Monash Business Analytics Team"
     right: 
