@@ -1,4 +1,5 @@
 ---
+pagetitle: "Tutorials"
 listing:
   contents: tutorials
   type: default

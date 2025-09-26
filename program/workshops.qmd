@@ -1,4 +1,5 @@
 ---
+pagetitle: "Workshops"
 listing:
   contents: workshops
   type: default
