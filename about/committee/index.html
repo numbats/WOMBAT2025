@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-09-29">
-<meta name="description" content="Recent advances have made it easier to integrate fast C++ code with the convenience of R for data analysis. Key topics in this session include working in RStudio, ensuring object compatibility between R and C++, using basic algorithmic structures and functional programming, extending R packages with C++ code, and applying these methods through hands-on exercises in linear algebra, maximum likelihood estimation, and Gibbs sampling.">
 
-<title>WOMBAT 2025: Getting Started with C++ for Faster Statistical Modelling in R – WOMBAT 2025</title>
+<title>Organising Committee – WOMBAT 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../img/wombat/wombat-pixelart.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -70,11 +70,69 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-committee .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-role','listing-thumbnail','listing-social',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-role","listing-thumbnail","listing-social"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-committee'] = new List('listing-committee', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="WOMBAT 2025">
 <meta property="og:description" content="The Annual Workshop Organised by the Monash Business Analytics Team will be held on the 29th and 30th September 2025 at Monash University (downtown), Melbourne, Australia.">
-<meta property="og:image" content="https://wombat2025.numbat.space/program/tutorials/img/opengraph-banner.png">
+<meta property="og:image" content="https://wombat2025.numbat.space/about/committee/img/opengraph-banner.png">
 <meta property="og:site_name" content="WOMBAT 2025">
 </head>
 
@@ -160,72 +218,347 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
 <!-- main -->
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Getting Started with C++ for Faster Statistical Modelling in R</h1>
-</div>
-
-<div>
-  <div class="description">
-    Recent advances have made it easier to integrate fast C++ code with the convenience of R for data analysis. Key topics in this session include working in RStudio, ensuring object compatibility between R and C++, using basic algorithmic structures and functional programming, extending R packages with C++ code, and applying these methods through hands-on exercises in linear algebra, maximum likelihood estimation, and Gibbs sampling.
-  </div>
-</div>
 
 
-<div class="quarto-title-meta">
 
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">September 29, 2025</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<div class="grid" style="width: 100vw;  transform: translateX(-20%);">
+<div class="grid">
 <div id="sponsors_banner" class="g-col-12 title">
-<section id="getting-started-with-c-for-faster-statistical-modelling-in-r" class="level1">
-<h1>Getting Started with C++ for Faster Statistical Modelling in R</h1>
-<section id="september-29-0130-pm" class="level3">
-<h3 data-anchor-id="september-29-0130-pm">September 29, 01:30 pm</h3>
-</section>
+<section id="organising-committee" class="level1">
+<h1>Organising Committee</h1>
 </section>
 </div>
-<div class="g-col-12 full_text_block" style="min-width: 640px; max-width:1080px; margin: 0 auto">
-<p>Code written in C++ runs significantly faster than code written in R, which provides the basis for many leading R packages. Such a design enables users to leverage the best of both worlds: the computational speed delivered by algorithms written in C++ and the convenience of data analysis using R. Fortunately, recent developments have simplified programming in C++ for R applications by automating many processes.</p>
-<p>In this session, Tomasz will guide attendees through the basics of this approach, working in RStudio, ensuring object compatibility, using basic algorithmic structures and functional programming, and extending R packages with C++ code. A sequence of hands-on exercises with applications to every statistical modeller toolset, including linear algebra, maximum likelihood estimation, and Gibbs sampling, supports all this.</p>
-<div class="register-btn" style="width: 20%; margin: 0 auto; display: block">
-<p><a href="https://events.humanitix.com/wombat-2025-day-1-tutorials">Register for this tutorial</a></p>
+<div id="listing-committee" class="g-col-12 quarto-listing quarto-listing-container-custom">
+<div class="speakersFooter">
+<div class="card-columns">
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/16127127?v=4" alt="Mitchell O'Hara-Wild picture">
+      <div class="card-body">
+        <h5 class="card-title">Mitchell O'Hara-Wild</h5>
+        <p class="card-text">General chair (tutorials)</p>
+        <ul class="social-list">
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/mitchelloharawild">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+               
+                <a class="" href="https://mitchelloharawild.com">
+                  <i class="bi bi-globe"></i> 
+                </a>
+            
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+           
+             
+             
+              
+                <a class="" href="https://bsky.app/profile/mitchelloharawild.com">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bluesky" viewbox="0 0 16 16">
+    <path d="M3.468 1.948C5.303 3.325 7.276 6.118 8 7.616c.725-1.498 2.698-4.29 4.532-5.668C13.855.955 16 .186 16 2.632c0 .489-.28 4.105-.444 4.692-.572 2.04-2.653 2.561-4.504 2.246 3.236.551 4.06 2.375 2.281 4.2-3.376 3.464-4.852-.87-5.23-1.98-.07-.204-.103-.3-.103-.218 0-.081-.033.014-.102.218-.379 1.11-1.855 5.444-5.231 1.98-1.778-1.825-.955-3.65 2.28-4.2-1.85.315-3.932-.205-4.503-2.246C.28 6.737 0 3.12 0 2.632 0 .186 2.145.955 3.468 1.948"></path>
+  </svg>
+                </a>
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/mitchelloharawild">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/29718979?v=4" alt="Cynthia Huang picture">
+      <div class="card-body">
+        <h5 class="card-title">Cynthia Huang</h5>
+        <p class="card-text">General chair (workshop)</p>
+        <ul class="social-list">
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/cynthiahqy">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+               
+                <a class="" href="http://cynthiahqy.com/">
+                  <i class="bi bi-globe"></i> 
+                </a>
+            
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/cynthiahqy/">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/56960311?v=4" alt="Hannah Comiskey picture">
+      <div class="card-body">
+        <h5 class="card-title">Hannah Comiskey</h5>
+        <p class="card-text">Visitor logistics</p>
+        <ul class="social-list">
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/hannahcomiskey">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/hannah-comiskey-85a284130/">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/8599256?v=4" alt="Janith Wanniarachchi picture">
+      <div class="card-body">
+        <h5 class="card-title">Janith Wanniarachchi</h5>
+        <p class="card-text">Webmaster</p>
+        <ul class="social-list">
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/janithwanni">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+               
+                <a class="" href="http://janithwanni.netlify.app/">
+                  <i class="bi bi-globe"></i> 
+                </a>
+            
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+           
+             
+             
+              
+                <a class="" href="https://bsky.app/profile/janithwanni.bsky.social">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bluesky" viewbox="0 0 16 16">
+    <path d="M3.468 1.948C5.303 3.325 7.276 6.118 8 7.616c.725-1.498 2.698-4.29 4.532-5.668C13.855.955 16 .186 16 2.632c0 .489-.28 4.105-.444 4.692-.572 2.04-2.653 2.561-4.504 2.246 3.236.551 4.06 2.375 2.281 4.2-3.376 3.464-4.852-.87-5.23-1.98-.07-.204-.103-.3-.103-.218 0-.081-.033.014-.102.218-.379 1.11-1.855 5.444-5.231 1.98-1.778-1.825-.955-3.65 2.28-4.2-1.85.315-3.932-.205-4.503-2.246C.28 6.737 0 3.12 0 2.632 0 .186 2.145.955 3.468 1.948"></path>
+  </svg>
+                </a>
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/janith-wanniarachchi/">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/8617595?v=4" alt="Elio Campitelli picture">
+      <div class="card-body">
+        <h5 class="card-title">Elio Campitelli</h5>
+        <p class="card-text">Social media</p>
+        <ul class="social-list">
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/eliocamp">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="img/maliny.jpeg" alt="Maliny Po picture">
+      <div class="card-body">
+        <h5 class="card-title">Maliny Po</h5>
+        <p class="card-text">Marketing and Graphics</p>
+        <ul class="social-list">
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/maliny12">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/malinypo">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://numbat.space/people/current/anukarnsakulchularp-krisanat/avatar.png" alt="Krisanat Anukarnsakulchularp picture">
+      <div class="card-body">
+        <h5 class="card-title">Krisanat Anukarnsakulchularp</h5>
+        <p class="card-text">Volunteer lead</p>
+        <ul class="social-list">
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/KrisanatA">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
 </div>
-<div class="speaker">
-<div class="speaker-header">
-<p><img src="https://conf.nectric.com.au/media/avatars/ZCKHDL_wIRsn8m.jpeg" class="img-fluid"></p>
 </div>
-<div class="speaker-name">
-<p>Tomasz Woźniak</p>
-</div>
-<div class="speaker-bio">
-<p>Tomasz Woźniak is a Bayesian econometrician developing new econometric methods for applied macroeconomic research. He has been a specialised R user for seventeen years, and has recently joined The R Journal as an Associate Editor. He is the author of several R packages, available at https://bsvars.org/, that combine blazingly fast algorithms written in C++ with the convenience of data analysis in R. He works as a senior lecturer at the University of Melbourne, where he has an extensive research, teaching, and engagement portfolio. He is also an external collaborator at the International Labour Organization, where he develops a new forecasting system and an R package.</p>
-</div>
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <div>
 
 </div>
 </div>
-<style>
-#title-block-header {
-display: none !important;
-}
-</style>
+
 
 
 
