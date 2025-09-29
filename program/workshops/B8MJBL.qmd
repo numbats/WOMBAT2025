@@ -3,81 +3,48 @@ pagetitle: 'WOMBAT 2025: Closing discussion'
 date: 2025-09-30 16:30:00
 time: 04:30 pm
 title: Closing discussion
-description: After a session focused on summarizing the event and reflecting on key
-  discussions, the closing remarks will cover major takeaways, highlight significant
-  achievements, express gratitude to participants and organizers, and outline next
-  steps or future opportunities.
+description: A summary of the day, with some information on other events and organisations in the local data analysis space.
 speaker:
-- code: CZYR98
-  name: Mitchell O'Hara-Wild
-  avatar_url: https://conf.nectric.com.au/media/avatars/CZYR98_2YcD2lK.jpg
 - code: D7JA8C
   name: Cynthia Huang
   avatar_url: https://conf.nectric.com.au/media/avatars/D7JA8C_Z8ygNTF.jpeg
-speakerlist: Mitchell O'Hara-Wild, Cynthia Huang
+speakerlist: Cynthia Huang
 room: Room  8.03
-
 ---
 
-:::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
+::::::::::::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
 ::: {#sponsors_banner .g-col-12 .title}
 # Closing discussion
 
 ### September 30, 04:30 pm
 :::
 
-::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
+:::::::::::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
+A summary of the day, with some information on other events and organisations in the local data analysis space.
 
-Closing remarks
-
-
-
-:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
+::: {.register-btn style="width: 20%; margin: 0 auto; display: block"}
 [Register for the workshop](https://events.humanitix.com/wombat-2025-day-2-workshop)
 :::
 
-
-
-::: speaker
-
-:::{.speaker-header}
-![](https://conf.nectric.com.au/media/avatars/CZYR98_2YcD2lK.jpg) 
+:::::: speaker
+::: speaker-header
+![](https://conf.nectric.com.au/media/avatars/D7JA8C_Z8ygNTF.jpeg)
 :::
 
-:::{.speaker-name}
-Mitchell O'Hara-Wild
-:::
-
-:::{.speaker-bio}
-[Mitchell O’Hara-Wild](https://mitchelloharawild.com/) (he/him) is a PhD candidate at Monash University, creating new techniques and tools for forecasting large collections of time series with Rob Hyndman and George Athanasopoulos. He is the lead developer of the tidy time-series forecasting tools fable and feasts, and has co-developed the widely used forecast package since 2015. He is an award-winning educator, and has taught applied forecasting at Monash University and various forecasting workshops around the world.
-:::
-
-:::
-
-::: speaker
-
-:::{.speaker-header}
-![](https://conf.nectric.com.au/media/avatars/D7JA8C_Z8ygNTF.jpeg) 
-:::
-
-:::{.speaker-name}
+::: speaker-name
 Cynthia Huang
 :::
 
-:::{.speaker-bio}
+::: speaker-bio
 Cynthia Huang is a PhD Candidate in the Department of Econometrics and Business Statistics at Monash University. She completed her undergraduate and honours degrees in Economics at the University of Melbourne. Her research focuses on principles and tools for complex data preparation in the social sciences.
 :::
-
-:::
-
-
-
-:::
+::::::
+::::::::::::
 
 <div>
 
 </div>
-::::::
+:::::::::::::::
 
 ```{=html}
 <style>

@@ -3,14 +3,12 @@ pagetitle: 'WOMBAT 2025: Welcome'
 date: 2025-09-30 08:45:00
 time: 08:45 am
 title: Welcome
-description: This session opens the event and sets the stage for the program ahead.
-  Key topics include introductory comments, an overview of the event's objectives,
-  and acknowledgments of participants and sponsors.
+description: Welcome to WOMBAT! An overview of the day, safety information, and housekeeping.
 speaker:
-- code: D7JA8C
-  name: Cynthia Huang
-  avatar_url: https://conf.nectric.com.au/media/avatars/D7JA8C_Z8ygNTF.jpeg
-speakerlist: Cynthia Huang
+- code: CZYR98
+  name: Mitchell O'Hara-Wild
+  avatar_url: https://conf.nectric.com.au/media/avatars/CZYR98_2YcD2lK.jpg
+speakerlist: Mitchell O'Hara-Wild
 room: Room  8.03
 
 ---
@@ -24,7 +22,7 @@ room: Room  8.03
 
 ::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 
-Welcoming remarks
+Welcome to WOMBAT! An overview of the day, safety information, and housekeeping.
 
 
 
@@ -34,22 +32,19 @@ Welcoming remarks
 
 
 
-::: speaker
-
-:::{.speaker-header}
-![](https://conf.nectric.com.au/media/avatars/D7JA8C_Z8ygNTF.jpeg) 
+:::::: speaker
+::: speaker-header
+![](https://conf.nectric.com.au/media/avatars/CZYR98_2YcD2lK.jpg)
 :::
 
-:::{.speaker-name}
-Cynthia Huang
+::: speaker-name
+Mitchell O'Hara-Wild
 :::
 
-:::{.speaker-bio}
-Cynthia Huang is a PhD Candidate in the Department of Econometrics and Business Statistics at Monash University. She completed her undergraduate and honours degrees in Economics at the University of Melbourne. Her research focuses on principles and tools for complex data preparation in the social sciences.
+::: speaker-bio
+[Mitchell O’Hara-Wild](https://mitchelloharawild.com/) (he/him) is a PhD candidate at Monash University, creating new techniques and tools for forecasting large collections of time series with Rob Hyndman and George Athanasopoulos. He is the lead developer of the tidy time-series forecasting tools fable and feasts, and has co-developed the widely used forecast package since 2015. He is an award-winning educator, and has taught applied forecasting at Monash University and various forecasting workshops around the world.
 :::
-
-:::
-
+::::::
 
 
 :::
