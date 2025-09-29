@@ -40,15 +40,17 @@ The annual WOMBAT workshop brings together analysts from academia, industry and 
 
 ## Registration
 
-Registration for WOMBAT is open now! Registration for the tutorials on day 1 and the workshop on day 2 is done separately. Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2's workshop. We will also have a rich collection of hex stickers available for all to choose from to decorate your laptop!
+**Registration for WOMBAT has now closed, thanks to everyone who took part in WOMBAT 2025!**
+
+Attendance will be limited to 20 participants (in-person and online) for each of the 8 tutorials on day 1, and 100 participants (in-person only) for day 2's workshop. We will also have a rich collection of hex stickers available for all to choose from to decorate your laptop!
 
 #### Tutorials (September 29th)
 
 The WOMBAT tutorials offerings feature practical, hands-on training in key topics for data analysis by experts in the field. Each tutorial consists of three hours of content with a 30-minute catered tea break, offered in both morning (AM) and afternoon (PM) sessions, and each tutorial is limited to 20 in-person participants. In the morning, you can choose from sessions on R package development, regression analysis, time series forecasting, or visualising uncertainty; in the afternoon, there are options covering reproducible reporting with Quarto, scientific figure design, accelerating R modelling with C++, or efficiency analysis using Python.
 
-::: register-btn
+<!-- ::: register-btn
 [Register for the day 1 tutorials](https://events.humanitix.com/wombat-2025-day-1-tutorials)
-:::
+::: -->
 
 #### Workshop (September 30th)
 
@@ -56,9 +58,9 @@ The main day of WOMBAT features a diverse workshop program designed to highlight
 
 <!-- We will also have a rich collection of hex stickers available on both days for all to choose from to decorate your laptop! -->
 
-::: register-btn
+<!-- ::: register-btn
 [Register for the day 2 workshop](https://events.humanitix.com/wombat-2025-day-2-workshop)
-:::
+::: -->
 
 ## Keynote
 
