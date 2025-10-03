@@ -39,9 +39,6 @@ In this session I'll be talking about:
 
 
 
-:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
-[Register for the workshop](https://events.humanitix.com/wombat-2025-day-2-workshop)
-:::
 
 
 

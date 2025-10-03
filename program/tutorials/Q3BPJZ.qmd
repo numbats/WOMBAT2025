@@ -32,9 +32,6 @@ room: Room  8.42
 This hands-on workshop introduces researchers, students, and academics to **Quarto**, a powerful, open-source framework for creating reproducible academic documents and presentations. You'll learn how to write a report, a journal article using a ready-to-use template, and build polished, code-integrated slide decks for presentations. The workshop will also cover bibliography management, embedding code and figures, formatting tables and equations, and controlling output for various formats, such as HTML and PDF. By the end of the session, participants will be able to confidently use Quarto to produce reproducible manuscripts and dynamic, professional presentations.
 
 
-:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
-[Register for this tutorial](https://events.humanitix.com/wombat-2025-day-1-tutorials)
-:::
 
 
 

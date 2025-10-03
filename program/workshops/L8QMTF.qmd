@@ -31,9 +31,6 @@ Nothing gives me greater joy than building little tools to make my life easier â
 
 
 
-:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
-[Register for the workshop](https://events.humanitix.com/wombat-2025-day-2-workshop)
-:::
 
 
 

@@ -40,9 +40,6 @@ Topics covered as part of this course include:
 Participants will leave with a solid grounding (or refresher) in how to correctly perform hands-on regression modelling tasks in R for a variety of problems.
 
 
-:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
-[Register for this tutorial](https://events.humanitix.com/wombat-2025-day-1-tutorials)
-:::
 
 
 

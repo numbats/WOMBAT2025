@@ -1,10 +1,6 @@
 ---
 title: ""
-format:
-  html:
-    include-in-header:
-      - text: |
-          <script type="text/javascript" src="https://conf.nectric.com.au/wombat-2025/schedule/widget/v2.en.js"></script>
+format:  html
 listing:
   - id: keynote
     template: program/speakers/keynote.ejs
@@ -36,6 +32,28 @@ WOMBAT 2025
 :::::
 ::::::
 
+::: {style="font-family: 'PT Sans', sans-serif; text-align:center; width: 100%; font-size: 3rem; font-weight: bold"}
+Thank you for joining WOMBAT 2025!
+:::
+
+```{=html}
+<div class="img-grid">
+<!-- IMG_4401.webp IMG_4473.webp IMG_4492.webp IMG_4538.webp IMG_4579.webp IMG_4621.webp IMG_4652.webp IMG_4679.webp IMG_4738.webp -->
+  <div><img src="img/thank-you/IMG_4401.webp" /></div>
+  <div><img src="img/thank-you/IMG_4473.webp" /></div>
+  <div><img src="img/thank-you/IMG_4492.webp" /></div>
+
+  <div><img src="img/thank-you/IMG_4538.webp" /></div> 
+  <div><img src="img/thank-you/IMG_4579.webp" /></div>
+  <div><img src="img/thank-you/IMG_4621.webp" /></div>
+
+  <div><img src="img/thank-you/IMG_4652.webp" /></div>
+  <div><img src="img/thank-you/IMG_4679.webp" /></div>
+  <div><img src="img/thank-you/IMG_4738.webp" /></div>
+
+</div>
+```
+
 The annual WOMBAT workshop brings together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science. The theme of this year's event is **designing data driven discoveries**, which will feature tutorials and talks on statistical software, research collaboration, and impactful data analysis. You should come if you are an analytics professional, or leading a team of analysts or a developer of new open source tools.
 
 ## Registration
@@ -48,19 +66,12 @@ Attendance will be limited to 20 participants (in-person and online) for each of
 
 The WOMBAT tutorials offerings feature practical, hands-on training in key topics for data analysis by experts in the field. Each tutorial consists of three hours of content with a 30-minute catered tea break, offered in both morning (AM) and afternoon (PM) sessions, and each tutorial is limited to 20 in-person participants. In the morning, you can choose from sessions on R package development, regression analysis, time series forecasting, or visualising uncertainty; in the afternoon, there are options covering reproducible reporting with Quarto, scientific figure design, accelerating R modelling with C++, or efficiency analysis using Python.
 
-<!-- ::: register-btn
-[Register for the day 1 tutorials](https://events.humanitix.com/wombat-2025-day-1-tutorials)
-::: -->
-
 #### Workshop (September 30th)
 
 The main day of WOMBAT features a diverse workshop program designed to highlight the latest data analysis tools and techniques. The workshop features a keynote presentation by data visualisation specialist Nicola Rennie, followed by invited talks from leading data analysts from academia, government, and industry. Key topics featured throughout the conference include data storytelling, effective data visualisation, workflow and team management, open-source tools, and reproducibility in data analysis. More details about the workshop are detailed below.
 
 <!-- We will also have a rich collection of hex stickers available on both days for all to choose from to decorate your laptop! -->
 
-<!-- ::: register-btn
-[Register for the day 2 workshop](https://events.humanitix.com/wombat-2025-day-2-workshop)
-::: -->
 
 ## Keynote
 
@@ -84,48 +95,6 @@ See the latest data analysis tools developed by staff and students at Monash Uni
 #### Invited Talks: Designing Workflows & Team
 
 This session provides practical insights into effective team and workflow management in data projects. Saras Windecker will share lessons from implementing peer code review in a multi-institutional research consortium focused on epidemic forecasting and analytics. Tyler Reysenbach will discuss real-world strategies for building new data teams in government, including balancing early stakeholder demands with long-term capability building.
-
-<!-- ## Schedule -->
-<!---->
-<!-- Please note that all session times are in AEST. -->
-<!---->
-<!-- #### [Click here for a detailed workshop schedule.](program/schedule/)  -->
-<!---->
-<!-- ::::: grid -->
-<!-- ::: {.g-col-12 style="margin-left: 2%;"} -->
-<!-- ### Mon 29 Sep - Tutorials -->
-<!---->
-<!-- ```{=html} -->
-<!-- <pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" style="--schedule-max-width: 100%;--pretalx-clr-primary: #006dae;" date-filter="2025-09-29" format="grid"></pretalx-schedule> -->
-<!-- <noscript> -->
-<!--    <div class="pretalx-widget"> -->
-<!--         <div class="pretalx-widget-info-message"> -->
-<!--             JavaScript is disabled in your browser. To access our schedule without JavaScript, -->
-<!--             please <a target="_blank" href="https://conf.nectric.com.au/wombat-2025/">click here</a>. -->
-<!--         </div> -->
-<!--     </div> -->
-<!-- </noscript> -->
-<!-- ``` -->
-<!---->
-<!-- ### Tue 30 Sep - Invited Talks -->
-<!---->
-<!-- ```{=html} -->
-<!-- <pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" style="--schedule-max-width: 100%;--pretalx-clr-primary: #006dae" date-filter="2025-09-30" format="list"></pretalx-schedule> -->
-<!-- <noscript> -->
-<!--    <div class="pretalx-widget"> -->
-<!--         <div class="pretalx-widget-info-message"> -->
-<!--             JavaScript is disabled in your browser. To access our schedule without JavaScript, -->
-<!--             please <a target="_blank" href="https://conf.nectric.com.au/wombat-2025/">click here</a>. -->
-<!--         </div> -->
-<!--     </div> -->
-<!-- </noscript> -->
-<!-- ``` -->
-<!-- ::: -->
-<!---->
-<!-- <div> -->
-<!---->
-<!-- </div> -->
-<!-- ::::: -->
 
 ::: {#sponsors .g-col-12}
 :::

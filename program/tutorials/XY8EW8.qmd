@@ -32,9 +32,6 @@ Through a mix of theory and hands-on application, we’ll cover cognitive load, 
 You don't need any prior design experience or specialist software. This workshop is suitable for researchers at any career stage who want to elevate the quality and communicative power of their visual materials.
 
 
-:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
-[Register for this tutorial](https://events.humanitix.com/wombat-2025-day-1-tutorials)
-:::
 
 
 

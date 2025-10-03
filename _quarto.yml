@@ -25,7 +25,7 @@ website:
   announcement: 
     icon: megaphone-fill
     dismissable: true
-    content: "WOMBAT 2025 is now live! Check out the <a href='program/schedule'>schedule</a> for details."
+    content: "Thank you so much for joining WOMBAT 2025! Hope to see you again next year!"
     type: success
     position: below-navbar
     
@@ -40,12 +40,6 @@ website:
         href: program/tutorials.qmd
       - text: Day 2 - Workshop
         href: program/workshops.qmd
-      - text: Register
-        menu:
-          - text: Tutorials
-            href: https://events.humanitix.com/wombat-2025-day-1-tutorials
-          - text: Workshop
-            href: https://events.humanitix.com/wombat-2025-day-2-workshop 
       - text: Contact
         href: contact.qmd
       - text: About

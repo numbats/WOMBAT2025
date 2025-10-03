@@ -36,9 +36,6 @@ Learning Outcomes:
 * Evaluate the model’s forecasting performance to select the best model.
 
 
-:::{.register-btn style="width: 20%; margin: 0 auto; display: block"}
-[Register for this tutorial](https://events.humanitix.com/wombat-2025-day-1-tutorials)
-:::
 
 
 
