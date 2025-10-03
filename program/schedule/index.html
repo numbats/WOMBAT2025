@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../img/wombat/wombat-pixelart.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -40,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-697814d7744be385252fbad6363f6e8b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-d1f4393ed826c8fbf8a20e8c6e906e34.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +70,93 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-tutorials .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-time','listing-speakerlist','listing-room',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-tutorials'] = new List('listing-tutorials', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-workshops .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-time','listing-speakerlist','listing-room',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-workshops'] = new List('listing-workshops', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="WOMBAT 2025">
 <meta property="og:description" content="The Annual Workshop Organised by the Monash Business Analytics Team will be held on the 29th and 30th September 2025 at Monash University (downtown), Melbourne, Australia.">
@@ -108,21 +196,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../program/workshops.html"> 
 <span class="menu-text">Day 2 - Workshop</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-register" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Register</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-register">    
-        <li>
-    <a class="dropdown-item" href="https://events.humanitix.com/wombat-2025-day-1-tutorials">
- <span class="dropdown-text">Tutorials</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://events.humanitix.com/wombat-2025-day-2-workshop">
- <span class="dropdown-text">Workshop</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
@@ -148,8 +221,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="bc620ffbfd1b21c540a7318fc1adc87a" class="alert alert-success hidden"><i class="bi bi-megaphone-fill quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p>Join us for the post-workshop social, from 5:15PM at State of Grace.</p>
+  <div id="quarto-announcement" data-announcement-id="089a52cb6f5f819b749f6574454f1d5d" class="alert alert-success hidden"><i class="bi bi-megaphone-fill quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p>Thank you so much for joining WOMBAT 2025! Hope to see you again next year!</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
@@ -167,44 +240,427 @@ ul.task-list li input[type="checkbox"] {
 <h1>Schedule</h1>
 </section>
 </div>
-<div class="g-col-12 full_text_block">
-<script type="text/javascript" src="https://conf.nectric.com.au/wombat-2025/widgets/schedule.js" async=""></script>
-
-<pretalx-schedule event-url="https://conf.nectric.com.au/wombat-2025/" locale="en" timezone="Australia/Melbourne" format="list" style="--pretalx-clr-primary: #006DAE; --schedule-max-width: 100%;"></pretalx-schedule>
-<noscript class="d-block">
-    <div class="alert alert-info m-4">
-        <div></div>
-        <div>
-            To see our schedule, please either enable JavaScript or go <a href="https://conf.nectric.com.au/wombat-2025/schedule/nojs">here</a> for our NoJS schedule.
-        </div>
-    </div>
-</noscript>
-
-
-
-
-<script>
-  function updatePretalxScheduleFormat() {
-    const schedule = document.querySelector('pretalx-schedule');
-    if (!schedule) return;
-    if (document.body.offsetWidth > 1492) {
-      schedule.setAttribute('format', 'grid');
-    } else {
-      schedule.setAttribute('format', 'list');
-    }
-  }
-
-  // Run on load
-  updatePretalxScheduleFormat();
-
-  // Retrigger on window resize
-  window.addEventListener('resize', updatePretalxScheduleFormat);
-</script>
+<section id="day-1---tutorial-schedule" class="level2 g-col-8" style="grid-column-start: 3">
+<h2 data-anchor-id="day-1---tutorial-schedule">Day 1 - Tutorial schedule</h2>
+</section>
+<div id="listing-tutorials" class="g-col-8 quarto-listing quarto-listing-container-default" style="grid-column-start: 3">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1759100400000" data-listing-file-modified-sort="1759494579104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="317">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/tutorials/9X7BMV.html" class="no-external">Introduction to Regression Analysis in R</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/tutorials/9X7BMV.html" class="no-external">
+<div class="metadata-value listing-time">
+09:00 am
+</div>
+<div class="metadata-value listing-speakerlist">
+Dean Marchiori
+</div>
+<div class="metadata-value listing-room">
+Room 8.53
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1759100400000" data-listing-file-modified-sort="1759494598962" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/tutorials/LDTUU8.html" class="no-external">Visualising Uncertainty</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/tutorials/LDTUU8.html" class="no-external">
+<div class="metadata-value listing-time">
+09:00 am
+</div>
+<div class="metadata-value listing-speakerlist">
+Dianne Cook, Harriet Mason
+</div>
+<div class="metadata-value listing-room">
+Room 8.43
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1759100400000" data-listing-file-modified-sort="1759494602956" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="422">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/tutorials/PLVPUV.html" class="no-external">Introduction to R packages</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/tutorials/PLVPUV.html" class="no-external">
+<div class="metadata-value listing-time">
+09:00 am
+</div>
+<div class="metadata-value listing-speakerlist">
+Nicholas Tierney
+</div>
+<div class="metadata-value listing-room">
+Room 8.44
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1759100400000" data-listing-file-modified-sort="1759494610897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="287">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/tutorials/VDYBYE.html" class="no-external">Tidy time series analysis and forecasting</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/tutorials/VDYBYE.html" class="no-external">
+<div class="metadata-value listing-time">
+09:00 am
+</div>
+<div class="metadata-value listing-speakerlist">
+Mitchell O’Hara-Wild
+</div>
+<div class="metadata-value listing-room">
+Room 8.42
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1759116600000" data-listing-file-modified-sort="1758601586012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/tutorials/C3XGNY.html" class="no-external">[CANCELLED] Efficiency Analysis in Python: A Hands-On Tutorial on Stochastic Frontier Analysis and Data Envelopment Analysis</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/tutorials/C3XGNY.html" class="no-external">
+<div class="metadata-value listing-time">
+01:30 pm
+</div>
+<div class="metadata-value listing-speakerlist">
+Jessica Leung
+</div>
+<div class="metadata-value listing-room">
+Room 8.53
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1759116600000" data-listing-file-modified-sort="1759494594117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/tutorials/KCZEMB.html" class="no-external">Getting Started with C++ for Faster Statistical Modelling in R</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/tutorials/KCZEMB.html" class="no-external">
+<div class="metadata-value listing-time">
+01:30 pm
+</div>
+<div class="metadata-value listing-speakerlist">
+Tomasz Woźniak
+</div>
+<div class="metadata-value listing-room">
+Room 8.44
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1759116600000" data-listing-file-modified-sort="1759494606337" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/tutorials/Q3BPJZ.html" class="no-external">Reproducible Reporting and Research with Quarto</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/tutorials/Q3BPJZ.html" class="no-external">
+<div class="metadata-value listing-time">
+01:30 pm
+</div>
+<div class="metadata-value listing-speakerlist">
+Jayani Lakshika, Krisanat Anukarnsakulchularp
+</div>
+<div class="metadata-value listing-room">
+Room 8.42
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1759116600000" data-listing-file-modified-sort="1759494614456" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="187">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/tutorials/XY8EW8.html" class="no-external">Building Better Figures: A Scientific Graphic Design Workshop</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/tutorials/XY8EW8.html" class="no-external">
+<div class="metadata-value listing-time">
+01:30 pm
+</div>
+<div class="metadata-value listing-speakerlist">
+Jess Hopf
+</div>
+<div class="metadata-value listing-room">
+Room 8.43
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<section id="day-2---workshop-schedule" class="level2 g-col-8" style="grid-column-start: 3">
+<h2 data-anchor-id="day-2---workshop-schedule">Day 2 - Workshop schedule</h2>
+</section>
+<div id="listing-workshops" class="g-col-8 quarto-listing quarto-listing-container-default" style="grid-column-start: 3">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1759185900000" data-listing-file-modified-sort="1759494529023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/workshops/JDA7Q9.html" class="no-external">Welcome</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/workshops/JDA7Q9.html" class="no-external">
+<div class="metadata-value listing-time">
+08:45 am
+</div>
+<div class="metadata-value listing-speakerlist">
+Mitchell O’Hara-Wild
+</div>
+<div class="metadata-value listing-room">
+Room 8.03
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1759186800000" data-listing-file-modified-sort="1759494538639" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="317">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/workshops/MBAGKH.html" class="no-external">Designing for decision-making: How to build effective data visualisations</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/workshops/MBAGKH.html" class="no-external">
+<div class="metadata-value listing-time">
+09:00 am
+</div>
+<div class="metadata-value listing-speakerlist">
+Nicola Rennie
+</div>
+<div class="metadata-value listing-room">
+Room 8.03
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1759192200000" data-listing-file-modified-sort="1759494512397" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="187">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/workshops/AN9GFB.html" class="no-external">Closing the scrollytelling gap with Closeread</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/workshops/AN9GFB.html" class="no-external">
+<div class="metadata-value listing-time">
+10:30 am
+</div>
+<div class="metadata-value listing-speakerlist">
+James Goldie
+</div>
+<div class="metadata-value listing-room">
+Room 8.03
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1759194000000" data-listing-file-modified-sort="1759494500796" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="240">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/workshops/79GEP8.html" class="no-external">Rethinking data science education in the age of genAI</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/workshops/79GEP8.html" class="no-external">
+<div class="metadata-value listing-time">
+11:00 am
+</div>
+<div class="metadata-value listing-speakerlist">
+Jenny Richmond
+</div>
+<div class="metadata-value listing-room">
+Room 8.03
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1759195800000" data-listing-file-modified-sort="1759494534274" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/workshops/L8QMTF.html" class="no-external">When laziness leads to innovation: making things you didn’t know you needed</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/workshops/L8QMTF.html" class="no-external">
+<div class="metadata-value listing-time">
+11:30 am
+</div>
+<div class="metadata-value listing-speakerlist">
+Michael Lydeamore
+</div>
+<div class="metadata-value listing-room">
+Room 8.03
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1759201200000" data-listing-file-modified-sort="1759494543283" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/workshops/SAPKKB.html" class="no-external">Tidy analysis of preferential votes with prefio</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/workshops/SAPKKB.html" class="no-external">
+<div class="metadata-value listing-time">
+01:00 pm
+</div>
+<div class="metadata-value listing-speakerlist">
+Floyd Everest
+</div>
+<div class="metadata-value listing-room">
+Room 8.03
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1759202400000" data-listing-file-modified-sort="1759494558514" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/workshops/YXKDVV.html" class="no-external">Visualising Uncertainty with ggdibbler</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/workshops/YXKDVV.html" class="no-external">
+<div class="metadata-value listing-time">
+01:20 pm
+</div>
+<div class="metadata-value listing-speakerlist">
+Harriet Mason
+</div>
+<div class="metadata-value listing-room">
+Room 8.03
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1759203600000" data-listing-file-modified-sort="1759494523573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="436">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/workshops/G9CLV3.html" class="no-external">In conversation: Rob Hyndman &amp; Nick Tierney on Research Software, hosted by Cynthia Huang</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/workshops/G9CLV3.html" class="no-external">
+<div class="metadata-value listing-time">
+01:40 pm
+</div>
+<div class="metadata-value listing-speakerlist">
+Nicholas Tierney, Cynthia Huang, Rob Hyndman
+</div>
+<div class="metadata-value listing-room">
+Room 8.03
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1759208400000" data-listing-file-modified-sort="1759494552951" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="506">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/workshops/YTKMW3.html" class="no-external">Piloting peer code review in a research consortium community of practice</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/workshops/YTKMW3.html" class="no-external">
+<div class="metadata-value listing-time">
+03:00 pm
+</div>
+<div class="metadata-value listing-speakerlist">
+Saras Windecker
+</div>
+<div class="metadata-value listing-room">
+Room 8.03
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1759210200000" data-listing-file-modified-sort="1759494569806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/workshops/ZHFDRZ.html" class="no-external">Building a new data team – balancing quick wins and long term investments</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/workshops/ZHFDRZ.html" class="no-external">
+<div class="metadata-value listing-time">
+03:30 pm
+</div>
+<div class="metadata-value listing-speakerlist">
+Tyler Reysenbach
+</div>
+<div class="metadata-value listing-room">
+Room 8.03
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1759212000000" data-listing-file-modified-sort="1759494548650" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="368">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/workshops/W3K3VM.html" class="no-external">Designing data infrastructure where people come first</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/workshops/W3K3VM.html" class="no-external">
+<div class="metadata-value listing-time">
+04:00 pm
+</div>
+<div class="metadata-value listing-speakerlist">
+Ben Harrap
+</div>
+<div class="metadata-value listing-room">
+Room 8.03
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1759213800000" data-listing-file-modified-sort="1759494518645" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../program/workshops/B8MJBL.html" class="no-external">Closing discussion</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../../program/workshops/B8MJBL.html" class="no-external">
+<div class="metadata-value listing-time">
+04:30 pm
+</div>
+<div class="metadata-value listing-speakerlist">
+Cynthia Huang
+</div>
+<div class="metadata-value listing-room">
+Room 8.03
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <div>
 
 </div>
 </div>
+
 
 
 
