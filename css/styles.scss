@@ -439,6 +439,10 @@ footer.footer .nav-footer,
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 10rem);
   grid-row-gap: 1rem;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .img-grid div {
