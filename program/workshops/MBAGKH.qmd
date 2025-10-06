@@ -29,7 +29,9 @@ room: Room  8.03
 Data visualisation can be a very efficient method of identifying patterns in data and communicating findings to broad audiences. Good data visualisation requires appreciation and careful consideration of the technical aspects of data presentation. But it also involves a creative element. Authorial choices are made about the “story” we want to tell, and design decisions are driven by the need to convey that story most effectively to our audience. Software systems use default settings for most graphical elements. However, each visualisation has its own story to tell, and so we must actively consider and choose settings for the visualisation we are building. In this talk, Nicola will showcase why you should visualise data, present some guidelines for making more effective charts, before discussing examples of good and not so good charts.
 
 
-
+:::{.slides-btn}
+[Check out the slides here](slides/Nicola_Rennie_slides.pdf)
+:::
 
 
 

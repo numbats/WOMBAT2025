@@ -366,6 +366,43 @@ footer.footer .nav-footer,
   display: block;
 }
 
+/* Custom stying for slides button */
+
+.slides-btn {
+  display: block;
+  width: fit-content;
+  padding: 0.5rem 5rem;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.slides-btn:hover {
+  background-color: $monash-blue;
+  border-color: lighten($monash-blue, 50%);
+  color: white;
+}
+
+.slides-btn > p {
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem !important;
+}
+
+.slides-btn a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 /* Custom height for navbar logo */
 .navbar-logo {
   height: 2.5rem;
@@ -462,4 +499,3 @@ footer.footer .nav-footer,
   max-height: 100%;
   border-radius: 10px;
 }
-

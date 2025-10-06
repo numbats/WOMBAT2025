@@ -38,7 +38,9 @@ In this session I'll be talking about:
 -   using the development as an opportunity to upskill my team
 
 
-
+:::{.slides-btn}
+[Check out the slides here](https://benharrap.github.io/workshops/2025-09-30-WOMBAT/slides.html)
+:::
 
 
 

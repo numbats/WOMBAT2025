@@ -30,7 +30,9 @@ room: Room  8.03
 Nothing gives me greater joy than building little tools to make my life easier — even if they take ten times longer to make than they’ll ever save. In this talk I’ll share a few of these creations and the mindset behind them: the `teleport` GitHub Action, _Comment Viewer_ Positron extension, _Unilur_ Quarto filter for generating assignment solutions, and a sneak peek at a gamified teaching tool for ggplot2. Along the way, I’ll argue that sometimes it’s not the smartest hire you need, but the laziest one — a sentiment probably attributed to Bill Gates (though I’ve never bothered to check).
 
 
-
+:::{.slides-btn}
+[Check out the slides here](https://slides.michaellydeamore.com/talk-procrastination/)
+:::
 
 
 

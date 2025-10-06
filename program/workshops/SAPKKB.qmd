@@ -32,7 +32,9 @@ This talk will introduce `prefio`, an R package that lets you work with preferen
 There will be an interactive component to the talk, so get ready to cast some votes!
 
 
-
+:::{.slides-btn}
+[Check out the slides here](https://fleverest.github.io/prefio-demo-WOMBAT-2025/)
+:::
 
 
 

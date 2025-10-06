@@ -24,9 +24,9 @@ room: Room  8.03
 
 Welcome to WOMBAT! An overview of the day, safety information, and housekeeping.
 
-
-
-
+:::{.slides-btn}
+[Check out the slides here](https://slides.mitchelloharawild.com/wombat2025-welcome)
+:::
 
 
 :::::: speaker

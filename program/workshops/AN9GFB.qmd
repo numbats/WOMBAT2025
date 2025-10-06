@@ -31,6 +31,10 @@ Scrollytelling is an innovative way to tell data-driven stories, but it often de
 ​In this talk, James discusses some of the factors that motivated Closeread's design, the first scrollytelling contest with Posit, and new features on the horizon, including scrolling video support and better integration with R and Python tools.
 
 
+:::{.slides-btn}
+[Check out the slides here](slides/closeread-talk.pdf)
+:::
+
 ::: speaker
 
 :::{.speaker-header}

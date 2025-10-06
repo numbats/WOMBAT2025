@@ -34,7 +34,9 @@ Drawing on experience from working in the Central Analytics Hub at the Departmen
 This talk will offer honest reflections on the messy reality of building data teams in government, providing practical insights for anyone wrestling with similar challenges.
 
 
-
+:::{.slides-btn}
+[Check out the slides here](slides/Tyler_presentation.pdf)
+:::
 
 
 
