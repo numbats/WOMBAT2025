@@ -22,6 +22,9 @@ room: Room  8.03
 :::::::::::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
 A summary of the day, with some information on other events and organisations in the local data analysis space.
 
+:::{.slides-btn}
+[Check out the slides here](https://slides.mitchelloharawild.com/wombat2025-welcome/#/section-17)
+:::
 
 :::::: speaker
 ::: speaker-header

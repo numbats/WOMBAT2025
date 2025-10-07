@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - "CNAME"
+    - "*.pdf"
   render:
     - "*.qmd"
     - "!*_template.qmd"

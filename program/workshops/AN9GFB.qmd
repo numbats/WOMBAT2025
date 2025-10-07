@@ -32,7 +32,7 @@ Scrollytelling is an innovative way to tell data-driven stories, but it often de
 
 
 :::{.slides-btn}
-[Check out the slides here](slides/closeread-talk.pdf)
+[Check out the slides here](../../../slides/closeread-talk.pdf)
 :::
 
 ::: speaker

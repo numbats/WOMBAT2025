@@ -35,7 +35,7 @@ This talk will offer honest reflections on the messy reality of building data te
 
 
 :::{.slides-btn}
-[Check out the slides here](slides/Tyler_presentation.pdf)
+[Check out the slides here](../../../slides/Tyler_presentation.pdf)
 :::
 
 

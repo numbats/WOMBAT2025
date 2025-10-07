@@ -40,7 +40,7 @@ We will conduct pre- and post- evaluation surveys to evaluate how well we addres
 
 
 :::{.slides-btn}
-[Check out the slides here](slides/Windecker_presentation.pdf)
+[Check out the slides here](../../../slides/Windecker_presentation.pdf)
 :::
 
 

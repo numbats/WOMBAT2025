@@ -30,7 +30,7 @@ Data visualisation can be a very efficient method of identifying patterns in dat
 
 
 :::{.slides-btn}
-[Check out the slides here](slides/Nicola_Rennie_slides.pdf)
+[Check out the slides here](../../../slides/Nicola_Rennie_slides.pdf)
 :::
 
 
