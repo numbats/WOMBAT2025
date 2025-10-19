@@ -33,6 +33,9 @@ In this talk, I will draw on my experience in teaching psychology students about
 
 There is no avoiding the fact that students now need to learn how to learn alongside Generative AI. Data science educators can help them by designing learning experiences that build self-regulated learning skills and normalise what real learning feels like.
 
+:::{.slides-btn}
+[Check out the slides here](https://jenrichmond.github.io/wombat/#/title-slide)
+:::
 
 ::: speaker
 
