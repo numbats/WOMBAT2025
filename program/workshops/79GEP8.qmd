@@ -15,6 +15,7 @@ speaker:
   avatar_url: https://conf.nectric.com.au/media/avatars/PRGEJ3_FJJHXPA.png
 speakerlist: Jenny Richmond
 room: Room  8.03
+slides: "<a href='https://jenrichmond.github.io/wombat/#/title-slide'>View slides</a>"
 
 ---
 

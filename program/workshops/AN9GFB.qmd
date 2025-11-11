@@ -14,7 +14,7 @@ speaker:
   avatar_url: https://conf.nectric.com.au/media/avatars/Y3TULP_D7o6Ucl.jpg
 speakerlist: James Goldie
 room: Room  8.03
-
+slides: "<a href='../../../slides/closeread-talk.pdf'>View slides</a>"
 ---
 
 :::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}

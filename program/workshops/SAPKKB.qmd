@@ -13,7 +13,7 @@ speaker:
   avatar_url: https://conf.nectric.com.au/media/avatars/ZKF7NV_MmdVwVJ.jpg
 speakerlist: Floyd Everest
 room: Room  8.03
-
+slides: "<a href='https://fleverest.github.io/prefio-demo-WOMBAT-2025/'>View slides</a>"
 ---
 
 :::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}

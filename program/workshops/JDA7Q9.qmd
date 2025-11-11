@@ -10,7 +10,7 @@ speaker:
   avatar_url: https://conf.nectric.com.au/media/avatars/CZYR98_2YcD2lK.jpg
 speakerlist: Mitchell O'Hara-Wild
 room: Room  8.03
-
+slides: "<a href='https://slides.mitchelloharawild.com/wombat2025-welcome'>View slides</a>"
 ---
 
 :::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
