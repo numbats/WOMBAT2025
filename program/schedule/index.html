@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-3d4420cd3a371ef8e71706b0c6a17660.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-0c4a7fe1330c771575e476e660d3a5e4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-0c4a7fe1330c771575e476e660d3a5e4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-0c4a7fe1330c771575e476e660d3a5e4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -142,7 +147,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -172,7 +177,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../img/wombat/hex-offwhite.svg" alt="" class="navbar-logo">
+    <img src="../../img/wombat/hex-offwhite.svg" alt="" class="navbar-logo light-content">
+    <img src="../../img/wombat/hex-offwhite.svg" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">WOMBAT 2025</span>
@@ -245,7 +251,7 @@ window.Quarto = {
 </section>
 <div id="listing-tutorials" class="g-col-8 quarto-listing quarto-listing-container-default" style="grid-column-start: 3">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1759100400000" data-listing-file-modified-sort="1759494579104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="317">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1759100400000" data-listing-file-modified-sort="1769723491007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="317">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/tutorials/9X7BMV.html" class="no-external">Introduction to Regression Analysis in R</a>
@@ -265,7 +271,7 @@ Room 8.53
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1759100400000" data-listing-file-modified-sort="1759494598962" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1759100400000" data-listing-file-modified-sort="1769723491007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/tutorials/LDTUU8.html" class="no-external">Visualising Uncertainty</a>
@@ -285,7 +291,7 @@ Room 8.43
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1759100400000" data-listing-file-modified-sort="1759494602956" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="422">
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1759100400000" data-listing-file-modified-sort="1769723491007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="422">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/tutorials/PLVPUV.html" class="no-external">Introduction to R packages</a>
@@ -305,7 +311,7 @@ Room 8.44
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1759100400000" data-listing-file-modified-sort="1759494610897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="287">
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1759100400000" data-listing-file-modified-sort="1769723491007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="287">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/tutorials/VDYBYE.html" class="no-external">Tidy time series analysis and forecasting</a>
@@ -325,7 +331,7 @@ Room 8.42
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1759116600000" data-listing-file-modified-sort="1758601586012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1759116600000" data-listing-file-modified-sort="1769723491007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/tutorials/C3XGNY.html" class="no-external">[CANCELLED] Efficiency Analysis in Python: A Hands-On Tutorial on Stochastic Frontier Analysis and Data Envelopment Analysis</a>
@@ -345,7 +351,7 @@ Room 8.53
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1759116600000" data-listing-file-modified-sort="1759494594117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1759116600000" data-listing-file-modified-sort="1769723491007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/tutorials/KCZEMB.html" class="no-external">Getting Started with C++ for Faster Statistical Modelling in R</a>
@@ -365,7 +371,7 @@ Room 8.44
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1759116600000" data-listing-file-modified-sort="1759494606337" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1759116600000" data-listing-file-modified-sort="1769723491007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/tutorials/Q3BPJZ.html" class="no-external">Reproducible Reporting and Research with Quarto</a>
@@ -385,7 +391,7 @@ Room 8.42
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1759116600000" data-listing-file-modified-sort="1759494614456" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="187">
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1759116600000" data-listing-file-modified-sort="1769723491007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="187">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/tutorials/XY8EW8.html" class="no-external">Building Better Figures: A Scientific Graphic Design Workshop</a>
@@ -413,7 +419,7 @@ Room 8.43
 </section>
 <div id="listing-workshops" class="g-col-8 quarto-listing quarto-listing-container-default" style="grid-column-start: 3">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1759185900000" data-listing-file-modified-sort="1762858060375" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1759185900000" data-listing-file-modified-sort="1769723491008" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/workshops/JDA7Q9.html" class="no-external">Welcome</a>
@@ -433,7 +439,7 @@ Room 8.03
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1759186800000" data-listing-file-modified-sort="1762858139339" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="321">
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1759186800000" data-listing-file-modified-sort="1769723491008" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="321">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/workshops/MBAGKH.html" class="no-external">Designing for decision-making: How to build effective data visualisations</a>
@@ -453,7 +459,7 @@ Room 8.03
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1759192200000" data-listing-file-modified-sort="1762857979715" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1759192200000" data-listing-file-modified-sort="1769723491008" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/workshops/AN9GFB.html" class="no-external">Closing the scrollytelling gap with Closeread</a>
@@ -473,7 +479,7 @@ Room 8.03
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1759194000000" data-listing-file-modified-sort="1762857877754" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="244">
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1759194000000" data-listing-file-modified-sort="1769723491007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="244">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/workshops/79GEP8.html" class="no-external">Rethinking data science education in the age of genAI</a>
@@ -493,7 +499,7 @@ Room 8.03
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1759195800000" data-listing-file-modified-sort="1762858093199" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1759195800000" data-listing-file-modified-sort="1769723491008" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/workshops/L8QMTF.html" class="no-external">When laziness leads to innovation: making things you didn’t know you needed</a>
@@ -513,7 +519,7 @@ Room 8.03
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1759201200000" data-listing-file-modified-sort="1762858183329" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1759201200000" data-listing-file-modified-sort="1769723491008" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/workshops/SAPKKB.html" class="no-external">Tidy analysis of preferential votes with prefio</a>
@@ -533,7 +539,7 @@ Room 8.03
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1759202400000" data-listing-file-modified-sort="1762858291168" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1759202400000" data-listing-file-modified-sort="1769723491008" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/workshops/YXKDVV.html" class="no-external">Visualising Uncertainty with ggdibbler</a>
@@ -553,7 +559,7 @@ Room 8.03
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1759203600000" data-listing-file-modified-sort="1759494523573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="436">
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1759203600000" data-listing-file-modified-sort="1769723491008" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="436">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/workshops/G9CLV3.html" class="no-external">In conversation: Rob Hyndman &amp; Nick Tierney on Research Software, hosted by Cynthia Huang</a>
@@ -573,7 +579,7 @@ Room 8.03
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1759208400000" data-listing-file-modified-sort="1762858248129" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="510">
+<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1759208400000" data-listing-file-modified-sort="1769723491008" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="510">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/workshops/YTKMW3.html" class="no-external">Piloting peer code review in a research consortium community of practice</a>
@@ -593,7 +599,7 @@ Room 8.03
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1759210200000" data-listing-file-modified-sort="1762858348037" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="388">
+<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1759210200000" data-listing-file-modified-sort="1769723491008" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="388">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/workshops/ZHFDRZ.html" class="no-external">Building a new data team – balancing quick wins and long term investments</a>
@@ -613,7 +619,7 @@ Room 8.03
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1759212000000" data-listing-file-modified-sort="1762858217518" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="372">
+<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1759212000000" data-listing-file-modified-sort="1769723491008" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="372">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/workshops/W3K3VM.html" class="no-external">Designing data infrastructure where people come first</a>
@@ -633,7 +639,7 @@ Room 8.03
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1759213800000" data-listing-file-modified-sort="1762858007479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="97">
+<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1759213800000" data-listing-file-modified-sort="1769723491008" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="97">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../program/workshops/B8MJBL.html" class="no-external">Closing discussion</a>
@@ -665,8 +671,12 @@ Room 8.03
 
 
 
-<!-- plausible --> 
-<script defer="" data-domain="wombat2025.numbat.space" src="https://track.mitchelloharawild.com/js/plausible.js"></script>
+<!-- Privacy-friendly analytics by Plausible -->
+<script async="" src="https://track.mitchelloharawild.com/js/pa-spCZpPxqUEaZ0VTnkxPbY.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -718,13 +728,14 @@ Room 8.03
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
